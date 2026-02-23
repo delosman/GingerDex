@@ -7,9 +7,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Audio Player -->
+  <audio id="bgMusic" src="bgm.mp3" loop preload="auto"></audio>
+  <div class="audio-controls" id="audioControls">
+    <button class="audio-btn" id="muteBtn" title="Mute/Unmute">&#x1f50a;</button>
+    <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="30" title="Volume">
+  </div>
+
   <header>
     <h1>GingerDex</h1>
     <p class="subtitle">The Complete GingerMon Collection Tracker</p>
+    <a href="https://twitch.tv/NatDelos" target="_blank" class="twitch-link">
+      <svg class="twitch-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg>
+      Catch GingerMon live on twitch.tv/NatDelos
+    </a>
     <div class="stats-bar" id="statsBar"></div>
   </header>
 
@@ -55,5 +66,39 @@
   </footer>
 
   <script src="app.js"></script>
+  <script>
+    // Background music controls
+    (function() {
+      const music = document.getElementById('bgMusic');
+      const muteBtn = document.getElementById('muteBtn');
+      const volumeSlider = document.getElementById('volumeSlider');
+
+      music.volume = 0.3;
+
+      // Auto-play on first user interaction (browsers require interaction)
+      let started = false;
+      function startMusic() {
+        if (!started) {
+          music.play().catch(() => {});
+          started = true;
+        }
+      }
+      document.addEventListener('click', startMusic, { once: true });
+      document.addEventListener('keydown', startMusic, { once: true });
+
+      muteBtn.addEventListener('click', function() {
+        music.muted = !music.muted;
+        muteBtn.textContent = music.muted ? '\u{1f507}' : '\u{1f50a}';
+        if (!started) startMusic();
+      });
+
+      volumeSlider.addEventListener('input', function() {
+        music.volume = this.value / 100;
+        music.muted = false;
+        muteBtn.textContent = this.value == 0 ? '\u{1f507}' : '\u{1f50a}';
+        if (!started) startMusic();
+      });
+    })();
+  </script>
 </body>
 </html>
