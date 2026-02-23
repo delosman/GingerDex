@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-22T23:37:04.904952",
+  "generated": "2026-02-23T10:49:15.951912",
   "totalCards": 98,
   "totalTrainers": 19,
   "cards": [
@@ -26,7 +26,22 @@
         "crossingchrono"
       ],
       "catchCount": 2,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Burnttips_20260210_224434.mp4",
+          "timestamp": "20260210_224434",
+          "isVideo": true
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Burnttips_20260212_223710.mp4",
+          "timestamp": "20260212_223710",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "CrimsonFollicle",
@@ -50,7 +65,15 @@
         "ArchangelEmperor"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Crimsonfollicle_20260210_232127.mp4",
+          "timestamp": "20260210_232127",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "Daywalker",
@@ -75,7 +98,22 @@
         "zecourtastrophe"
       ],
       "catchCount": 2,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Daywalker_20260201_001858.png",
+          "timestamp": "20260201_001858",
+          "isVideo": false
+        },
+        {
+          "username": "zecourtastrophe",
+          "displayName": "zecourtastrophe",
+          "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
+          "timestamp": "20260222_200151",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "EmberBeard",
@@ -101,7 +139,36 @@
         "ArchangelEmperor"
       ],
       "catchCount": 3,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Emberbeard_20260211_000740.mp4",
+          "timestamp": "20260211_000740",
+          "isVideo": true
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Emberbeard_20260213_221816.mp4",
+          "timestamp": "20260213_221816",
+          "isVideo": true
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Emberbeard_20260219_230815.mp4",
+          "timestamp": "20260219_230815",
+          "isVideo": true
+        },
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Emberbeard_20260212_232707.mp4",
+          "timestamp": "20260212_232707",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "FireCrotch",
@@ -126,7 +193,22 @@
         "squanchymoto"
       ],
       "catchCount": 2,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
+          "timestamp": "20260212_223501",
+          "isVideo": true
+        },
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
+          "timestamp": "20260210_232129",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "FreckleFiend",
@@ -153,7 +235,36 @@
         "ArchangelEmperor"
       ],
       "catchCount": 4,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Frecklefiend_20260212_235805.png",
+          "timestamp": "20260212_235805",
+          "isVideo": false
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Frecklefiend_20260213_225647.png",
+          "timestamp": "20260213_225647",
+          "isVideo": false
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Frecklefiend_20260213_221705.mp4",
+          "timestamp": "20260213_221705",
+          "isVideo": true
+        },
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Frecklefiend_20260218_013028.mp4",
+          "timestamp": "20260218_013028",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "Ginger",
@@ -183,10 +294,38 @@
       "catchCount": 5,
       "catchImages": [
         {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Ginger_20260221_234113.png",
+          "timestamp": "20260221_234113",
+          "isVideo": false
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Ginger_20260207_204229.mp4",
+          "timestamp": "20260207_204229",
+          "isVideo": true
+        },
+        {
+          "username": "eldritchbaguette",
+          "displayName": "EldritchBaguette",
+          "file": "catches/eldritchbaguette_Ginger_20260207_205037.png",
+          "timestamp": "20260207_205037",
+          "isVideo": false
+        },
+        {
           "username": "natdelos",
           "displayName": "NatDelos",
           "file": "catches/natdelos_Ginger_20260222_210128.png",
           "timestamp": "20260222_210128",
+          "isVideo": false
+        },
+        {
+          "username": "salamyou",
+          "displayName": "salamyou",
+          "file": "catches/salamyou_Ginger_20260203_142212.png",
+          "timestamp": "20260203_142212",
           "isVideo": false
         }
       ]
@@ -237,7 +376,29 @@
         "DarK_MaddeN"
       ],
       "catchCount": 3,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "dark_madden",
+          "displayName": "DarK_MaddeN",
+          "file": "catches/dark_madden_Gingerbeardman_20260203_145545.png",
+          "timestamp": "20260203_145545",
+          "isVideo": false
+        },
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Gingerbeardman_20260217_234942.mp4",
+          "timestamp": "20260217_234942",
+          "isVideo": true
+        },
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Gingerbeardman_20260210_224436.png",
+          "timestamp": "20260210_224436",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "GingerMan",
@@ -263,7 +424,29 @@
         "ArchangelEmperor"
       ],
       "catchCount": 3,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Gingerman_20260222_000245.mp4",
+          "timestamp": "20260222_000245",
+          "isVideo": true
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Gingerman_20260217_223026.mp4",
+          "timestamp": "20260217_223026",
+          "isVideo": true
+        },
+        {
+          "username": "datorangebottle",
+          "displayName": "DatOrangeBottle",
+          "file": "catches/datorangebottle_Gingerman_20260203_142146.png",
+          "timestamp": "20260203_142146",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "GrassGinger",
@@ -292,7 +475,64 @@
         "ArchangelEmperor"
       ],
       "catchCount": 6,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Grassginger_20260217_215830.png",
+          "timestamp": "20260217_215830",
+          "isVideo": false
+        },
+        {
+          "username": "cannulit",
+          "displayName": "CannuliT",
+          "file": "catches/cannulit_Grassginger_20260210_220125.png",
+          "timestamp": "20260210_220125",
+          "isVideo": false
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Grassginger_20260213_221651.png",
+          "timestamp": "20260213_221651",
+          "isVideo": false
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Grassginger_20260217_231548.mp4",
+          "timestamp": "20260217_231548",
+          "isVideo": true
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Grassginger_20260222_004638.png",
+          "timestamp": "20260222_004638",
+          "isVideo": false
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Grassginger_20260210_215951.png",
+          "timestamp": "20260210_215951",
+          "isVideo": false
+        },
+        {
+          "username": "mentalmayhem24",
+          "displayName": "MentalMayhem24",
+          "file": "catches/mentalmayhem24_Grassginger_20260207_211944.mp4",
+          "timestamp": "20260207_211944",
+          "isVideo": true
+        },
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Grassginger_20260210_224312.png",
+          "timestamp": "20260210_224312",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "NatDelos",
@@ -320,7 +560,29 @@
         "ZootsGuy"
       ],
       "catchCount": 5,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "cannulit",
+          "displayName": "CannuliT",
+          "file": "catches/cannulit_Natdelos_20260210_221116.mp4",
+          "timestamp": "20260210_221116",
+          "isVideo": true
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Natdelos_20260213_002852.mp4",
+          "timestamp": "20260213_002852",
+          "isVideo": true
+        },
+        {
+          "username": "zootsguy",
+          "displayName": "ZootsGuy",
+          "file": "catches/zootsguy_Natdelos_20260217_231027.mp4",
+          "timestamp": "20260217_231027",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "PaleGinger",
@@ -346,7 +608,29 @@
         "EldritchBaguette"
       ],
       "catchCount": 3,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Paleginger_20260212_224419.mp4",
+          "timestamp": "20260212_224419",
+          "isVideo": true
+        },
+        {
+          "username": "eldritchbaguette",
+          "displayName": "EldritchBaguette",
+          "file": "catches/eldritchbaguette_Paleginger_20260207_205050.png",
+          "timestamp": "20260207_205050",
+          "isVideo": false
+        },
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Paleginger_20260211_000730.mp4",
+          "timestamp": "20260211_000730",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "RedStatic",
@@ -371,7 +655,22 @@
         "ArchangelEmperor"
       ],
       "catchCount": 2,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Redstatic_20260217_222127.png",
+          "timestamp": "20260217_222127",
+          "isVideo": false
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Redstatic_20260208_003645.png",
+          "timestamp": "20260208_003645",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "StaticBeard",
@@ -396,7 +695,22 @@
         "ChosenDolan"
       ],
       "catchCount": 2,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Staticbeard_20260219_230719.png",
+          "timestamp": "20260219_230719",
+          "isVideo": false
+        },
+        {
+          "username": "chosendolan",
+          "displayName": "ChosenDolan",
+          "file": "catches/chosendolan_Staticbeard_20260222_010228.mp4",
+          "timestamp": "20260222_010228",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "EmberCrown",
@@ -464,7 +778,15 @@
         "jennifyrre"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Gingerprime_20260210_221144.mp4",
+          "timestamp": "20260210_221144",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "GingerUnbound",
@@ -532,7 +854,15 @@
         "NatDelos"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Scarletmenace_20260218_011847.mp4",
+          "timestamp": "20260218_011847",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "VoidBeard",
@@ -556,7 +886,15 @@
         "squanchymoto"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Voidbeard_20260221_221018.mp4",
+          "timestamp": "20260221_221018",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "FireCrotchEX",
@@ -581,7 +919,22 @@
         "ArchangelEmperor"
       ],
       "catchCount": 2,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Firecrotchex_20260219_221951.mp4",
+          "timestamp": "20260219_221951",
+          "isVideo": true
+        },
+        {
+          "username": "trickychicky147",
+          "displayName": "trickychicky147",
+          "file": "catches/trickychicky147_Firecrotchex_20260203_144540.mp4",
+          "timestamp": "20260203_144540",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "RedStaticEX",
@@ -605,7 +958,15 @@
         "squanchymoto"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Redstaticex_20260213_230646.mp4",
+          "timestamp": "20260213_230646",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "SolarBeard",
@@ -703,6 +1064,13 @@
           "file": "catches/zecourtastrophe_GingerBeardManEvo_20260222_204827.mp4",
           "timestamp": "20260222_204827",
           "isVideo": true
+        },
+        {
+          "username": "zootsguy",
+          "displayName": "ZootsGuy",
+          "file": "catches/zootsguy_Gingerbeardmanevo_20260218_003148.mp4",
+          "timestamp": "20260218_003148",
+          "isVideo": true
         }
       ]
     },
@@ -728,7 +1096,15 @@
         "ChosenDolan"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "chosendolan",
+          "displayName": "ChosenDolan",
+          "file": "catches/chosendolan_Gingermanevo_20260222_012622.mp4",
+          "timestamp": "20260222_012622",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "GroveGinger",
@@ -752,7 +1128,15 @@
         "crossingchrono"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Groveginger_20260221_221033.mp4",
+          "timestamp": "20260221_221033",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "NatDelosAscended",
@@ -1352,7 +1736,15 @@
         "ArchangelEmperor"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Ginjynx_20260222_190855.png",
+          "timestamp": "20260222_190855",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Psyginge",
@@ -1770,7 +2162,15 @@
         "squanchymoto"
       ],
       "catchCount": 1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Mindranga_20260222_200108.png",
+          "timestamp": "20260222_200108",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Skyfrekon",
@@ -1994,7 +2394,22 @@
       "cardNumber": 1,
       "caughtBy": [],
       "catchCount": 0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Daywalker_20260201_001858.png",
+          "timestamp": "20260201_001858",
+          "isVideo": false
+        },
+        {
+          "username": "zecourtastrophe",
+          "displayName": "zecourtastrophe",
+          "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
+          "timestamp": "20260222_200151",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Dead Signal",
@@ -2811,6 +3226,66 @@
           "file": "catches/archangelemperor_Cornered_Ginger_EX_20260222_202714.png",
           "timestamp": "20260222_202714",
           "isVideo": false
+        },
+        {
+          "cardName": "Crimsonfollicle",
+          "file": "catches/archangelemperor_Crimsonfollicle_20260210_232127.mp4",
+          "timestamp": "20260210_232127",
+          "isVideo": true
+        },
+        {
+          "cardName": "Emberbeard",
+          "file": "catches/archangelemperor_Emberbeard_20260211_000740.mp4",
+          "timestamp": "20260211_000740",
+          "isVideo": true
+        },
+        {
+          "cardName": "Firecrotchex",
+          "file": "catches/archangelemperor_Firecrotchex_20260219_221951.mp4",
+          "timestamp": "20260219_221951",
+          "isVideo": true
+        },
+        {
+          "cardName": "Frecklefiend",
+          "file": "catches/archangelemperor_Frecklefiend_20260212_235805.png",
+          "timestamp": "20260212_235805",
+          "isVideo": false
+        },
+        {
+          "cardName": "Ginger",
+          "file": "catches/archangelemperor_Ginger_20260221_234113.png",
+          "timestamp": "20260221_234113",
+          "isVideo": false
+        },
+        {
+          "cardName": "Gingerman",
+          "file": "catches/archangelemperor_Gingerman_20260222_000245.mp4",
+          "timestamp": "20260222_000245",
+          "isVideo": true
+        },
+        {
+          "cardName": "Ginjynx",
+          "file": "catches/archangelemperor_Ginjynx_20260222_190855.png",
+          "timestamp": "20260222_190855",
+          "isVideo": false
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/archangelemperor_Grassginger_20260217_215830.png",
+          "timestamp": "20260217_215830",
+          "isVideo": false
+        },
+        {
+          "cardName": "Redstatic",
+          "file": "catches/archangelemperor_Redstatic_20260217_222127.png",
+          "timestamp": "20260217_222127",
+          "isVideo": false
+        },
+        {
+          "cardName": "Staticbeard",
+          "file": "catches/archangelemperor_Staticbeard_20260219_230719.png",
+          "timestamp": "20260219_230719",
+          "isVideo": false
         }
       ]
     },
@@ -2832,7 +3307,80 @@
       "uniqueCount": 10,
       "totalCards": 98,
       "completionPct": 10.2,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Burnttips",
+          "file": "catches/crossingchrono_Burnttips_20260210_224434.mp4",
+          "timestamp": "20260210_224434",
+          "isVideo": true
+        },
+        {
+          "cardName": "Daywalker",
+          "file": "catches/crossingchrono_Daywalker_20260201_001858.png",
+          "timestamp": "20260201_001858",
+          "isVideo": false
+        },
+        {
+          "cardName": "Frecklefiend",
+          "file": "catches/crossingchrono_Frecklefiend_20260213_225647.png",
+          "timestamp": "20260213_225647",
+          "isVideo": false
+        },
+        {
+          "cardName": "Ginger",
+          "file": "catches/crossingchrono_Ginger_20260207_204229.mp4",
+          "timestamp": "20260207_204229",
+          "isVideo": true
+        },
+        {
+          "cardName": "Gingerman",
+          "file": "catches/crossingchrono_Gingerman_20260217_223026.mp4",
+          "timestamp": "20260217_223026",
+          "isVideo": true
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/crossingchrono_Grassginger_20260213_221651.png",
+          "timestamp": "20260213_221651",
+          "isVideo": false
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/crossingchrono_Grassginger_20260217_231548.mp4",
+          "timestamp": "20260217_231548",
+          "isVideo": true
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/crossingchrono_Grassginger_20260222_004638.png",
+          "timestamp": "20260222_004638",
+          "isVideo": false
+        },
+        {
+          "cardName": "Groveginger",
+          "file": "catches/crossingchrono_Groveginger_20260221_221033.mp4",
+          "timestamp": "20260221_221033",
+          "isVideo": true
+        },
+        {
+          "cardName": "Natdelos",
+          "file": "catches/crossingchrono_Natdelos_20260213_002852.mp4",
+          "timestamp": "20260213_002852",
+          "isVideo": true
+        },
+        {
+          "cardName": "Paleginger",
+          "file": "catches/crossingchrono_Paleginger_20260212_224419.mp4",
+          "timestamp": "20260212_224419",
+          "isVideo": true
+        },
+        {
+          "cardName": "Redstatic",
+          "file": "catches/crossingchrono_Redstatic_20260208_003645.png",
+          "timestamp": "20260208_003645",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "jennifyrre",
@@ -2853,6 +3401,36 @@
       "completionPct": 9.2,
       "catchImages": [
         {
+          "cardName": "Burnttips",
+          "file": "catches/jennifyrre_Burnttips_20260212_223710.mp4",
+          "timestamp": "20260212_223710",
+          "isVideo": true
+        },
+        {
+          "cardName": "Emberbeard",
+          "file": "catches/jennifyrre_Emberbeard_20260213_221816.mp4",
+          "timestamp": "20260213_221816",
+          "isVideo": true
+        },
+        {
+          "cardName": "Emberbeard",
+          "file": "catches/jennifyrre_Emberbeard_20260219_230815.mp4",
+          "timestamp": "20260219_230815",
+          "isVideo": true
+        },
+        {
+          "cardName": "Firecrotch",
+          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
+          "timestamp": "20260212_223501",
+          "isVideo": true
+        },
+        {
+          "cardName": "Frecklefiend",
+          "file": "catches/jennifyrre_Frecklefiend_20260213_221705.mp4",
+          "timestamp": "20260213_221705",
+          "isVideo": true
+        },
+        {
           "cardName": "Gingale",
           "file": "catches/jennifyrre_Gingale_20260222_205047.mp4",
           "timestamp": "20260222_205047",
@@ -2862,6 +3440,18 @@
           "cardName": "Ginger_After_Dark",
           "file": "catches/jennifyrre_Ginger_After_Dark_20260222_202755.png",
           "timestamp": "20260222_202755",
+          "isVideo": false
+        },
+        {
+          "cardName": "Gingerprime",
+          "file": "catches/jennifyrre_Gingerprime_20260210_221144.mp4",
+          "timestamp": "20260210_221144",
+          "isVideo": true
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/jennifyrre_Grassginger_20260210_215951.png",
+          "timestamp": "20260210_215951",
           "isVideo": false
         }
       ]
@@ -2880,7 +3470,44 @@
       "uniqueCount": 6,
       "totalCards": 98,
       "completionPct": 6.1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Firecrotch",
+          "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
+          "timestamp": "20260210_232129",
+          "isVideo": true
+        },
+        {
+          "cardName": "Gingerbeardman",
+          "file": "catches/squanchymoto_Gingerbeardman_20260210_224436.png",
+          "timestamp": "20260210_224436",
+          "isVideo": false
+        },
+        {
+          "cardName": "Mindranga",
+          "file": "catches/squanchymoto_Mindranga_20260222_200108.png",
+          "timestamp": "20260222_200108",
+          "isVideo": false
+        },
+        {
+          "cardName": "Pale",
+          "file": "catches/squanchymoto_Pale_20260131_231024.png",
+          "timestamp": "20260131_231024",
+          "isVideo": false
+        },
+        {
+          "cardName": "Redstaticex",
+          "file": "catches/squanchymoto_Redstaticex_20260213_230646.mp4",
+          "timestamp": "20260213_230646",
+          "isVideo": true
+        },
+        {
+          "cardName": "Voidbeard",
+          "file": "catches/squanchymoto_Voidbeard_20260221_221018.mp4",
+          "timestamp": "20260221_221018",
+          "isVideo": true
+        }
+      ]
     },
     {
       "username": "nephilheim",
@@ -2894,7 +3521,26 @@
       "uniqueCount": 4,
       "totalCards": 98,
       "completionPct": 4.1,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Emberbeard",
+          "file": "catches/nephilheim_Emberbeard_20260212_232707.mp4",
+          "timestamp": "20260212_232707",
+          "isVideo": true
+        },
+        {
+          "cardName": "Gingerbeardman",
+          "file": "catches/nephilheim_Gingerbeardman_20260217_234942.mp4",
+          "timestamp": "20260217_234942",
+          "isVideo": true
+        },
+        {
+          "cardName": "Paleginger",
+          "file": "catches/nephilheim_Paleginger_20260211_000730.mp4",
+          "timestamp": "20260211_000730",
+          "isVideo": true
+        }
+      ]
     },
     {
       "username": "natdelos",
@@ -2910,10 +3556,28 @@
       "completionPct": 4.1,
       "catchImages": [
         {
+          "cardName": "Frecklefiend",
+          "file": "catches/natdelos_Frecklefiend_20260218_013028.mp4",
+          "timestamp": "20260218_013028",
+          "isVideo": true
+        },
+        {
           "cardName": "Ginger",
           "file": "catches/natdelos_Ginger_20260222_210128.png",
           "timestamp": "20260222_210128",
           "isVideo": false
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/natdelos_Grassginger_20260210_224312.png",
+          "timestamp": "20260210_224312",
+          "isVideo": false
+        },
+        {
+          "cardName": "Scarletmenace",
+          "file": "catches/natdelos_Scarletmenace_20260218_011847.mp4",
+          "timestamp": "20260218_011847",
+          "isVideo": true
         }
       ]
     },
@@ -2939,7 +3603,14 @@
       "uniqueCount": 2,
       "totalCards": 98,
       "completionPct": 2.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Firecrotchex",
+          "file": "catches/trickychicky147_Firecrotchex_20260203_144540.mp4",
+          "timestamp": "20260203_144540",
+          "isVideo": true
+        }
+      ]
     },
     {
       "username": "datorangebottle",
@@ -2951,7 +3622,20 @@
       "uniqueCount": 2,
       "totalCards": 98,
       "completionPct": 2.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Gingerman",
+          "file": "catches/datorangebottle_Gingerman_20260203_142146.png",
+          "timestamp": "20260203_142146",
+          "isVideo": false
+        },
+        {
+          "cardName": "Red",
+          "file": "catches/datorangebottle_Red_20260202_130552.png",
+          "timestamp": "20260202_130552",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "eldritchbaguette",
@@ -2963,7 +3647,20 @@
       "uniqueCount": 2,
       "totalCards": 98,
       "completionPct": 2.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Ginger",
+          "file": "catches/eldritchbaguette_Ginger_20260207_205037.png",
+          "timestamp": "20260207_205037",
+          "isVideo": false
+        },
+        {
+          "cardName": "Paleginger",
+          "file": "catches/eldritchbaguette_Paleginger_20260207_205050.png",
+          "timestamp": "20260207_205050",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "cannulit",
@@ -2975,7 +3672,20 @@
       "uniqueCount": 2,
       "totalCards": 98,
       "completionPct": 2.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Grassginger",
+          "file": "catches/cannulit_Grassginger_20260210_220125.png",
+          "timestamp": "20260210_220125",
+          "isVideo": false
+        },
+        {
+          "cardName": "Natdelos",
+          "file": "catches/cannulit_Natdelos_20260210_221116.mp4",
+          "timestamp": "20260210_221116",
+          "isVideo": true
+        }
+      ]
     },
     {
       "username": "zootsguy",
@@ -2987,7 +3697,20 @@
       "uniqueCount": 2,
       "totalCards": 98,
       "completionPct": 2.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Gingerbeardmanevo",
+          "file": "catches/zootsguy_Gingerbeardmanevo_20260218_003148.mp4",
+          "timestamp": "20260218_003148",
+          "isVideo": true
+        },
+        {
+          "cardName": "Natdelos",
+          "file": "catches/zootsguy_Natdelos_20260217_231027.mp4",
+          "timestamp": "20260217_231027",
+          "isVideo": true
+        }
+      ]
     },
     {
       "username": "chosendolan",
@@ -2999,7 +3722,20 @@
       "uniqueCount": 2,
       "totalCards": 98,
       "completionPct": 2.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Gingermanevo",
+          "file": "catches/chosendolan_Gingermanevo_20260222_012622.mp4",
+          "timestamp": "20260222_012622",
+          "isVideo": true
+        },
+        {
+          "cardName": "Staticbeard",
+          "file": "catches/chosendolan_Staticbeard_20260222_010228.mp4",
+          "timestamp": "20260222_010228",
+          "isVideo": true
+        }
+      ]
     },
     {
       "username": "zecourtastrophe",
@@ -3012,6 +3748,12 @@
       "totalCards": 98,
       "completionPct": 2.0,
       "catchImages": [
+        {
+          "cardName": "Daywalker",
+          "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
+          "timestamp": "20260222_200151",
+          "isVideo": false
+        },
         {
           "cardName": "GingerBeardManEvo",
           "file": "catches/zecourtastrophe_GingerBeardManEvo_20260222_204827.mp4",
@@ -3040,7 +3782,14 @@
       "uniqueCount": 1,
       "totalCards": 98,
       "completionPct": 1.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Ginger",
+          "file": "catches/salamyou_Ginger_20260203_142212.png",
+          "timestamp": "20260203_142212",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "anothergeneric_streamer",
@@ -3051,7 +3800,14 @@
       "uniqueCount": 1,
       "totalCards": 98,
       "completionPct": 1.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Scarlet",
+          "file": "catches/anothergeneric_streamer_Scarlet_20260203_142728.png",
+          "timestamp": "20260203_142728",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "dark_madden",
@@ -3062,7 +3818,14 @@
       "uniqueCount": 1,
       "totalCards": 98,
       "completionPct": 1.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Gingerbeardman",
+          "file": "catches/dark_madden_Gingerbeardman_20260203_145545.png",
+          "timestamp": "20260203_145545",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "mentalmayhem24",
@@ -3073,7 +3836,14 @@
       "uniqueCount": 1,
       "totalCards": 98,
       "completionPct": 1.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "Grassginger",
+          "file": "catches/mentalmayhem24_Grassginger_20260207_211944.mp4",
+          "timestamp": "20260207_211944",
+          "isVideo": true
+        }
+      ]
     }
   ],
   "types": [
