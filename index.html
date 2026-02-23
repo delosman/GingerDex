@@ -27,7 +27,13 @@
   <nav>
     <button class="nav-btn active" data-view="gallery">Card Gallery</button>
     <button class="nav-btn" data-view="leaderboard">Leaderboard</button>
+    <button class="nav-btn" id="openPackBtn">Open Pack</button>
   </nav>
+
+  <!-- Catch Feed Ticker -->
+  <div id="catchTicker" class="catch-ticker">
+    <div class="ticker-track" id="tickerTrack"></div>
+  </div>
 
   <div class="controls" id="galleryControls">
     <input type="text" id="searchInput" placeholder="Search cards or trainers..." autocomplete="off">
@@ -58,6 +64,19 @@
     <div class="modal">
       <button class="modal-close" id="modalClose">&times;</button>
       <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Pack Opener Overlay -->
+  <div class="modal-overlay" id="packOverlay">
+    <div class="pack-container" id="packContainer"></div>
+  </div>
+
+  <!-- Comparison Overlay -->
+  <div class="modal-overlay" id="compareOverlay">
+    <div class="modal compare-modal">
+      <button class="modal-close" id="compareClose">&times;</button>
+      <div class="compare-body" id="compareBody"></div>
     </div>
   </div>
 

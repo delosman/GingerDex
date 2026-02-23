@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-23T11:05:27.163697",
+  "generated": "2026-02-23T17:14:45.585611",
   "totalCards": 100,
-  "totalTrainers": 19,
+  "totalTrainers": 14,
   "cards": [
     {
       "name": "Ginger",
@@ -25,12 +25,10 @@
       "resistance": null,
       "caughtBy": [
         "crossingchrono",
-        "salamyou",
-        "EldritchBaguette",
         "NatDelos",
         "ArchangelEmperor"
       ],
-      "catchCount": 5,
+      "catchCount": 3,
       "catchImages": [
         {
           "username": "archangelemperor",
@@ -47,24 +45,10 @@
           "isVideo": true
         },
         {
-          "username": "eldritchbaguette",
-          "displayName": "EldritchBaguette",
-          "file": "catches/eldritchbaguette_Ginger_20260207_205037.png",
-          "timestamp": "20260207_205037",
-          "isVideo": false
-        },
-        {
           "username": "natdelos",
           "displayName": "NatDelos",
           "file": "catches/natdelos_Ginger_20260222_210128.png",
           "timestamp": "20260222_210128",
-          "isVideo": false
-        },
-        {
-          "username": "salamyou",
-          "displayName": "salamyou",
-          "file": "catches/salamyou_Ginger_20260203_142212.png",
-          "timestamp": "20260203_142212",
           "isVideo": false
         }
       ]
@@ -115,10 +99,9 @@
       "resistance": null,
       "caughtBy": [
         "crossingchrono",
-        "DatOrangeBottle",
         "ArchangelEmperor"
       ],
-      "catchCount": 3,
+      "catchCount": 2,
       "catchImages": [
         {
           "username": "archangelemperor",
@@ -133,13 +116,6 @@
           "file": "catches/crossingchrono_Gingerman_20260217_223026.mp4",
           "timestamp": "20260217_223026",
           "isVideo": true
-        },
-        {
-          "username": "datorangebottle",
-          "displayName": "DatOrangeBottle",
-          "file": "catches/datorangebottle_Gingerman_20260203_142146.png",
-          "timestamp": "20260203_142146",
-          "isVideo": false
         }
       ]
     },
@@ -217,18 +193,10 @@
       "resistance": null,
       "caughtBy": [
         "Nephilheim",
-        "squanchymoto",
-        "DarK_MaddeN"
+        "squanchymoto"
       ],
-      "catchCount": 3,
+      "catchCount": 2,
       "catchImages": [
-        {
-          "username": "dark_madden",
-          "displayName": "DarK_MaddeN",
-          "file": "catches/dark_madden_Gingerbeardman_20260203_145545.png",
-          "timestamp": "20260203_145545",
-          "isVideo": false
-        },
         {
           "username": "nephilheim",
           "displayName": "Nephilheim",
@@ -265,8 +233,11 @@
       "moves": null,
       "weakness": null,
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
+      "caughtBy": [
+        "jennifyrre",
+        "squanchymoto"
+      ],
+      "catchCount": 2,
       "catchImages": [
         {
           "username": "jennifyrre",
@@ -439,10 +410,9 @@
       "resistance": null,
       "caughtBy": [
         "Nephilheim",
-        "crossingchrono",
-        "EldritchBaguette"
+        "crossingchrono"
       ],
-      "catchCount": 3,
+      "catchCount": 2,
       "catchImages": [
         {
           "username": "crossingchrono",
@@ -450,13 +420,6 @@
           "file": "catches/crossingchrono_Paleginger_20260212_224419.mp4",
           "timestamp": "20260212_224419",
           "isVideo": true
-        },
-        {
-          "username": "eldritchbaguette",
-          "displayName": "EldritchBaguette",
-          "file": "catches/eldritchbaguette_Paleginger_20260207_205050.png",
-          "timestamp": "20260207_205050",
-          "isVideo": false
         },
         {
           "username": "nephilheim",
@@ -487,8 +450,11 @@
       "moves": null,
       "weakness": null,
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
+      "caughtBy": [
+        "crossingchrono",
+        "zecourtastrophe"
+      ],
+      "catchCount": 2,
       "catchImages": [
         {
           "username": "crossingchrono",
@@ -1013,23 +979,15 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [
-        "trickychicky147",
         "ArchangelEmperor"
       ],
-      "catchCount": 2,
+      "catchCount": 1,
       "catchImages": [
         {
           "username": "archangelemperor",
           "displayName": "ArchangelEmperor",
           "file": "catches/archangelemperor_Firecrotchex_20260219_221951.mp4",
           "timestamp": "20260219_221951",
-          "isVideo": true
-        },
-        {
-          "username": "trickychicky147",
-          "displayName": "trickychicky147",
-          "file": "catches/trickychicky147_Firecrotchex_20260203_144540.mp4",
-          "timestamp": "20260203_144540",
           "isVideo": true
         }
       ]
@@ -1701,11 +1659,8 @@
       ],
       "weakness": "Light",
       "resistance": "Psychic",
-      "caughtBy": [
-        "crossingchrono",
-        "zecourtastrophe"
-      ],
-      "catchCount": 2,
+      "caughtBy": [],
+      "catchCount": 0,
       "catchImages": [
         {
           "username": "crossingchrono",
@@ -1861,11 +1816,8 @@
       ],
       "weakness": "Water",
       "resistance": "Grass",
-      "caughtBy": [
-        "jennifyrre",
-        "squanchymoto"
-      ],
-      "catchCount": 2,
+      "caughtBy": [],
+      "catchCount": 0,
       "catchImages": [
         {
           "username": "jennifyrre",
@@ -3803,75 +3755,6 @@
       "catchImages": []
     },
     {
-      "username": "trickychicky147",
-      "displayName": "trickychicky147",
-      "cards": [
-        "Pale",
-        "Firecrotchex"
-      ],
-      "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
-      "catchImages": [
-        {
-          "cardName": "Firecrotchex",
-          "file": "catches/trickychicky147_Firecrotchex_20260203_144540.mp4",
-          "timestamp": "20260203_144540",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "username": "datorangebottle",
-      "displayName": "DatOrangeBottle",
-      "cards": [
-        "Red",
-        "Gingerman"
-      ],
-      "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
-      "catchImages": [
-        {
-          "cardName": "Gingerman",
-          "file": "catches/datorangebottle_Gingerman_20260203_142146.png",
-          "timestamp": "20260203_142146",
-          "isVideo": false
-        },
-        {
-          "cardName": "Red",
-          "file": "catches/datorangebottle_Red_20260202_130552.png",
-          "timestamp": "20260202_130552",
-          "isVideo": false
-        }
-      ]
-    },
-    {
-      "username": "eldritchbaguette",
-      "displayName": "EldritchBaguette",
-      "cards": [
-        "Ginger",
-        "Paleginger"
-      ],
-      "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
-      "catchImages": [
-        {
-          "cardName": "Ginger",
-          "file": "catches/eldritchbaguette_Ginger_20260207_205037.png",
-          "timestamp": "20260207_205037",
-          "isVideo": false
-        },
-        {
-          "cardName": "Paleginger",
-          "file": "catches/eldritchbaguette_Paleginger_20260207_205050.png",
-          "timestamp": "20260207_205050",
-          "isVideo": false
-        }
-      ]
-    },
-    {
       "username": "cannulit",
       "displayName": "CannuliT",
       "cards": [
@@ -3983,24 +3866,6 @@
       "catchImages": []
     },
     {
-      "username": "salamyou",
-      "displayName": "salamyou",
-      "cards": [
-        "Ginger"
-      ],
-      "uniqueCount": 1,
-      "totalCards": 100,
-      "completionPct": 1.0,
-      "catchImages": [
-        {
-          "cardName": "Ginger",
-          "file": "catches/salamyou_Ginger_20260203_142212.png",
-          "timestamp": "20260203_142212",
-          "isVideo": false
-        }
-      ]
-    },
-    {
       "username": "anothergeneric_streamer",
       "displayName": "anothergeneric_streamer",
       "cards": [
@@ -4014,24 +3879,6 @@
           "cardName": "Scarlet",
           "file": "catches/anothergeneric_streamer_Scarlet_20260203_142728.png",
           "timestamp": "20260203_142728",
-          "isVideo": false
-        }
-      ]
-    },
-    {
-      "username": "dark_madden",
-      "displayName": "DarK_MaddeN",
-      "cards": [
-        "Gingerbeardman"
-      ],
-      "uniqueCount": 1,
-      "totalCards": 100,
-      "completionPct": 1.0,
-      "catchImages": [
-        {
-          "cardName": "Gingerbeardman",
-          "file": "catches/dark_madden_Gingerbeardman_20260203_145545.png",
-          "timestamp": "20260203_145545",
           "isVideo": false
         }
       ]
