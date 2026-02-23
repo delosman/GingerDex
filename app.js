@@ -52,8 +52,7 @@
 
   function populateFilters() {
     DATA.types.forEach((t) => {
-      const icon = DATA.typeIcons[t] || "";
-      typeFilter.innerHTML += `<option value="${t}">${icon} ${capitalize(t)}</option>`;
+      typeFilter.innerHTML += `<option value="${t}">${capitalize(t)}</option>`;
     });
     DATA.rarities.forEach((r) => {
       const display = DATA.rarityDisplay[r] || capitalize(r);
@@ -97,11 +96,27 @@
     cardGrid.innerHTML = filtered.map((c) => cardHTML(c, false)).join("");
   }
 
+  function cardMediaHTML(card, caught) {
+    if (!caught) {
+      // Silhouette: show the image but fully blacked out
+      if (card.imageFile) {
+        return `<div class="card-media"><img src="cards/${card.imageFile}" alt="Unknown" class="card-img silhouette"></div>`;
+      }
+      return `<div class="card-media"><div class="card-placeholder silhouette">?</div></div>`;
+    }
+    // Show video if available, otherwise image
+    if (card.videoFile) {
+      return `<div class="card-media"><video src="cards/${card.videoFile}" class="card-vid" autoplay loop muted playsinline></video></div>`;
+    }
+    if (card.imageFile) {
+      return `<div class="card-media"><img src="cards/${card.imageFile}" alt="${card.name}" class="card-img"></div>`;
+    }
+    return `<div class="card-media"><div class="card-placeholder">${card.name[0]}</div></div>`;
+  }
+
   function cardHTML(card, isTrainerView, trainerHas) {
     const caught = isTrainerView ? trainerHas : card.catchCount > 0;
     const cls = caught ? "" : " uncaught";
-    const icon = caught ? card.typeIcon : "?";
-    const iconCls = caught ? "card-icon" : "card-icon";
     const name = caught ? card.name : "???";
     const catchBadge = !isTrainerView && card.catchCount > 0
       ? `<span class="card-catch-count">${card.catchCount} caught</span>`
@@ -110,7 +125,7 @@
     return `
       <div class="card${cls}" data-card="${card.displayName}" style="border-color: ${caught ? card.rarityColor : 'var(--border)'}">
         ${catchBadge}
-        <span class="${iconCls}">${icon}</span>
+        ${cardMediaHTML(card, caught)}
         <div class="card-name">${name}</div>
         <div class="card-meta">${capitalize(card.type)}</div>
         <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}">${card.rarityDisplay}</span>
@@ -177,6 +192,16 @@
     });
   }
 
+  function modalMediaHTML(card) {
+    if (card.videoFile) {
+      return `<div class="modal-media"><video src="cards/${card.videoFile}" class="modal-vid" autoplay loop muted playsinline controls></video></div>`;
+    }
+    if (card.imageFile) {
+      return `<div class="modal-media"><img src="cards/${card.imageFile}" alt="${card.name}" class="modal-img"></div>`;
+    }
+    return "";
+  }
+
   function showCardModal(displayName) {
     const card = DATA.cards.find((c) => c.displayName === displayName);
     if (!card) return;
@@ -184,7 +209,7 @@
     const pullPct = (card.pullRate / DATA.cards.reduce((s, c) => s + c.pullRate, 0) * 100).toFixed(2);
 
     modalBody.innerHTML = `
-      <div class="modal-card-icon">${card.typeIcon}</div>
+      ${modalMediaHTML(card)}
       <div class="modal-card-name" style="color: ${card.rarityColor}">${card.name}</div>
       <div class="modal-card-type">${capitalize(card.type)} Type</div>
       <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}; display:block; text-align:center; margin: 0.5rem auto; width: fit-content;">${card.rarityDisplay}</span>
@@ -193,7 +218,6 @@
         <h3>Stats</h3>
         <div class="modal-stat-row"><span class="modal-stat-label">Times Caught</span><span>${card.catchCount}</span></div>
         <div class="modal-stat-row"><span class="modal-stat-label">Pull Rate</span><span>${pullPct}%</span></div>
-        <div class="modal-stat-row"><span class="modal-stat-label">Has Video Card</span><span>${card.hasVideo ? "Yes" : "No"}</span></div>
       </div>
 
       <div class="modal-section">
