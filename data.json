@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-22T20:01:54.095847",
+  "generated": "2026-02-22T20:10:52.693190",
   "totalCards": 98,
   "totalTrainers": 19,
   "cards": [
@@ -25,7 +25,8 @@
         "jennifyrre",
         "crossingchrono"
       ],
-      "catchCount": 2
+      "catchCount": 2,
+      "catchImages": []
     },
     {
       "name": "CrimsonFollicle",
@@ -48,7 +49,8 @@
       "caughtBy": [
         "ArchangelEmperor"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "Daywalker",
@@ -72,7 +74,8 @@
         "crossingchrono",
         "zecourtastrophe"
       ],
-      "catchCount": 2
+      "catchCount": 2,
+      "catchImages": []
     },
     {
       "name": "EmberBeard",
@@ -97,7 +100,8 @@
         "Nephilheim",
         "ArchangelEmperor"
       ],
-      "catchCount": 3
+      "catchCount": 3,
+      "catchImages": []
     },
     {
       "name": "FireCrotch",
@@ -121,7 +125,8 @@
         "jennifyrre",
         "squanchymoto"
       ],
-      "catchCount": 2
+      "catchCount": 2,
+      "catchImages": []
     },
     {
       "name": "FreckleFiend",
@@ -147,7 +152,8 @@
         "NatDelos",
         "ArchangelEmperor"
       ],
-      "catchCount": 4
+      "catchCount": 4,
+      "catchImages": []
     },
     {
       "name": "Ginger",
@@ -173,7 +179,8 @@
         "EldritchBaguette",
         "ArchangelEmperor"
       ],
-      "catchCount": 4
+      "catchCount": 4,
+      "catchImages": []
     },
     {
       "name": "Ginger2",
@@ -194,7 +201,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "GingerBeardMan",
@@ -219,7 +227,8 @@
         "squanchymoto",
         "DarK_MaddeN"
       ],
-      "catchCount": 3
+      "catchCount": 3,
+      "catchImages": []
     },
     {
       "name": "GingerMan",
@@ -244,7 +253,8 @@
         "DatOrangeBottle",
         "ArchangelEmperor"
       ],
-      "catchCount": 3
+      "catchCount": 3,
+      "catchImages": []
     },
     {
       "name": "GrassGinger",
@@ -272,7 +282,8 @@
         "NatDelos",
         "ArchangelEmperor"
       ],
-      "catchCount": 6
+      "catchCount": 6,
+      "catchImages": []
     },
     {
       "name": "NatDelos",
@@ -299,7 +310,8 @@
         "CannuliT",
         "ZootsGuy"
       ],
-      "catchCount": 5
+      "catchCount": 5,
+      "catchImages": []
     },
     {
       "name": "PaleGinger",
@@ -324,7 +336,8 @@
         "crossingchrono",
         "EldritchBaguette"
       ],
-      "catchCount": 3
+      "catchCount": 3,
+      "catchImages": []
     },
     {
       "name": "RedStatic",
@@ -348,7 +361,8 @@
         "crossingchrono",
         "ArchangelEmperor"
       ],
-      "catchCount": 2
+      "catchCount": 2,
+      "catchImages": []
     },
     {
       "name": "StaticBeard",
@@ -372,7 +386,8 @@
         "ArchangelEmperor",
         "ChosenDolan"
       ],
-      "catchCount": 2
+      "catchCount": 2,
+      "catchImages": []
     },
     {
       "name": "EmberCrown",
@@ -393,7 +408,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "GingerAlpha",
@@ -414,7 +430,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "GingerPrime",
@@ -437,7 +454,8 @@
       "caughtBy": [
         "jennifyrre"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "GingerUnbound",
@@ -458,7 +476,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "RedSurge",
@@ -479,7 +498,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "ScarletMenace",
@@ -502,7 +522,8 @@
       "caughtBy": [
         "NatDelos"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "VoidBeard",
@@ -525,7 +546,8 @@
       "caughtBy": [
         "squanchymoto"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "FireCrotchEX",
@@ -549,7 +571,8 @@
         "trickychicky147",
         "ArchangelEmperor"
       ],
-      "catchCount": 2
+      "catchCount": 2,
+      "catchImages": []
     },
     {
       "name": "RedStaticEX",
@@ -572,7 +595,8 @@
       "caughtBy": [
         "squanchymoto"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "SolarBeard",
@@ -593,7 +617,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "DaywalkerAscended",
@@ -614,7 +639,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "FrostGinger",
@@ -635,7 +661,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "GingerBeardManEvo",
@@ -658,7 +685,8 @@
       "caughtBy": [
         "ZootsGuy"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "GingerManEvo",
@@ -681,7 +709,8 @@
       "caughtBy": [
         "ChosenDolan"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "GroveGinger",
@@ -704,7 +733,8 @@
       "caughtBy": [
         "crossingchrono"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "NatDelosAscended",
@@ -725,7 +755,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "StaticBeardV2",
@@ -746,7 +777,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "EmberLord",
@@ -767,7 +799,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "RedStaticMAX",
@@ -788,7 +821,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "FreckleFiendEX",
@@ -809,7 +843,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "ScarletMenaceEX",
@@ -830,7 +865,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "VoidBeardEX",
@@ -851,7 +887,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "BurntTipsMAX",
@@ -872,7 +909,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "MegaFireCrotch",
@@ -893,7 +931,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "MegaGinger",
@@ -914,7 +953,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "MegaGingerBeardMan",
@@ -935,7 +975,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "MegaNatDelos",
@@ -956,7 +997,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "GingerPrimeMAX",
@@ -977,7 +1019,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "BrandoniMacRoniSupreme",
@@ -998,7 +1041,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "TheUnavoidableGinger",
@@ -1019,7 +1063,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "GingerGod",
@@ -1040,7 +1085,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "FirstFollicle",
@@ -1061,7 +1107,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "ChatsWorstNightmare",
@@ -1082,7 +1129,8 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Chilltop",
@@ -1113,7 +1161,8 @@
       "resistance": "Water",
       "cardNumber": 6,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Coppice",
@@ -1144,7 +1193,8 @@
       "resistance": "Water",
       "cardNumber": 8,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Frecklark",
@@ -1175,7 +1225,8 @@
       "resistance": null,
       "cardNumber": 9,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Frostfreck",
@@ -1206,7 +1257,8 @@
       "resistance": "Water",
       "cardNumber": 2,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Gingale",
@@ -1237,7 +1289,8 @@
       "resistance": "Fighting",
       "cardNumber": 1,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Ginjynx",
@@ -1270,7 +1323,8 @@
       "caughtBy": [
         "ArchangelEmperor"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "Psyginge",
@@ -1301,7 +1355,8 @@
       "resistance": "Psychic",
       "cardNumber": 4,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Rangale",
@@ -1332,7 +1387,8 @@
       "resistance": "Grass",
       "cardNumber": 5,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Redrift",
@@ -1363,7 +1419,8 @@
       "resistance": null,
       "cardNumber": 3,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Snowlless",
@@ -1394,7 +1451,8 @@
       "resistance": null,
       "cardNumber": 10,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Gingnosis",
@@ -1425,7 +1483,8 @@
       "resistance": null,
       "cardNumber": 13,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Icelannie",
@@ -1456,7 +1515,8 @@
       "resistance": null,
       "cardNumber": 14,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Oracopper",
@@ -1487,7 +1547,8 @@
       "resistance": "Fighting",
       "cardNumber": 15,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Redgael",
@@ -1518,7 +1579,8 @@
       "resistance": null,
       "cardNumber": 11,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Rustrime",
@@ -1549,7 +1611,8 @@
       "resistance": "Water",
       "cardNumber": 12,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Chillvitis",
@@ -1580,7 +1643,8 @@
       "resistance": null,
       "cardNumber": 19,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Frostfreign",
@@ -1611,7 +1675,8 @@
       "resistance": null,
       "cardNumber": 16,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Ginjaleon",
@@ -1642,7 +1707,8 @@
       "resistance": null,
       "cardNumber": 20,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Mindranga",
@@ -1675,7 +1741,8 @@
       "caughtBy": [
         "squanchymoto"
       ],
-      "catchCount": 1
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "Skyfrekon",
@@ -1706,7 +1773,8 @@
       "resistance": null,
       "cardNumber": 17,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Frostfreign EX",
@@ -1737,7 +1805,8 @@
       "resistance": null,
       "cardNumber": 22,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Psyfrex EX",
@@ -1768,7 +1837,8 @@
       "resistance": null,
       "cardNumber": 23,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Redgaelux EX",
@@ -1799,7 +1869,8 @@
       "resistance": null,
       "cardNumber": 21,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Absolute Ranga",
@@ -1830,7 +1901,8 @@
       "resistance": null,
       "cardNumber": 24,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Ginjathrone",
@@ -1861,7 +1933,8 @@
       "resistance": null,
       "cardNumber": 25,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Daywalker",
@@ -1892,7 +1965,8 @@
       "resistance": "Psychic",
       "cardNumber": 1,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Dead Signal",
@@ -1923,7 +1997,8 @@
       "resistance": null,
       "cardNumber": 6,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Faceless Ginger",
@@ -1954,7 +2029,8 @@
       "resistance": null,
       "cardNumber": 9,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Fire Crotch",
@@ -1985,7 +2061,8 @@
       "resistance": "Grass",
       "cardNumber": 5,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Flickerhead",
@@ -2016,7 +2093,8 @@
       "resistance": null,
       "cardNumber": 4,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Ginger After Dark",
@@ -2047,7 +2125,8 @@
       "resistance": null,
       "cardNumber": 3,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Lead Boots",
@@ -2078,7 +2157,8 @@
       "resistance": null,
       "cardNumber": 10,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "No-Soul Ginger",
@@ -2109,7 +2189,8 @@
       "resistance": null,
       "cardNumber": 2,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Spiralhead",
@@ -2140,7 +2221,8 @@
       "resistance": "Psychic",
       "cardNumber": 8,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Whisper Ginger",
@@ -2171,7 +2253,8 @@
       "resistance": null,
       "cardNumber": 7,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Offline Ginger",
@@ -2202,7 +2285,8 @@
       "resistance": null,
       "cardNumber": 14,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Overthinker",
@@ -2233,7 +2317,8 @@
       "resistance": null,
       "cardNumber": 15,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Peeping Ginger",
@@ -2264,7 +2349,8 @@
       "resistance": null,
       "cardNumber": 11,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Quiet Burn",
@@ -2295,7 +2381,8 @@
       "resistance": null,
       "cardNumber": 13,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Tall Shadow",
@@ -2326,7 +2413,8 @@
       "resistance": null,
       "cardNumber": 12,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Bad Hair Energy",
@@ -2357,7 +2445,8 @@
       "resistance": null,
       "cardNumber": 16,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Black Flame Ginger",
@@ -2388,7 +2477,8 @@
       "resistance": null,
       "cardNumber": 17,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Brain Spiral",
@@ -2419,7 +2509,8 @@
       "resistance": null,
       "cardNumber": 19,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Corrupted Static",
@@ -2450,7 +2541,8 @@
       "resistance": null,
       "cardNumber": 18,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Endgame Ginger",
@@ -2481,7 +2573,8 @@
       "resistance": null,
       "cardNumber": 20,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Core Meltdown EX",
@@ -2512,7 +2605,8 @@
       "resistance": null,
       "cardNumber": 23,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Cornered Ginger EX",
@@ -2543,7 +2637,8 @@
       "resistance": null,
       "cardNumber": 21,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Mind Control Ginger EX",
@@ -2574,7 +2669,8 @@
       "resistance": null,
       "cardNumber": 22,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Absolute Ginger",
@@ -2605,7 +2701,8 @@
       "resistance": null,
       "cardNumber": 24,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "Lights Out Ginger",
@@ -2636,7 +2733,8 @@
       "resistance": null,
       "cardNumber": 25,
       "caughtBy": [],
-      "catchCount": 0
+      "catchCount": 0,
+      "catchImages": []
     }
   ],
   "leaderboard": [
@@ -2657,7 +2755,8 @@
       ],
       "uniqueCount": 10,
       "totalCards": 98,
-      "completionPct": 10.2
+      "completionPct": 10.2,
+      "catchImages": []
     },
     {
       "username": "archangelemperor",
@@ -2676,7 +2775,8 @@
       ],
       "uniqueCount": 10,
       "totalCards": 98,
-      "completionPct": 10.2
+      "completionPct": 10.2,
+      "catchImages": []
     },
     {
       "username": "jennifyrre",
@@ -2692,7 +2792,8 @@
       ],
       "uniqueCount": 7,
       "totalCards": 98,
-      "completionPct": 7.1
+      "completionPct": 7.1,
+      "catchImages": []
     },
     {
       "username": "squanchymoto",
@@ -2707,7 +2808,8 @@
       ],
       "uniqueCount": 6,
       "totalCards": 98,
-      "completionPct": 6.1
+      "completionPct": 6.1,
+      "catchImages": []
     },
     {
       "username": "nephilheim",
@@ -2720,7 +2822,8 @@
       ],
       "uniqueCount": 4,
       "totalCards": 98,
-      "completionPct": 4.1
+      "completionPct": 4.1,
+      "catchImages": []
     },
     {
       "username": "natdelos",
@@ -2732,7 +2835,8 @@
       ],
       "uniqueCount": 3,
       "totalCards": 98,
-      "completionPct": 3.1
+      "completionPct": 3.1,
+      "catchImages": []
     },
     {
       "username": "justtokottv",
@@ -2743,7 +2847,8 @@
       ],
       "uniqueCount": 2,
       "totalCards": 98,
-      "completionPct": 2.0
+      "completionPct": 2.0,
+      "catchImages": []
     },
     {
       "username": "trickychicky147",
@@ -2754,7 +2859,8 @@
       ],
       "uniqueCount": 2,
       "totalCards": 98,
-      "completionPct": 2.0
+      "completionPct": 2.0,
+      "catchImages": []
     },
     {
       "username": "datorangebottle",
@@ -2765,7 +2871,8 @@
       ],
       "uniqueCount": 2,
       "totalCards": 98,
-      "completionPct": 2.0
+      "completionPct": 2.0,
+      "catchImages": []
     },
     {
       "username": "eldritchbaguette",
@@ -2776,7 +2883,8 @@
       ],
       "uniqueCount": 2,
       "totalCards": 98,
-      "completionPct": 2.0
+      "completionPct": 2.0,
+      "catchImages": []
     },
     {
       "username": "cannulit",
@@ -2787,7 +2895,8 @@
       ],
       "uniqueCount": 2,
       "totalCards": 98,
-      "completionPct": 2.0
+      "completionPct": 2.0,
+      "catchImages": []
     },
     {
       "username": "zootsguy",
@@ -2798,7 +2907,8 @@
       ],
       "uniqueCount": 2,
       "totalCards": 98,
-      "completionPct": 2.0
+      "completionPct": 2.0,
+      "catchImages": []
     },
     {
       "username": "chosendolan",
@@ -2809,7 +2919,8 @@
       ],
       "uniqueCount": 2,
       "totalCards": 98,
-      "completionPct": 2.0
+      "completionPct": 2.0,
+      "catchImages": []
     },
     {
       "username": "riix96",
@@ -2819,7 +2930,8 @@
       ],
       "uniqueCount": 1,
       "totalCards": 98,
-      "completionPct": 1.0
+      "completionPct": 1.0,
+      "catchImages": []
     },
     {
       "username": "salamyou",
@@ -2829,7 +2941,8 @@
       ],
       "uniqueCount": 1,
       "totalCards": 98,
-      "completionPct": 1.0
+      "completionPct": 1.0,
+      "catchImages": []
     },
     {
       "username": "anothergeneric_streamer",
@@ -2839,7 +2952,8 @@
       ],
       "uniqueCount": 1,
       "totalCards": 98,
-      "completionPct": 1.0
+      "completionPct": 1.0,
+      "catchImages": []
     },
     {
       "username": "dark_madden",
@@ -2849,7 +2963,8 @@
       ],
       "uniqueCount": 1,
       "totalCards": 98,
-      "completionPct": 1.0
+      "completionPct": 1.0,
+      "catchImages": []
     },
     {
       "username": "mentalmayhem24",
@@ -2859,7 +2974,8 @@
       ],
       "uniqueCount": 1,
       "totalCards": 98,
-      "completionPct": 1.0
+      "completionPct": 1.0,
+      "catchImages": []
     },
     {
       "username": "zecourtastrophe",
@@ -2869,7 +2985,8 @@
       ],
       "uniqueCount": 1,
       "totalCards": 98,
-      "completionPct": 1.0
+      "completionPct": 1.0,
+      "catchImages": []
     }
   ],
   "types": [

@@ -104,13 +104,34 @@
     cardGrid.innerHTML = filtered.map((c) => cardHTML(c, false)).join("");
   }
 
-  function cardMediaHTML(card, caught) {
+  // Show a catch image if available, otherwise fall back to template
+  function cardMediaHTML(card, caught, trainerCatchImg) {
     if (!caught) {
+      // Silhouette for uncaught
       if (card.imageFile) {
         return `<div class="card-media"><img src="cards/${card.imageFile}" alt="Unknown" class="card-img silhouette"></div>`;
       }
       return `<div class="card-media"><div class="card-placeholder silhouette">?</div></div>`;
     }
+
+    // Use a specific trainer's catch image if provided
+    if (trainerCatchImg) {
+      if (trainerCatchImg.isVideo) {
+        return `<div class="card-media"><video src="${trainerCatchImg.file}" class="card-vid" autoplay loop muted playsinline></video></div>`;
+      }
+      return `<div class="card-media"><img src="${trainerCatchImg.file}" alt="${card.name}" class="card-img"></div>`;
+    }
+
+    // Use the latest catch image if any exist
+    if (card.catchImages && card.catchImages.length > 0) {
+      const latest = card.catchImages[card.catchImages.length - 1];
+      if (latest.isVideo) {
+        return `<div class="card-media"><video src="${latest.file}" class="card-vid" autoplay loop muted playsinline></video></div>`;
+      }
+      return `<div class="card-media"><img src="${latest.file}" alt="${card.name}" class="card-img"></div>`;
+    }
+
+    // Fall back to template
     if (card.videoFile) {
       return `<div class="card-media"><video src="cards/${card.videoFile}" class="card-vid" autoplay loop muted playsinline></video></div>`;
     }
@@ -120,7 +141,7 @@
     return `<div class="card-media"><div class="card-placeholder">${card.name[0]}</div></div>`;
   }
 
-  function cardHTML(card, isTrainerView, trainerHas) {
+  function cardHTML(card, isTrainerView, trainerHas, trainerCatchImg) {
     const caught = isTrainerView ? trainerHas : card.catchCount > 0;
     const cls = caught ? "" : " uncaught";
     const name = caught ? card.name : "???";
@@ -134,7 +155,7 @@
     return `
       <div class="card${cls}" data-card-key="${cardKey(card)}" style="border-color: ${caught ? card.rarityColor : 'var(--border)'}">
         ${catchBadge}
-        ${cardMediaHTML(card, caught)}
+        ${cardMediaHTML(card, caught, trainerCatchImg)}
         <div class="card-name">${name}</div>
         <div class="card-meta">${capitalize(card.type)}${card.hp ? ' &middot; ' + card.hp + ' HP' : ''}</div>
         ${regionBadge}
@@ -144,7 +165,6 @@
   }
 
   function cardKey(card) {
-    // Unique key for lookup: region:name for region cards, displayName for originals
     if (card.region && card.region !== "Original") {
       return card.region + ":" + card.name;
     }
@@ -185,6 +205,14 @@
 
     const trainerCards = new Set(trainer.cards.map((c) => c.toLowerCase()));
 
+    // Build lookup: card name -> catch image for this trainer
+    const trainerCatchLookup = {};
+    if (trainer.catchImages) {
+      trainer.catchImages.forEach((ci) => {
+        trainerCatchLookup[ci.cardName.toLowerCase().replace(/_/g, " ")] = ci;
+      });
+    }
+
     trainerHeader.innerHTML = `
       <button class="back-btn" id="backBtn">&larr; Back</button>
       <h2>${escapeHtml(trainer.displayName)}'s Collection</h2>
@@ -201,7 +229,8 @@
     trainerGrid.innerHTML = sorted
       .map((c) => {
         const has = trainerCards.has(c.displayName.toLowerCase());
-        return cardHTML(c, true, has);
+        const catchImg = trainerCatchLookup[c.displayName.toLowerCase()] || null;
+        return cardHTML(c, true, has, catchImg);
       })
       .join("");
 
@@ -213,6 +242,15 @@
   }
 
   function modalMediaHTML(card) {
+    // If there are catch images, show the latest one as the main image
+    if (card.catchImages && card.catchImages.length > 0) {
+      const latest = card.catchImages[card.catchImages.length - 1];
+      if (latest.isVideo) {
+        return `<div class="modal-media"><video src="${latest.file}" class="modal-vid" autoplay loop muted playsinline controls></video></div>`;
+      }
+      return `<div class="modal-media"><img src="${latest.file}" alt="${card.name}" class="modal-img"></div>`;
+    }
+    // Fall back to template
     if (card.videoFile) {
       return `<div class="modal-media"><video src="cards/${card.videoFile}" class="modal-vid" autoplay loop muted playsinline controls></video></div>`;
     }
@@ -220,6 +258,32 @@
       return `<div class="modal-media"><img src="cards/${card.imageFile}" alt="${card.name}" class="modal-img"></div>`;
     }
     return "";
+  }
+
+  function catchGalleryHTML(card) {
+    if (!card.catchImages || card.catchImages.length === 0) return "";
+
+    const items = card.catchImages.map((ci) => {
+      if (ci.isVideo) {
+        return `
+          <div class="catch-item">
+            <video src="${ci.file}" class="catch-thumb" autoplay loop muted playsinline></video>
+            <div class="catch-trainer">${escapeHtml(ci.displayName)}</div>
+          </div>`;
+      }
+      return `
+        <div class="catch-item">
+          <img src="${ci.file}" alt="${ci.displayName}" class="catch-thumb">
+          <div class="catch-trainer">${escapeHtml(ci.displayName)}</div>
+        </div>`;
+    }).join("");
+
+    return `
+      <div class="modal-section">
+        <h3>Catches (${card.catchImages.length})</h3>
+        <div class="catch-gallery">${items}</div>
+      </div>
+    `;
   }
 
   function movesHTML(moves) {
@@ -268,6 +332,8 @@
       </div>
 
       ${movesHTML(card.moves)}
+
+      ${catchGalleryHTML(card)}
 
       <div class="modal-section">
         <h3>Caught By (${card.caughtBy.length})</h3>
