@@ -1,0 +1,293 @@
+(function () {
+  "use strict";
+
+  let DATA = null;
+  let currentView = "gallery";
+  let currentTrainer = null;
+
+  // DOM refs
+  const cardGrid = document.getElementById("cardGrid");
+  const leaderboardList = document.getElementById("leaderboardList");
+  const trainerGrid = document.getElementById("trainerGrid");
+  const trainerHeader = document.getElementById("trainerHeader");
+  const statsBar = document.getElementById("statsBar");
+  const searchInput = document.getElementById("searchInput");
+  const typeFilter = document.getElementById("typeFilter");
+  const rarityFilter = document.getElementById("rarityFilter");
+  const sortFilter = document.getElementById("sortFilter");
+  const cardModal = document.getElementById("cardModal");
+  const modalBody = document.getElementById("modalBody");
+  const galleryControls = document.getElementById("galleryControls");
+
+  // Load data
+  fetch("data.json")
+    .then((r) => r.json())
+    .then((data) => {
+      DATA = data;
+      init();
+    })
+    .catch((err) => {
+      cardGrid.innerHTML =
+        '<p class="no-results">Failed to load GingerDex data. Make sure data.json exists.</p>';
+      console.error(err);
+    });
+
+  function init() {
+    renderStats();
+    populateFilters();
+    renderGallery();
+    renderLeaderboard();
+    bindEvents();
+  }
+
+  function renderStats() {
+    const caught = DATA.cards.filter((c) => c.catchCount > 0).length;
+    statsBar.innerHTML = `
+      <div class="stat"><div class="stat-value">${DATA.totalCards}</div><div class="stat-label">GingerMon</div></div>
+      <div class="stat"><div class="stat-value">${caught}</div><div class="stat-label">Discovered</div></div>
+      <div class="stat"><div class="stat-value">${DATA.totalTrainers}</div><div class="stat-label">Trainers</div></div>
+      <div class="stat"><div class="stat-value">${DATA.rarities.length}</div><div class="stat-label">Rarities</div></div>
+    `;
+  }
+
+  function populateFilters() {
+    DATA.types.forEach((t) => {
+      const icon = DATA.typeIcons[t] || "";
+      typeFilter.innerHTML += `<option value="${t}">${icon} ${capitalize(t)}</option>`;
+    });
+    DATA.rarities.forEach((r) => {
+      const display = DATA.rarityDisplay[r] || capitalize(r);
+      rarityFilter.innerHTML += `<option value="${r}">${display}</option>`;
+    });
+  }
+
+  function getFilteredCards(cards) {
+    let filtered = [...cards];
+    const query = searchInput.value.toLowerCase().trim();
+    const type = typeFilter.value;
+    const rarity = rarityFilter.value;
+    const sort = sortFilter.value;
+
+    if (query) {
+      filtered = filtered.filter(
+        (c) =>
+          c.name.toLowerCase().includes(query) ||
+          c.displayName.toLowerCase().includes(query) ||
+          c.type.toLowerCase().includes(query) ||
+          c.caughtBy.some((t) => t.toLowerCase().includes(query))
+      );
+    }
+    if (type) filtered = filtered.filter((c) => c.type === type);
+    if (rarity) filtered = filtered.filter((c) => c.rarity === rarity);
+
+    if (sort === "name") filtered.sort((a, b) => a.name.localeCompare(b.name));
+    else if (sort === "type") filtered.sort((a, b) => a.type.localeCompare(b.type) || a.rarityTier - b.rarityTier);
+    else if (sort === "catches") filtered.sort((a, b) => b.catchCount - a.catchCount);
+    else filtered.sort((a, b) => a.rarityTier - b.rarityTier || a.name.localeCompare(b.name));
+
+    return filtered;
+  }
+
+  function renderGallery() {
+    const filtered = getFilteredCards(DATA.cards);
+    if (filtered.length === 0) {
+      cardGrid.innerHTML = '<p class="no-results">No cards match your search.</p>';
+      return;
+    }
+    cardGrid.innerHTML = filtered.map((c) => cardHTML(c, false)).join("");
+  }
+
+  function cardHTML(card, isTrainerView, trainerHas) {
+    const caught = isTrainerView ? trainerHas : card.catchCount > 0;
+    const cls = caught ? "" : " uncaught";
+    const icon = caught ? card.typeIcon : "?";
+    const iconCls = caught ? "card-icon" : "card-icon";
+    const name = caught ? card.name : "???";
+    const catchBadge = !isTrainerView && card.catchCount > 0
+      ? `<span class="card-catch-count">${card.catchCount} caught</span>`
+      : "";
+
+    return `
+      <div class="card${cls}" data-card="${card.displayName}" style="border-color: ${caught ? card.rarityColor : 'var(--border)'}">
+        ${catchBadge}
+        <span class="${iconCls}">${icon}</span>
+        <div class="card-name">${name}</div>
+        <div class="card-meta">${capitalize(card.type)}</div>
+        <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}">${card.rarityDisplay}</span>
+      </div>
+    `;
+  }
+
+  function renderLeaderboard() {
+    if (!DATA.leaderboard.length) {
+      leaderboardList.innerHTML = '<p class="no-results">No trainers yet.</p>';
+      return;
+    }
+    leaderboardList.innerHTML = DATA.leaderboard
+      .map((t, i) => {
+        const rankCls = i === 0 ? " gold" : i === 1 ? " silver" : i === 2 ? " bronze" : "";
+        const pct = t.completionPct;
+        return `
+        <div class="lb-entry" data-trainer="${t.username}">
+          <div class="lb-rank${rankCls}">#${i + 1}</div>
+          <div class="lb-name">${escapeHtml(t.displayName)}</div>
+          <div class="lb-stats">
+            <div class="lb-count">${t.uniqueCount} / ${t.totalCards}</div>
+            <div class="lb-pct">${pct}% complete</div>
+            <div class="lb-bar-bg"><div class="lb-bar" style="width: ${pct}%"></div></div>
+          </div>
+        </div>
+      `;
+      })
+      .join("");
+  }
+
+  function showTrainerView(username) {
+    const trainer = DATA.leaderboard.find((t) => t.username === username);
+    if (!trainer) return;
+
+    currentTrainer = trainer;
+    const trainerCards = new Set(trainer.cards.map((c) => c.toLowerCase()));
+
+    trainerHeader.innerHTML = `
+      <button class="back-btn" id="backBtn">&larr; Back</button>
+      <h2>${escapeHtml(trainer.displayName)}'s Collection</h2>
+      <div class="trainer-stats">${trainer.uniqueCount} / ${trainer.totalCards} GingerMon &middot; ${trainer.completionPct}% complete</div>
+    `;
+
+    // Sort: caught first, then uncaught, each sorted by rarity
+    const sorted = [...DATA.cards].sort((a, b) => {
+      const aHas = trainerCards.has(a.displayName.toLowerCase()) ? 0 : 1;
+      const bHas = trainerCards.has(b.displayName.toLowerCase()) ? 0 : 1;
+      if (aHas !== bHas) return aHas - bHas;
+      return a.rarityTier - b.rarityTier || a.name.localeCompare(b.name);
+    });
+
+    trainerGrid.innerHTML = sorted
+      .map((c) => {
+        const has = trainerCards.has(c.displayName.toLowerCase());
+        return cardHTML(c, true, has);
+      })
+      .join("");
+
+    switchView("trainer");
+
+    document.getElementById("backBtn").addEventListener("click", () => {
+      switchView("leaderboard");
+    });
+  }
+
+  function showCardModal(displayName) {
+    const card = DATA.cards.find((c) => c.displayName === displayName);
+    if (!card) return;
+
+    const pullPct = (card.pullRate / DATA.cards.reduce((s, c) => s + c.pullRate, 0) * 100).toFixed(2);
+
+    modalBody.innerHTML = `
+      <div class="modal-card-icon">${card.typeIcon}</div>
+      <div class="modal-card-name" style="color: ${card.rarityColor}">${card.name}</div>
+      <div class="modal-card-type">${capitalize(card.type)} Type</div>
+      <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}; display:block; text-align:center; margin: 0.5rem auto; width: fit-content;">${card.rarityDisplay}</span>
+
+      <div class="modal-section">
+        <h3>Stats</h3>
+        <div class="modal-stat-row"><span class="modal-stat-label">Times Caught</span><span>${card.catchCount}</span></div>
+        <div class="modal-stat-row"><span class="modal-stat-label">Pull Rate</span><span>${pullPct}%</span></div>
+        <div class="modal-stat-row"><span class="modal-stat-label">Has Video Card</span><span>${card.hasVideo ? "Yes" : "No"}</span></div>
+      </div>
+
+      <div class="modal-section">
+        <h3>Caught By (${card.caughtBy.length})</h3>
+        ${
+          card.caughtBy.length
+            ? `<div class="modal-trainers">${card.caughtBy
+                .map(
+                  (t) =>
+                    `<span class="modal-trainer-tag" data-trainer-tag="${findUsername(t)}">${escapeHtml(t)}</span>`
+                )
+                .join("")}</div>`
+            : '<p style="color: var(--text-dim); font-size: 0.9rem;">No one has caught this GingerMon yet!</p>'
+        }
+      </div>
+    `;
+
+    cardModal.classList.add("open");
+
+    // Bind trainer tag clicks
+    modalBody.querySelectorAll(".modal-trainer-tag").forEach((el) => {
+      el.addEventListener("click", () => {
+        cardModal.classList.remove("open");
+        showTrainerView(el.dataset.trainerTag);
+      });
+    });
+  }
+
+  function findUsername(displayName) {
+    const t = DATA.leaderboard.find(
+      (t) => t.displayName.toLowerCase() === displayName.toLowerCase()
+    );
+    return t ? t.username : displayName.toLowerCase();
+  }
+
+  function switchView(view) {
+    currentView = view;
+    document.querySelectorAll(".view").forEach((v) => v.classList.remove("active"));
+    document.querySelectorAll(".nav-btn").forEach((b) => b.classList.remove("active"));
+
+    if (view === "gallery") {
+      document.getElementById("galleryView").classList.add("active");
+      document.querySelector('[data-view="gallery"]').classList.add("active");
+      galleryControls.style.display = "";
+    } else if (view === "leaderboard") {
+      document.getElementById("leaderboardView").classList.add("active");
+      document.querySelector('[data-view="leaderboard"]').classList.add("active");
+      galleryControls.style.display = "none";
+    } else if (view === "trainer") {
+      document.getElementById("trainerView").classList.add("active");
+      galleryControls.style.display = "none";
+    }
+  }
+
+  function bindEvents() {
+    // Nav buttons
+    document.querySelectorAll(".nav-btn").forEach((btn) => {
+      btn.addEventListener("click", () => switchView(btn.dataset.view));
+    });
+
+    // Filters & search
+    searchInput.addEventListener("input", renderGallery);
+    typeFilter.addEventListener("change", renderGallery);
+    rarityFilter.addEventListener("change", renderGallery);
+    sortFilter.addEventListener("change", renderGallery);
+
+    // Card clicks (delegated)
+    document.addEventListener("click", (e) => {
+      const card = e.target.closest(".card[data-card]");
+      if (card) showCardModal(card.dataset.card);
+    });
+
+    // Leaderboard clicks (delegated)
+    leaderboardList.addEventListener("click", (e) => {
+      const entry = e.target.closest(".lb-entry[data-trainer]");
+      if (entry) showTrainerView(entry.dataset.trainer);
+    });
+
+    // Modal close
+    document.getElementById("modalClose").addEventListener("click", () => {
+      cardModal.classList.remove("open");
+    });
+    cardModal.addEventListener("click", (e) => {
+      if (e.target === cardModal) cardModal.classList.remove("open");
+    });
+  }
+
+  function capitalize(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+
+  function escapeHtml(s) {
+    const div = document.createElement("div");
+    div.textContent = s;
+    return div.innerHTML;
+  }
+})();

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GingerDex - GingerMon Collection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>GingerDex</h1>
+    <p class="subtitle">The Complete GingerMon Collection Tracker</p>
+    <div class="stats-bar" id="statsBar"></div>
+  </header>
+
+  <nav>
+    <button class="nav-btn active" data-view="gallery">Card Gallery</button>
+    <button class="nav-btn" data-view="leaderboard">Leaderboard</button>
+  </nav>
+
+  <div class="controls" id="galleryControls">
+    <input type="text" id="searchInput" placeholder="Search cards or trainers..." autocomplete="off">
+    <div class="filter-row">
+      <select id="typeFilter"><option value="">All Types</option></select>
+      <select id="rarityFilter"><option value="">All Rarities</option></select>
+      <select id="sortFilter">
+        <option value="rarity">Sort by Rarity</option>
+        <option value="name">Sort by Name</option>
+        <option value="type">Sort by Type</option>
+        <option value="catches">Sort by Catches</option>
+      </select>
+    </div>
+  </div>
+
+  <main>
+    <div id="galleryView" class="view active">
+      <div class="card-grid" id="cardGrid"></div>
+    </div>
+
+    <div id="leaderboardView" class="view">
+      <div class="leaderboard" id="leaderboardList"></div>
+    </div>
+
+    <div id="trainerView" class="view">
+      <div class="trainer-header" id="trainerHeader"></div>
+      <div class="card-grid" id="trainerGrid"></div>
+    </div>
+  </main>
+
+  <!-- Card Detail Modal -->
+  <div class="modal-overlay" id="cardModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>GingerDex &middot; Catch GingerMon live on <a href="https://twitch.tv/NatDelos" target="_blank">twitch.tv/NatDelos</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

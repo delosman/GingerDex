@@ -1,0 +1,1061 @@
+{
+  "generated": "2026-02-20T15:39:29.964655",
+  "totalCards": 48,
+  "totalTrainers": 17,
+  "cards": [
+    {
+      "name": "BurntTips",
+      "displayName": "Burnttips",
+      "type": "fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "jennifyrre",
+        "crossingchrono"
+      ],
+      "catchCount": 2
+    },
+    {
+      "name": "CrimsonFollicle",
+      "displayName": "Crimsonfollicle",
+      "type": "fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1
+    },
+    {
+      "name": "Daywalker",
+      "displayName": "Daywalker",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u2b50",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "crossingchrono"
+      ],
+      "catchCount": 1
+    },
+    {
+      "name": "EmberBeard",
+      "displayName": "Emberbeard",
+      "type": "fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "jennifyrre",
+        "Nephilheim",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 3
+    },
+    {
+      "name": "FireCrotch",
+      "displayName": "Firecrotch",
+      "type": "fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "jennifyrre",
+        "squanchymoto"
+      ],
+      "catchCount": 2
+    },
+    {
+      "name": "FreckleFiend",
+      "displayName": "Frecklefiend",
+      "type": "dark",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\ud83c\udf11",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "jennifyrre",
+        "crossingchrono",
+        "NatDelos",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 4
+    },
+    {
+      "name": "Ginger",
+      "displayName": "Ginger",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u2b50",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "crossingchrono",
+        "salamyou",
+        "EldritchBaguette"
+      ],
+      "catchCount": 3
+    },
+    {
+      "name": "Ginger2",
+      "displayName": "Ginger2",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u2b50",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "GingerBeardMan",
+      "displayName": "Gingerbeardman",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u2b50",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "Nephilheim",
+        "squanchymoto",
+        "DarK_MaddeN"
+      ],
+      "catchCount": 3
+    },
+    {
+      "name": "GingerMan",
+      "displayName": "Gingerman",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u2b50",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "crossingchrono",
+        "DatOrangeBottle"
+      ],
+      "catchCount": 2
+    },
+    {
+      "name": "GrassGinger",
+      "displayName": "Grassginger",
+      "type": "grass",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\ud83c\udf3f",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "jennifyrre",
+        "crossingchrono",
+        "MentalMayhem24",
+        "CannuliT",
+        "NatDelos",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 6
+    },
+    {
+      "name": "NatDelos",
+      "displayName": "Natdelos",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u2b50",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "JustTokoTTV",
+        "jennifyrre",
+        "crossingchrono",
+        "CannuliT",
+        "ZootsGuy"
+      ],
+      "catchCount": 5
+    },
+    {
+      "name": "PaleGinger",
+      "displayName": "Paleginger",
+      "type": "ice",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u2744\ufe0f",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "Nephilheim",
+        "crossingchrono",
+        "EldritchBaguette"
+      ],
+      "catchCount": 3
+    },
+    {
+      "name": "RedStatic",
+      "displayName": "Redstatic",
+      "type": "electric",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u26a1",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "crossingchrono",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 2
+    },
+    {
+      "name": "StaticBeard",
+      "displayName": "Staticbeard",
+      "type": "electric",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "typeIcon": "\u26a1",
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1
+    },
+    {
+      "name": "EmberCrown",
+      "displayName": "Embercrown",
+      "type": "fire",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 1,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "GingerAlpha",
+      "displayName": "Gingeralpha",
+      "type": "normal",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 1,
+      "typeIcon": "\u2b50",
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "GingerPrime",
+      "displayName": "Gingerprime",
+      "type": "normal",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 1,
+      "typeIcon": "\u2b50",
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1
+    },
+    {
+      "name": "GingerUnbound",
+      "displayName": "Gingerunbound",
+      "type": "normal",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 1,
+      "typeIcon": "\u2b50",
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "RedSurge",
+      "displayName": "Redsurge",
+      "type": "electric",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 1,
+      "typeIcon": "\u26a1",
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "ScarletMenace",
+      "displayName": "Scarletmenace",
+      "type": "fire",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 1,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [
+        "NatDelos"
+      ],
+      "catchCount": 1
+    },
+    {
+      "name": "VoidBeard",
+      "displayName": "Voidbeard",
+      "type": "dark",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 1,
+      "typeIcon": "\ud83c\udf11",
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "FireCrotchEX",
+      "displayName": "Firecrotchex",
+      "type": "fire",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 2,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [
+        "trickychicky147",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 2
+    },
+    {
+      "name": "RedStaticEX",
+      "displayName": "Redstaticex",
+      "type": "electric",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 2,
+      "typeIcon": "\u26a1",
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [
+        "squanchymoto"
+      ],
+      "catchCount": 1
+    },
+    {
+      "name": "SolarBeard",
+      "displayName": "Solarbeard",
+      "type": "fire",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 2,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "DaywalkerAscended",
+      "displayName": "Daywalkerascended",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 3,
+      "typeIcon": "\u2b50",
+      "pullRate": 6.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "FrostGinger",
+      "displayName": "Frostginger",
+      "type": "ice",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 3,
+      "typeIcon": "\u2744\ufe0f",
+      "pullRate": 6.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "GingerBeardManEvo",
+      "displayName": "Gingerbeardmanevo",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 3,
+      "typeIcon": "\u2b50",
+      "pullRate": 6.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [
+        "ZootsGuy"
+      ],
+      "catchCount": 1
+    },
+    {
+      "name": "GingerManEvo",
+      "displayName": "Gingermanevo",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 3,
+      "typeIcon": "\u2b50",
+      "pullRate": 6.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "GroveGinger",
+      "displayName": "Groveginger",
+      "type": "grass",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 3,
+      "typeIcon": "\ud83c\udf3f",
+      "pullRate": 6.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "NatDelosAscended",
+      "displayName": "Natdelosascended",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 3,
+      "typeIcon": "\u2b50",
+      "pullRate": 6.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "StaticBeardV2",
+      "displayName": "Staticbeardv2",
+      "type": "electric",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 3,
+      "typeIcon": "\u26a1",
+      "pullRate": 6.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "EmberLord",
+      "displayName": "Emberlord",
+      "type": "fire",
+      "rarity": "evolutionholo",
+      "rarityDisplay": "Evolution Holo",
+      "rarityColor": "#06b6d4",
+      "rarityTier": 4,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 3.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "RedStaticMAX",
+      "displayName": "Redstaticmax",
+      "type": "electric",
+      "rarity": "evolutionholo",
+      "rarityDisplay": "Evolution Holo",
+      "rarityColor": "#06b6d4",
+      "rarityTier": 4,
+      "typeIcon": "\u26a1",
+      "pullRate": 3.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "FreckleFiendEX",
+      "displayName": "Frecklefiendex",
+      "type": "dark",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 5,
+      "typeIcon": "\ud83c\udf11",
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "ScarletMenaceEX",
+      "displayName": "Scarletmenaceex",
+      "type": "fire",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 5,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "VoidBeardEX",
+      "displayName": "Voidbeardex",
+      "type": "dark",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 5,
+      "typeIcon": "\ud83c\udf11",
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "BurntTipsMAX",
+      "displayName": "Burnttipsmax",
+      "type": "fire",
+      "rarity": "evolutionmax",
+      "rarityDisplay": "Evolution MAX",
+      "rarityColor": "#ef4444",
+      "rarityTier": 6,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 1.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "MegaFireCrotch",
+      "displayName": "Megafirecrotch",
+      "type": "fire",
+      "rarity": "megaultra",
+      "rarityDisplay": "Mega Ultra",
+      "rarityColor": "#ec4899",
+      "rarityTier": 7,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 0.5,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "MegaGinger",
+      "displayName": "Megaginger",
+      "type": "normal",
+      "rarity": "megaultra",
+      "rarityDisplay": "Mega Ultra",
+      "rarityColor": "#ec4899",
+      "rarityTier": 7,
+      "typeIcon": "\u2b50",
+      "pullRate": 0.5,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "MegaGingerBeardMan",
+      "displayName": "Megagingerbeardman",
+      "type": "normal",
+      "rarity": "megaultra",
+      "rarityDisplay": "Mega Ultra",
+      "rarityColor": "#ec4899",
+      "rarityTier": 7,
+      "typeIcon": "\u2b50",
+      "pullRate": 0.5,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "MegaNatDelos",
+      "displayName": "Meganatdelos",
+      "type": "psychic",
+      "rarity": "megaultra",
+      "rarityDisplay": "Mega Ultra",
+      "rarityColor": "#ec4899",
+      "rarityTier": 7,
+      "typeIcon": "\ud83d\udd2e",
+      "pullRate": 0.5,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "GingerPrimeMAX",
+      "displayName": "Gingerprimemax",
+      "type": "normal",
+      "rarity": "maxultra",
+      "rarityDisplay": "MAX Ultra",
+      "rarityColor": "#f43f5e",
+      "rarityTier": 8,
+      "typeIcon": "\u2b50",
+      "pullRate": 0.25,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "BrandoniMacRoniSupreme",
+      "displayName": "Brandonimacronisupreme",
+      "type": "normal",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 9,
+      "typeIcon": "\u2b50",
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "TheUnavoidableGinger",
+      "displayName": "Theunavoidableginger",
+      "type": "normal",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 9,
+      "typeIcon": "\u2b50",
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "GingerGod",
+      "displayName": "Gingergod",
+      "type": "normal",
+      "rarity": "mythic",
+      "rarityDisplay": "Mythic",
+      "rarityColor": "#d946ef",
+      "rarityTier": 10,
+      "typeIcon": "\u2b50",
+      "pullRate": 0.08,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "FirstFollicle",
+      "displayName": "Firstfollicle",
+      "type": "fire",
+      "rarity": "1stedition",
+      "rarityDisplay": "1st Edition",
+      "rarityColor": "#fbbf24",
+      "rarityTier": 11,
+      "typeIcon": "\ud83d\udd25",
+      "pullRate": 0.04,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    },
+    {
+      "name": "ChatsWorstNightmare",
+      "displayName": "Chatsworstnightmare",
+      "type": "chaos",
+      "rarity": "chaos",
+      "rarityDisplay": "Chaos",
+      "rarityColor": "#dc2626",
+      "rarityTier": 12,
+      "typeIcon": "\ud83d\udc80",
+      "pullRate": 0.03,
+      "hasVideo": true,
+      "hasImage": false,
+      "caughtBy": [],
+      "catchCount": 0
+    }
+  ],
+  "leaderboard": [
+    {
+      "username": "crossingchrono",
+      "displayName": "crossingchrono",
+      "cards": [
+        "Daywalker",
+        "Ginger",
+        "Redstatic",
+        "Burnttips",
+        "Paleginger",
+        "Natdelos",
+        "Grassginger",
+        "Frecklefiend",
+        "Gingerman"
+      ],
+      "uniqueCount": 9,
+      "totalCards": 48,
+      "completionPct": 18.8
+    },
+    {
+      "username": "jennifyrre",
+      "displayName": "jennifyrre",
+      "cards": [
+        "Natdelos",
+        "Grassginger",
+        "Gingerprime",
+        "Firecrotch",
+        "Burnttips",
+        "Frecklefiend",
+        "Emberbeard"
+      ],
+      "uniqueCount": 7,
+      "totalCards": 48,
+      "completionPct": 14.6
+    },
+    {
+      "username": "archangelemperor",
+      "displayName": "ArchangelEmperor",
+      "cards": [
+        "Crimsonfollicle",
+        "Emberbeard",
+        "Frecklefiend",
+        "Grassginger",
+        "Redstatic",
+        "Firecrotchex",
+        "Staticbeard"
+      ],
+      "uniqueCount": 7,
+      "totalCards": 48,
+      "completionPct": 14.6
+    },
+    {
+      "username": "nephilheim",
+      "displayName": "Nephilheim",
+      "cards": [
+        "Pale",
+        "Paleginger",
+        "Emberbeard",
+        "Gingerbeardman"
+      ],
+      "uniqueCount": 4,
+      "totalCards": 48,
+      "completionPct": 8.3
+    },
+    {
+      "username": "squanchymoto",
+      "displayName": "squanchymoto",
+      "cards": [
+        "Pale",
+        "Gingerbeardman",
+        "Firecrotch",
+        "Redstaticex"
+      ],
+      "uniqueCount": 4,
+      "totalCards": 48,
+      "completionPct": 8.3
+    },
+    {
+      "username": "natdelos",
+      "displayName": "NatDelos",
+      "cards": [
+        "Grassginger",
+        "Scarletmenace",
+        "Frecklefiend"
+      ],
+      "uniqueCount": 3,
+      "totalCards": 48,
+      "completionPct": 6.2
+    },
+    {
+      "username": "justtokottv",
+      "displayName": "JustTokoTTV",
+      "cards": [
+        "Ember",
+        "Natdelos"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 48,
+      "completionPct": 4.2
+    },
+    {
+      "username": "trickychicky147",
+      "displayName": "trickychicky147",
+      "cards": [
+        "Pale",
+        "Firecrotchex"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 48,
+      "completionPct": 4.2
+    },
+    {
+      "username": "datorangebottle",
+      "displayName": "DatOrangeBottle",
+      "cards": [
+        "Red",
+        "Gingerman"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 48,
+      "completionPct": 4.2
+    },
+    {
+      "username": "eldritchbaguette",
+      "displayName": "EldritchBaguette",
+      "cards": [
+        "Ginger",
+        "Paleginger"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 48,
+      "completionPct": 4.2
+    },
+    {
+      "username": "cannulit",
+      "displayName": "CannuliT",
+      "cards": [
+        "Grassginger",
+        "Natdelos"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 48,
+      "completionPct": 4.2
+    },
+    {
+      "username": "zootsguy",
+      "displayName": "ZootsGuy",
+      "cards": [
+        "Natdelos",
+        "Gingerbeardmanevo"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 48,
+      "completionPct": 4.2
+    },
+    {
+      "username": "riix96",
+      "displayName": "riix96",
+      "cards": [
+        "Scarlet"
+      ],
+      "uniqueCount": 1,
+      "totalCards": 48,
+      "completionPct": 2.1
+    },
+    {
+      "username": "salamyou",
+      "displayName": "salamyou",
+      "cards": [
+        "Ginger"
+      ],
+      "uniqueCount": 1,
+      "totalCards": 48,
+      "completionPct": 2.1
+    },
+    {
+      "username": "anothergeneric_streamer",
+      "displayName": "anothergeneric_streamer",
+      "cards": [
+        "Scarlet"
+      ],
+      "uniqueCount": 1,
+      "totalCards": 48,
+      "completionPct": 2.1
+    },
+    {
+      "username": "dark_madden",
+      "displayName": "DarK_MaddeN",
+      "cards": [
+        "Gingerbeardman"
+      ],
+      "uniqueCount": 1,
+      "totalCards": 48,
+      "completionPct": 2.1
+    },
+    {
+      "username": "mentalmayhem24",
+      "displayName": "MentalMayhem24",
+      "cards": [
+        "Grassginger"
+      ],
+      "uniqueCount": 1,
+      "totalCards": 48,
+      "completionPct": 2.1
+    }
+  ],
+  "types": [
+    "chaos",
+    "dark",
+    "electric",
+    "fire",
+    "grass",
+    "ice",
+    "normal",
+    "psychic"
+  ],
+  "rarities": [
+    "common",
+    "rare",
+    "holo",
+    "evolution",
+    "evolutionholo",
+    "evolutionex",
+    "evolutionmax",
+    "megaultra",
+    "maxultra",
+    "legendary",
+    "mythic",
+    "1stedition",
+    "chaos"
+  ],
+  "rarityDisplay": {
+    "common": "Common",
+    "rare": "Rare",
+    "holo": "Holo",
+    "evolution": "Evolution",
+    "evolutionholo": "Evolution Holo",
+    "evolutionex": "Evolution EX",
+    "evolutionmax": "Evolution MAX",
+    "megaultra": "Mega Ultra",
+    "maxultra": "MAX Ultra",
+    "legendary": "Legendary",
+    "mythic": "Mythic",
+    "1stedition": "1st Edition",
+    "chaos": "Chaos"
+  },
+  "rarityColors": {
+    "common": "#8a8a8a",
+    "rare": "#3b82f6",
+    "holo": "#a855f7",
+    "evolution": "#22c55e",
+    "evolutionholo": "#06b6d4",
+    "evolutionex": "#f59e0b",
+    "evolutionmax": "#ef4444",
+    "megaultra": "#ec4899",
+    "maxultra": "#f43f5e",
+    "legendary": "#eab308",
+    "mythic": "#d946ef",
+    "1stedition": "#fbbf24",
+    "chaos": "#dc2626"
+  },
+  "typeIcons": {
+    "fire": "\ud83d\udd25",
+    "electric": "\u26a1",
+    "grass": "\ud83c\udf3f",
+    "ice": "\u2744\ufe0f",
+    "normal": "\u2b50",
+    "dark": "\ud83c\udf11",
+    "psychic": "\ud83d\udd2e",
+    "chaos": "\ud83d\udc80"
+  }
+}
