@@ -4,7 +4,6 @@
   let DATA = null;
   let currentView = "gallery";
 
-  // DOM refs
   const cardGrid = document.getElementById("cardGrid");
   const leaderboardList = document.getElementById("leaderboardList");
   const trainerGrid = document.getElementById("trainerGrid");
@@ -14,7 +13,6 @@
   const regionFilter = document.getElementById("regionFilter");
   const typeFilter = document.getElementById("typeFilter");
   const rarityFilter = document.getElementById("rarityFilter");
-  const sortFilter = document.getElementById("sortFilter");
   const cardModal = document.getElementById("cardModal");
   const modalBody = document.getElementById("modalBody");
   const galleryControls = document.getElementById("galleryControls");
@@ -70,13 +68,12 @@
     const region = regionFilter.value;
     const type = typeFilter.value;
     const rarity = rarityFilter.value;
-    const sort = sortFilter.value;
 
     if (query) {
       filtered = filtered.filter(
         (c) =>
-          c.name.toLowerCase().includes(query) ||
           c.displayName.toLowerCase().includes(query) ||
+          c.name.toLowerCase().includes(query) ||
           c.type.toLowerCase().includes(query) ||
           (c.region && c.region.toLowerCase().includes(query)) ||
           c.caughtBy.some((t) => t.toLowerCase().includes(query))
@@ -85,12 +82,6 @@
     if (region) filtered = filtered.filter((c) => c.region === region);
     if (type) filtered = filtered.filter((c) => c.type === type);
     if (rarity) filtered = filtered.filter((c) => c.rarity === rarity);
-
-    if (sort === "name") filtered.sort((a, b) => a.name.localeCompare(b.name));
-    else if (sort === "type") filtered.sort((a, b) => a.type.localeCompare(b.type) || a.rarityTier - b.rarityTier);
-    else if (sort === "catches") filtered.sort((a, b) => b.catchCount - a.catchCount);
-    else if (sort === "region") filtered.sort((a, b) => (a.region || "").localeCompare(b.region || "") || a.rarityTier - b.rarityTier);
-    else filtered.sort((a, b) => a.rarityTier - b.rarityTier || a.name.localeCompare(b.name));
 
     return filtered;
   }
@@ -101,64 +92,100 @@
       cardGrid.innerHTML = '<p class="no-results">No cards match your search.</p>';
       return;
     }
-    cardGrid.innerHTML = filtered.map((c) => cardHTML(c, false)).join("");
+
+    // Group cards by region in order
+    const regionOrder = DATA.regionOrder || DATA.regions || ["Original"];
+    const grouped = {};
+    regionOrder.forEach((r) => { grouped[r] = []; });
+
+    filtered.forEach((c) => {
+      const r = c.region || "Original";
+      if (!grouped[r]) grouped[r] = [];
+      grouped[r].push(c);
+    });
+
+    // Sort each region by card number
+    for (const r in grouped) {
+      grouped[r].sort((a, b) => (a.cardNumber || 0) - (b.cardNumber || 0));
+    }
+
+    // Build HTML with region sections
+    let html = "";
+    for (const region of regionOrder) {
+      const cards = grouped[region];
+      if (!cards || cards.length === 0) continue;
+
+      const info = (DATA.regionInfo && DATA.regionInfo[region]) || {};
+      const emoji = info.emoji || "";
+      const label = info.label || region.toUpperCase();
+      const count = info.cardCount || cards.length;
+
+      html += `
+        <div class="region-section">
+          <div class="region-header">
+            <span class="region-emoji">${emoji}</span>
+            <span class="region-title">${label} (#1\u2013${count})</span>
+          </div>
+          <div class="card-grid">
+            ${cards.map((c) => cardHTML(c, false)).join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    cardGrid.innerHTML = html;
   }
 
-  // Show a catch image if available, otherwise fall back to template
   function cardMediaHTML(card, caught, trainerCatchImg) {
     if (!caught) {
-      // Silhouette for uncaught
       if (card.imageFile) {
         return `<div class="card-media"><img src="cards/${card.imageFile}" alt="Unknown" class="card-img silhouette"></div>`;
       }
       return `<div class="card-media"><div class="card-placeholder silhouette">?</div></div>`;
     }
 
-    // Use a specific trainer's catch image if provided
     if (trainerCatchImg) {
       if (trainerCatchImg.isVideo) {
         return `<div class="card-media"><video src="${trainerCatchImg.file}" class="card-vid" autoplay loop muted playsinline></video></div>`;
       }
-      return `<div class="card-media"><img src="${trainerCatchImg.file}" alt="${card.name}" class="card-img"></div>`;
+      return `<div class="card-media"><img src="${trainerCatchImg.file}" alt="${card.displayName}" class="card-img"></div>`;
     }
 
-    // Use the latest catch image if any exist
     if (card.catchImages && card.catchImages.length > 0) {
       const latest = card.catchImages[card.catchImages.length - 1];
       if (latest.isVideo) {
         return `<div class="card-media"><video src="${latest.file}" class="card-vid" autoplay loop muted playsinline></video></div>`;
       }
-      return `<div class="card-media"><img src="${latest.file}" alt="${card.name}" class="card-img"></div>`;
+      return `<div class="card-media"><img src="${latest.file}" alt="${card.displayName}" class="card-img"></div>`;
     }
 
-    // Fall back to template
     if (card.videoFile) {
       return `<div class="card-media"><video src="cards/${card.videoFile}" class="card-vid" autoplay loop muted playsinline></video></div>`;
     }
     if (card.imageFile) {
-      return `<div class="card-media"><img src="cards/${card.imageFile}" alt="${card.name}" class="card-img"></div>`;
+      return `<div class="card-media"><img src="cards/${card.imageFile}" alt="${card.displayName}" class="card-img"></div>`;
     }
-    return `<div class="card-media"><div class="card-placeholder">${card.name[0]}</div></div>`;
+    return `<div class="card-media"><div class="card-placeholder">${card.displayName[0]}</div></div>`;
   }
 
   function cardHTML(card, isTrainerView, trainerHas, trainerCatchImg) {
     const caught = isTrainerView ? trainerHas : card.catchCount > 0;
     const cls = caught ? "" : " uncaught";
-    const name = caught ? card.name : "???";
+    const displayName = caught ? card.displayName : "???";
     const catchBadge = !isTrainerView && card.catchCount > 0
       ? `<span class="card-catch-count">${card.catchCount} caught</span>`
       : "";
-    const regionBadge = card.region && card.region !== "Original"
-      ? `<div class="card-region">${card.region}</div>`
+    const numberBadge = card.cardNumber
+      ? `<span class="card-number">#${card.cardNumber}</span>`
       : "";
 
     return `
       <div class="card${cls}" data-card-key="${cardKey(card)}" style="border-color: ${caught ? card.rarityColor : 'var(--border)'}">
+        ${numberBadge}
         ${catchBadge}
         ${cardMediaHTML(card, caught, trainerCatchImg)}
-        <div class="card-name">${name}</div>
+        <div class="card-name">${displayName}</div>
         <div class="card-meta">${capitalize(card.type)}${card.hp ? ' &middot; ' + card.hp + ' HP' : ''}</div>
-        ${regionBadge}
         <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}">${card.rarityDisplay}</span>
       </div>
     `;
@@ -166,9 +193,9 @@
 
   function cardKey(card) {
     if (card.region && card.region !== "Original") {
-      return card.region + ":" + card.name;
+      return card.region + ":" + card.displayName;
     }
-    return card.displayName;
+    return card.name || card.displayName;
   }
 
   function findCardByKey(key) {
@@ -205,11 +232,12 @@
 
     const trainerCards = new Set(trainer.cards.map((c) => c.toLowerCase()));
 
-    // Build lookup: card name -> catch image for this trainer
     const trainerCatchLookup = {};
     if (trainer.catchImages) {
       trainer.catchImages.forEach((ci) => {
-        trainerCatchLookup[ci.cardName.toLowerCase().replace(/_/g, " ")] = ci;
+        const key = ci.cardName.toLowerCase().replace(/_/g, " ");
+        trainerCatchLookup[key] = ci;
+        trainerCatchLookup[key.replace(/ /g, "")] = ci;
       });
     }
 
@@ -219,21 +247,55 @@
       <div class="trainer-stats">${trainer.uniqueCount} / ${trainer.totalCards} GingerMon &middot; ${trainer.completionPct}% complete</div>
     `;
 
-    const sorted = [...DATA.cards].sort((a, b) => {
-      const aHas = trainerCards.has(a.displayName.toLowerCase()) ? 0 : 1;
-      const bHas = trainerCards.has(b.displayName.toLowerCase()) ? 0 : 1;
-      if (aHas !== bHas) return aHas - bHas;
-      return a.rarityTier - b.rarityTier || a.name.localeCompare(b.name);
+    // Group by region, show in order, caught first within each region
+    const regionOrder = DATA.regionOrder || ["Original"];
+    const grouped = {};
+    regionOrder.forEach((r) => { grouped[r] = []; });
+
+    DATA.cards.forEach((c) => {
+      const r = c.region || "Original";
+      if (!grouped[r]) grouped[r] = [];
+      grouped[r].push(c);
     });
 
-    trainerGrid.innerHTML = sorted
-      .map((c) => {
-        const has = trainerCards.has(c.displayName.toLowerCase());
-        const catchImg = trainerCatchLookup[c.displayName.toLowerCase()] || null;
-        return cardHTML(c, true, has, catchImg);
-      })
-      .join("");
+    let html = "";
+    for (const region of regionOrder) {
+      const cards = grouped[region];
+      if (!cards || cards.length === 0) continue;
 
+      // Sort: caught first, then by card number
+      const sorted = [...cards].sort((a, b) => {
+        const aHas = hasCard(a, trainerCards) ? 0 : 1;
+        const bHas = hasCard(b, trainerCards) ? 0 : 1;
+        if (aHas !== bHas) return aHas - bHas;
+        return (a.cardNumber || 0) - (b.cardNumber || 0);
+      });
+
+      const info = (DATA.regionInfo && DATA.regionInfo[region]) || {};
+      const emoji = info.emoji || "";
+      const label = info.label || region.toUpperCase();
+      const count = info.cardCount || cards.length;
+
+      html += `
+        <div class="region-section">
+          <div class="region-header">
+            <span class="region-emoji">${emoji}</span>
+            <span class="region-title">${label} (#1\u2013${count})</span>
+          </div>
+          <div class="card-grid">
+            ${sorted.map((c) => {
+              const has = hasCard(c, trainerCards);
+              const catchKey = c.displayName.toLowerCase();
+              const catchKeyNoSpace = catchKey.replace(/ /g, "");
+              const catchImg = trainerCatchLookup[catchKey] || trainerCatchLookup[catchKeyNoSpace] || trainerCatchLookup[c.name.toLowerCase()] || null;
+              return cardHTML(c, true, has, catchImg);
+            }).join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    trainerGrid.innerHTML = html;
     switchView("trainer");
 
     document.getElementById("backBtn").addEventListener("click", () => {
@@ -241,21 +303,26 @@
     });
   }
 
+  function hasCard(card, trainerCardsSet) {
+    const dn = card.displayName.toLowerCase();
+    const n = card.name.toLowerCase();
+    const dnNoSpace = dn.replace(/ /g, "");
+    return trainerCardsSet.has(dn) || trainerCardsSet.has(n) || trainerCardsSet.has(dnNoSpace);
+  }
+
   function modalMediaHTML(card) {
-    // If there are catch images, show the latest one as the main image
     if (card.catchImages && card.catchImages.length > 0) {
       const latest = card.catchImages[card.catchImages.length - 1];
       if (latest.isVideo) {
         return `<div class="modal-media"><video src="${latest.file}" class="modal-vid" autoplay loop muted playsinline controls></video></div>`;
       }
-      return `<div class="modal-media"><img src="${latest.file}" alt="${card.name}" class="modal-img"></div>`;
+      return `<div class="modal-media"><img src="${latest.file}" alt="${card.displayName}" class="modal-img"></div>`;
     }
-    // Fall back to template
     if (card.videoFile) {
       return `<div class="modal-media"><video src="cards/${card.videoFile}" class="modal-vid" autoplay loop muted playsinline controls></video></div>`;
     }
     if (card.imageFile) {
-      return `<div class="modal-media"><img src="cards/${card.imageFile}" alt="${card.name}" class="modal-img"></div>`;
+      return `<div class="modal-media"><img src="cards/${card.imageFile}" alt="${card.displayName}" class="modal-img"></div>`;
     }
     return "";
   }
@@ -307,8 +374,8 @@
 
     const pullPct = (card.pullRate / DATA.cards.reduce((s, c) => s + c.pullRate, 0) * 100).toFixed(2);
 
-    const regionTag = card.region && card.region !== "Original"
-      ? `<div class="modal-region-tag">${card.region}</div>`
+    const regionTag = card.region
+      ? `<div class="modal-region-tag">${card.region} #${card.cardNumber || "?"}</div>`
       : "";
 
     const statsRows = [
@@ -322,7 +389,7 @@
 
     modalBody.innerHTML = `
       ${modalMediaHTML(card)}
-      <div class="modal-card-name" style="color: ${card.rarityColor}">${card.name}</div>
+      <div class="modal-card-name" style="color: ${card.rarityColor}">${card.displayName}</div>
       ${regionTag}
       <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}; display:block; text-align:center; margin: 0.5rem auto; width: fit-content;">${card.rarityDisplay}</span>
 
@@ -395,7 +462,6 @@
     regionFilter.addEventListener("change", renderGallery);
     typeFilter.addEventListener("change", renderGallery);
     rarityFilter.addEventListener("change", renderGallery);
-    sortFilter.addEventListener("change", renderGallery);
 
     document.addEventListener("click", (e) => {
       const card = e.target.closest(".card[data-card-key]");

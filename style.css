@@ -139,21 +139,46 @@ nav {
   outline: none;
 }
 
+/* Region Sections */
+.region-section {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+.region-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem 0 0.75rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.region-emoji {
+  font-size: 1.5rem;
+}
+
+.region-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text);
+}
+
 /* Card Grid */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   gap: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 .card {
   background: var(--surface);
   border: 2px solid var(--border);
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.75rem;
   text-align: center;
   cursor: pointer;
   transition: all 0.2s;
@@ -172,6 +197,20 @@ nav {
 
 .card.uncaught .card-name {
   color: var(--text-dim);
+}
+
+/* Card number badge */
+.card-number {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: rgba(0,0,0,0.7);
+  color: var(--text-dim);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  z-index: 2;
 }
 
 /* Card media (images/videos) */
@@ -212,20 +251,14 @@ nav {
 
 .card-name {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin-bottom: 0.25rem;
+  line-height: 1.2;
 }
 
 .card-meta {
   font-size: 0.75rem;
   color: var(--text-dim);
-}
-
-.card-region {
-  font-size: 0.65rem;
-  color: var(--accent);
-  margin-top: 0.15rem;
-  letter-spacing: 0.5px;
 }
 
 .card-rarity {
@@ -234,20 +267,21 @@ nav {
   border-radius: 4px;
   font-size: 0.7rem;
   font-weight: 600;
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .card-catch-count {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 6px;
+  right: 6px;
   background: rgba(0,0,0,0.6);
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   padding: 2px 6px;
   border-radius: 10px;
+  z-index: 2;
 }
 
 /* Leaderboard */
@@ -528,4 +562,5 @@ footer a:hover { text-decoration: underline; }
   .card-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.75rem; }
   .stats-bar { gap: 1rem; }
   .lb-bar-bg { width: 80px; }
+  .region-title { font-size: 1rem; letter-spacing: 1px; }
 }

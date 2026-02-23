@@ -1,271 +1,8 @@
 {
-  "generated": "2026-02-23T10:49:15.951912",
-  "totalCards": 98,
+  "generated": "2026-02-23T11:05:27.163697",
+  "totalCards": 100,
   "totalTrainers": 19,
   "cards": [
-    {
-      "name": "BurntTips",
-      "displayName": "Burnttips",
-      "type": "fire",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "fire_BurntTips_common.png",
-      "videoFile": "fire_BurntTips_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "jennifyrre",
-        "crossingchrono"
-      ],
-      "catchCount": 2,
-      "catchImages": [
-        {
-          "username": "crossingchrono",
-          "displayName": "crossingchrono",
-          "file": "catches/crossingchrono_Burnttips_20260210_224434.mp4",
-          "timestamp": "20260210_224434",
-          "isVideo": true
-        },
-        {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Burnttips_20260212_223710.mp4",
-          "timestamp": "20260212_223710",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "name": "CrimsonFollicle",
-      "displayName": "Crimsonfollicle",
-      "type": "fire",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "fire_CrimsonFollicle_common.png",
-      "videoFile": "fire_CrimsonFollicle_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "ArchangelEmperor"
-      ],
-      "catchCount": 1,
-      "catchImages": [
-        {
-          "username": "archangelemperor",
-          "displayName": "ArchangelEmperor",
-          "file": "catches/archangelemperor_Crimsonfollicle_20260210_232127.mp4",
-          "timestamp": "20260210_232127",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "name": "Daywalker",
-      "displayName": "Daywalker",
-      "type": "normal",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "normal_Daywalker_common.png",
-      "videoFile": "normal_Daywalker_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "crossingchrono",
-        "zecourtastrophe"
-      ],
-      "catchCount": 2,
-      "catchImages": [
-        {
-          "username": "crossingchrono",
-          "displayName": "crossingchrono",
-          "file": "catches/crossingchrono_Daywalker_20260201_001858.png",
-          "timestamp": "20260201_001858",
-          "isVideo": false
-        },
-        {
-          "username": "zecourtastrophe",
-          "displayName": "zecourtastrophe",
-          "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
-          "timestamp": "20260222_200151",
-          "isVideo": false
-        }
-      ]
-    },
-    {
-      "name": "EmberBeard",
-      "displayName": "Emberbeard",
-      "type": "fire",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "fire_EmberBeard_common.png",
-      "videoFile": "fire_EmberBeard_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "jennifyrre",
-        "Nephilheim",
-        "ArchangelEmperor"
-      ],
-      "catchCount": 3,
-      "catchImages": [
-        {
-          "username": "archangelemperor",
-          "displayName": "ArchangelEmperor",
-          "file": "catches/archangelemperor_Emberbeard_20260211_000740.mp4",
-          "timestamp": "20260211_000740",
-          "isVideo": true
-        },
-        {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Emberbeard_20260213_221816.mp4",
-          "timestamp": "20260213_221816",
-          "isVideo": true
-        },
-        {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Emberbeard_20260219_230815.mp4",
-          "timestamp": "20260219_230815",
-          "isVideo": true
-        },
-        {
-          "username": "nephilheim",
-          "displayName": "Nephilheim",
-          "file": "catches/nephilheim_Emberbeard_20260212_232707.mp4",
-          "timestamp": "20260212_232707",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "name": "FireCrotch",
-      "displayName": "Firecrotch",
-      "type": "fire",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "fire_FireCrotch_common.png",
-      "videoFile": "fire_FireCrotch_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "jennifyrre",
-        "squanchymoto"
-      ],
-      "catchCount": 2,
-      "catchImages": [
-        {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
-          "timestamp": "20260212_223501",
-          "isVideo": true
-        },
-        {
-          "username": "squanchymoto",
-          "displayName": "squanchymoto",
-          "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
-          "timestamp": "20260210_232129",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "name": "FreckleFiend",
-      "displayName": "Frecklefiend",
-      "type": "dark",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "dark_FreckleFiend_common.png",
-      "videoFile": "dark_FreckleFiend_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "jennifyrre",
-        "crossingchrono",
-        "NatDelos",
-        "ArchangelEmperor"
-      ],
-      "catchCount": 4,
-      "catchImages": [
-        {
-          "username": "archangelemperor",
-          "displayName": "ArchangelEmperor",
-          "file": "catches/archangelemperor_Frecklefiend_20260212_235805.png",
-          "timestamp": "20260212_235805",
-          "isVideo": false
-        },
-        {
-          "username": "crossingchrono",
-          "displayName": "crossingchrono",
-          "file": "catches/crossingchrono_Frecklefiend_20260213_225647.png",
-          "timestamp": "20260213_225647",
-          "isVideo": false
-        },
-        {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Frecklefiend_20260213_221705.mp4",
-          "timestamp": "20260213_221705",
-          "isVideo": true
-        },
-        {
-          "username": "natdelos",
-          "displayName": "NatDelos",
-          "file": "catches/natdelos_Frecklefiend_20260218_013028.mp4",
-          "timestamp": "20260218_013028",
-          "isVideo": true
-        }
-      ]
-    },
     {
       "name": "Ginger",
       "displayName": "Ginger",
@@ -277,9 +14,11 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "imageFile": "normal_Ginger_common.png",
       "videoFile": "normal_Ginger_common.mp4",
+      "imageFile": "normal_Ginger_common.png",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 1,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -332,7 +71,7 @@
     },
     {
       "name": "Ginger2",
-      "displayName": "Ginger2",
+      "displayName": "Brandoni Mcroni",
       "type": "normal",
       "rarity": "common",
       "rarityDisplay": "Common",
@@ -341,9 +80,11 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "normal_Ginger2_common.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 2,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -353,56 +94,8 @@
       "catchImages": []
     },
     {
-      "name": "GingerBeardMan",
-      "displayName": "Gingerbeardman",
-      "type": "normal",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "normal_GingerBeardMan_common.png",
-      "videoFile": "normal_GingerBeardMan_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "Nephilheim",
-        "squanchymoto",
-        "DarK_MaddeN"
-      ],
-      "catchCount": 3,
-      "catchImages": [
-        {
-          "username": "dark_madden",
-          "displayName": "DarK_MaddeN",
-          "file": "catches/dark_madden_Gingerbeardman_20260203_145545.png",
-          "timestamp": "20260203_145545",
-          "isVideo": false
-        },
-        {
-          "username": "nephilheim",
-          "displayName": "Nephilheim",
-          "file": "catches/nephilheim_Gingerbeardman_20260217_234942.mp4",
-          "timestamp": "20260217_234942",
-          "isVideo": true
-        },
-        {
-          "username": "squanchymoto",
-          "displayName": "squanchymoto",
-          "file": "catches/squanchymoto_Gingerbeardman_20260210_224436.png",
-          "timestamp": "20260210_224436",
-          "isVideo": false
-        }
-      ]
-    },
-    {
       "name": "GingerMan",
-      "displayName": "Gingerman",
+      "displayName": "GingerMan",
       "type": "normal",
       "rarity": "common",
       "rarityDisplay": "Common",
@@ -411,9 +104,11 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "imageFile": "normal_GingerMan_common.png",
       "videoFile": "normal_GingerMan_common.mp4",
+      "imageFile": "normal_GingerMan_common.png",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 3,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -449,8 +144,413 @@
       ]
     },
     {
+      "name": "NatDelos",
+      "displayName": "NatDelos",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "normal_NatDelos_common.mp4",
+      "imageFile": "normal_NatDelos_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 4,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "JustTokoTTV",
+        "jennifyrre",
+        "crossingchrono",
+        "CannuliT",
+        "ZootsGuy"
+      ],
+      "catchCount": 5,
+      "catchImages": [
+        {
+          "username": "cannulit",
+          "displayName": "CannuliT",
+          "file": "catches/cannulit_Natdelos_20260210_221116.mp4",
+          "timestamp": "20260210_221116",
+          "isVideo": true
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Natdelos_20260213_002852.mp4",
+          "timestamp": "20260213_002852",
+          "isVideo": true
+        },
+        {
+          "username": "zootsguy",
+          "displayName": "ZootsGuy",
+          "file": "catches/zootsguy_Natdelos_20260217_231027.mp4",
+          "timestamp": "20260217_231027",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "GingerBeardMan",
+      "displayName": "Ginger Beard Man",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "normal_GingerBeardMan_common.mp4",
+      "imageFile": "normal_GingerBeardMan_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 5,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "Nephilheim",
+        "squanchymoto",
+        "DarK_MaddeN"
+      ],
+      "catchCount": 3,
+      "catchImages": [
+        {
+          "username": "dark_madden",
+          "displayName": "DarK_MaddeN",
+          "file": "catches/dark_madden_Gingerbeardman_20260203_145545.png",
+          "timestamp": "20260203_145545",
+          "isVideo": false
+        },
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Gingerbeardman_20260217_234942.mp4",
+          "timestamp": "20260217_234942",
+          "isVideo": true
+        },
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Gingerbeardman_20260210_224436.png",
+          "timestamp": "20260210_224436",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "name": "FireCrotch",
+      "displayName": "Fire Crotch",
+      "type": "fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "fire_FireCrotch_common.mp4",
+      "imageFile": "fire_FireCrotch_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 6,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
+          "timestamp": "20260212_223501",
+          "isVideo": true
+        },
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
+          "timestamp": "20260210_232129",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "RedStatic",
+      "displayName": "Red Static",
+      "type": "electric",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "electric_RedStatic_common.mp4",
+      "imageFile": "electric_RedStatic_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 7,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "crossingchrono",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Redstatic_20260217_222127.png",
+          "timestamp": "20260217_222127",
+          "isVideo": false
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Redstatic_20260208_003645.png",
+          "timestamp": "20260208_003645",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "name": "EmberBeard",
+      "displayName": "Ember Beard",
+      "type": "fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "fire_EmberBeard_common.mp4",
+      "imageFile": "fire_EmberBeard_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 8,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "jennifyrre",
+        "Nephilheim",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 3,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Emberbeard_20260211_000740.mp4",
+          "timestamp": "20260211_000740",
+          "isVideo": true
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Emberbeard_20260213_221816.mp4",
+          "timestamp": "20260213_221816",
+          "isVideo": true
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Emberbeard_20260219_230815.mp4",
+          "timestamp": "20260219_230815",
+          "isVideo": true
+        },
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Emberbeard_20260212_232707.mp4",
+          "timestamp": "20260212_232707",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "CrimsonFollicle",
+      "displayName": "Crimson Follicle",
+      "type": "fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "fire_CrimsonFollicle_common.mp4",
+      "imageFile": "fire_CrimsonFollicle_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 9,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Crimsonfollicle_20260210_232127.mp4",
+          "timestamp": "20260210_232127",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "PaleGinger",
+      "displayName": "Pale Ginger",
+      "type": "ice",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "ice_PaleGinger_common.mp4",
+      "imageFile": "ice_PaleGinger_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 10,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "Nephilheim",
+        "crossingchrono",
+        "EldritchBaguette"
+      ],
+      "catchCount": 3,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Paleginger_20260212_224419.mp4",
+          "timestamp": "20260212_224419",
+          "isVideo": true
+        },
+        {
+          "username": "eldritchbaguette",
+          "displayName": "EldritchBaguette",
+          "file": "catches/eldritchbaguette_Paleginger_20260207_205050.png",
+          "timestamp": "20260207_205050",
+          "isVideo": false
+        },
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Paleginger_20260211_000730.mp4",
+          "timestamp": "20260211_000730",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "Daywalker",
+      "displayName": "Daywalker",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "normal_Daywalker_common.mp4",
+      "imageFile": "normal_Daywalker_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 11,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Daywalker_20260201_001858.png",
+          "timestamp": "20260201_001858",
+          "isVideo": false
+        },
+        {
+          "username": "zecourtastrophe",
+          "displayName": "zecourtastrophe",
+          "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
+          "timestamp": "20260222_200151",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "name": "StaticBeard",
+      "displayName": "Static Beard",
+      "type": "electric",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "electric_StaticBeard_common.mp4",
+      "imageFile": "electric_StaticBeard_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 12,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "ArchangelEmperor",
+        "ChosenDolan"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Staticbeard_20260219_230719.png",
+          "timestamp": "20260219_230719",
+          "isVideo": false
+        },
+        {
+          "username": "chosendolan",
+          "displayName": "ChosenDolan",
+          "file": "catches/chosendolan_Staticbeard_20260222_010228.mp4",
+          "timestamp": "20260222_010228",
+          "isVideo": true
+        }
+      ]
+    },
+    {
       "name": "GrassGinger",
-      "displayName": "Grassginger",
+      "displayName": "Grass Ginger",
       "type": "grass",
       "rarity": "common",
       "rarityDisplay": "Common",
@@ -459,9 +559,11 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "imageFile": "grass_GrassGinger_common.png",
       "videoFile": "grass_GrassGinger_common.mp4",
+      "imageFile": "grass_GrassGinger_common.png",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 13,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -535,9 +637,9 @@
       ]
     },
     {
-      "name": "NatDelos",
-      "displayName": "Natdelos",
-      "type": "normal",
+      "name": "BurntTips",
+      "displayName": "Burnt Tips",
+      "type": "fire",
       "rarity": "common",
       "rarityDisplay": "Common",
       "rarityColor": "#8a8a8a",
@@ -545,220 +647,98 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "imageFile": "normal_NatDelos_common.png",
-      "videoFile": "normal_NatDelos_common.mp4",
+      "videoFile": "fire_BurntTips_common.mp4",
+      "imageFile": "fire_BurntTips_common.png",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 14,
       "hp": null,
       "moves": null,
       "weakness": null,
       "resistance": null,
       "caughtBy": [
-        "JustTokoTTV",
+        "jennifyrre",
+        "crossingchrono"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Burnttips_20260210_224434.mp4",
+          "timestamp": "20260210_224434",
+          "isVideo": true
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Burnttips_20260212_223710.mp4",
+          "timestamp": "20260212_223710",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "FreckleFiend",
+      "displayName": "Freckle Fiend",
+      "type": "dark",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "dark_FreckleFiend_common.mp4",
+      "imageFile": "dark_FreckleFiend_common.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 15,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
         "jennifyrre",
         "crossingchrono",
-        "CannuliT",
-        "ZootsGuy"
-      ],
-      "catchCount": 5,
-      "catchImages": [
-        {
-          "username": "cannulit",
-          "displayName": "CannuliT",
-          "file": "catches/cannulit_Natdelos_20260210_221116.mp4",
-          "timestamp": "20260210_221116",
-          "isVideo": true
-        },
-        {
-          "username": "crossingchrono",
-          "displayName": "crossingchrono",
-          "file": "catches/crossingchrono_Natdelos_20260213_002852.mp4",
-          "timestamp": "20260213_002852",
-          "isVideo": true
-        },
-        {
-          "username": "zootsguy",
-          "displayName": "ZootsGuy",
-          "file": "catches/zootsguy_Natdelos_20260217_231027.mp4",
-          "timestamp": "20260217_231027",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "name": "PaleGinger",
-      "displayName": "Paleginger",
-      "type": "ice",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "ice_PaleGinger_common.png",
-      "videoFile": "ice_PaleGinger_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "Nephilheim",
-        "crossingchrono",
-        "EldritchBaguette"
-      ],
-      "catchCount": 3,
-      "catchImages": [
-        {
-          "username": "crossingchrono",
-          "displayName": "crossingchrono",
-          "file": "catches/crossingchrono_Paleginger_20260212_224419.mp4",
-          "timestamp": "20260212_224419",
-          "isVideo": true
-        },
-        {
-          "username": "eldritchbaguette",
-          "displayName": "EldritchBaguette",
-          "file": "catches/eldritchbaguette_Paleginger_20260207_205050.png",
-          "timestamp": "20260207_205050",
-          "isVideo": false
-        },
-        {
-          "username": "nephilheim",
-          "displayName": "Nephilheim",
-          "file": "catches/nephilheim_Paleginger_20260211_000730.mp4",
-          "timestamp": "20260211_000730",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "name": "RedStatic",
-      "displayName": "Redstatic",
-      "type": "electric",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "electric_RedStatic_common.png",
-      "videoFile": "electric_RedStatic_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "crossingchrono",
+        "NatDelos",
         "ArchangelEmperor"
       ],
-      "catchCount": 2,
+      "catchCount": 4,
       "catchImages": [
         {
           "username": "archangelemperor",
           "displayName": "ArchangelEmperor",
-          "file": "catches/archangelemperor_Redstatic_20260217_222127.png",
-          "timestamp": "20260217_222127",
+          "file": "catches/archangelemperor_Frecklefiend_20260212_235805.png",
+          "timestamp": "20260212_235805",
           "isVideo": false
         },
         {
           "username": "crossingchrono",
           "displayName": "crossingchrono",
-          "file": "catches/crossingchrono_Redstatic_20260208_003645.png",
-          "timestamp": "20260208_003645",
-          "isVideo": false
-        }
-      ]
-    },
-    {
-      "name": "StaticBeard",
-      "displayName": "Staticbeard",
-      "type": "electric",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "electric_StaticBeard_common.png",
-      "videoFile": "electric_StaticBeard_common.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [
-        "ArchangelEmperor",
-        "ChosenDolan"
-      ],
-      "catchCount": 2,
-      "catchImages": [
-        {
-          "username": "archangelemperor",
-          "displayName": "ArchangelEmperor",
-          "file": "catches/archangelemperor_Staticbeard_20260219_230719.png",
-          "timestamp": "20260219_230719",
+          "file": "catches/crossingchrono_Frecklefiend_20260213_225647.png",
+          "timestamp": "20260213_225647",
           "isVideo": false
         },
         {
-          "username": "chosendolan",
-          "displayName": "ChosenDolan",
-          "file": "catches/chosendolan_Staticbeard_20260222_010228.mp4",
-          "timestamp": "20260222_010228",
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Frecklefiend_20260213_221705.mp4",
+          "timestamp": "20260213_221705",
+          "isVideo": true
+        },
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Frecklefiend_20260218_013028.mp4",
+          "timestamp": "20260218_013028",
           "isVideo": true
         }
       ]
-    },
-    {
-      "name": "EmberCrown",
-      "displayName": "Embercrown",
-      "type": "fire",
-      "rarity": "rare",
-      "rarityDisplay": "Rare",
-      "rarityColor": "#3b82f6",
-      "rarityTier": 2,
-      "pullRate": 25.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "fire_EmberCrown_rare.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "GingerAlpha",
-      "displayName": "Gingeralpha",
-      "type": "normal",
-      "rarity": "rare",
-      "rarityDisplay": "Rare",
-      "rarityColor": "#3b82f6",
-      "rarityTier": 2,
-      "pullRate": 25.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "normal_GingerAlpha_rare.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
     },
     {
       "name": "GingerPrime",
-      "displayName": "Gingerprime",
+      "displayName": "Ginger Prime",
       "type": "normal",
       "rarity": "rare",
       "rarityDisplay": "Rare",
@@ -767,9 +747,11 @@
       "pullRate": 25.0,
       "hasVideo": true,
       "hasImage": true,
-      "imageFile": "normal_GingerPrime_rare.png",
       "videoFile": "normal_GingerPrime_rare.mp4",
+      "imageFile": "normal_GingerPrime_rare.png",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 16,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -789,52 +771,8 @@
       ]
     },
     {
-      "name": "GingerUnbound",
-      "displayName": "Gingerunbound",
-      "type": "normal",
-      "rarity": "rare",
-      "rarityDisplay": "Rare",
-      "rarityColor": "#3b82f6",
-      "rarityTier": 2,
-      "pullRate": 25.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "normal_GingerUnbound_rare.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "RedSurge",
-      "displayName": "Redsurge",
-      "type": "electric",
-      "rarity": "rare",
-      "rarityDisplay": "Rare",
-      "rarityColor": "#3b82f6",
-      "rarityTier": 2,
-      "pullRate": 25.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "imageFile": "electric_RedSurge_rare.png",
-      "videoFile": "electric_RedSurge_rare.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
       "name": "ScarletMenace",
-      "displayName": "Scarletmenace",
+      "displayName": "Scarlet Menace",
       "type": "fire",
       "rarity": "rare",
       "rarityDisplay": "Rare",
@@ -843,9 +781,11 @@
       "pullRate": 25.0,
       "hasVideo": true,
       "hasImage": true,
-      "imageFile": "fire_ScarletMenace_rare.png",
       "videoFile": "fire_ScarletMenace_rare.mp4",
+      "imageFile": "fire_ScarletMenace_rare.png",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 17,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -866,7 +806,7 @@
     },
     {
       "name": "VoidBeard",
-      "displayName": "Voidbeard",
+      "displayName": "Void Beard",
       "type": "dark",
       "rarity": "rare",
       "rarityDisplay": "Rare",
@@ -875,9 +815,11 @@
       "pullRate": 25.0,
       "hasVideo": true,
       "hasImage": true,
-      "imageFile": "dark_VoidBeard_rare.png",
       "videoFile": "dark_VoidBeard_rare.mp4",
+      "imageFile": "dark_VoidBeard_rare.png",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 18,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -897,8 +839,80 @@
       ]
     },
     {
-      "name": "FireCrotchEX",
-      "displayName": "Firecrotchex",
+      "name": "RedSurge",
+      "displayName": "Red Surge",
+      "type": "electric",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 2,
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "electric_RedSurge_rare.mp4",
+      "imageFile": "electric_RedSurge_rare.png",
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 19,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "EmberCrown",
+      "displayName": "Ember Crown",
+      "type": "fire",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 2,
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "fire_EmberCrown_rare.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 20,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "GingerAlpha",
+      "displayName": "Ginger Alpha",
+      "type": "normal",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 2,
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "normal_GingerAlpha_rare.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 21,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "SolarBeard",
+      "displayName": "Solar Beard",
       "type": "fire",
       "rarity": "holo",
       "rarityDisplay": "Holo",
@@ -907,9 +921,93 @@
       "pullRate": 12.0,
       "hasVideo": true,
       "hasImage": false,
+      "videoFile": "fire_SolarBeard_holo.mp4",
       "imageFile": null,
-      "videoFile": "fire_FireCrotchEX_holo.mp4",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 22,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "RedStaticEX",
+      "displayName": "Red Static EX",
+      "type": "electric",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "electric_RedStaticEX_holo.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 23,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [
+        "squanchymoto"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Redstaticex_20260213_230646.mp4",
+          "timestamp": "20260213_230646",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "GingerUnbound",
+      "displayName": "Ginger Unbound",
+      "type": "normal",
+      "rarity": "rare",
+      "rarityDisplay": "Rare",
+      "rarityColor": "#3b82f6",
+      "rarityTier": 2,
+      "pullRate": 25.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "normal_GingerUnbound_rare.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 24,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "FireCrotchEX",
+      "displayName": "Fire Crotch EX",
+      "type": "fire",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "fire_FireCrotchEX_holo.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 25,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -937,106 +1035,42 @@
       ]
     },
     {
-      "name": "RedStaticEX",
-      "displayName": "Redstaticex",
-      "type": "electric",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
+      "name": "GingerManEvo",
+      "displayName": "GingerMan Evo",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 4,
+      "pullRate": 6.0,
       "hasVideo": true,
       "hasImage": false,
+      "videoFile": "normal_GingerManEvo_evolution.mp4",
       "imageFile": null,
-      "videoFile": "electric_RedStaticEX_holo.mp4",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 26,
       "hp": null,
       "moves": null,
       "weakness": null,
       "resistance": null,
       "caughtBy": [
-        "squanchymoto"
+        "ChosenDolan"
       ],
       "catchCount": 1,
       "catchImages": [
         {
-          "username": "squanchymoto",
-          "displayName": "squanchymoto",
-          "file": "catches/squanchymoto_Redstaticex_20260213_230646.mp4",
-          "timestamp": "20260213_230646",
+          "username": "chosendolan",
+          "displayName": "ChosenDolan",
+          "file": "catches/chosendolan_Gingermanevo_20260222_012622.mp4",
+          "timestamp": "20260222_012622",
           "isVideo": true
         }
       ]
     },
     {
-      "name": "SolarBeard",
-      "displayName": "Solarbeard",
-      "type": "fire",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "fire_SolarBeard_holo.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "DaywalkerAscended",
-      "displayName": "Daywalkerascended",
-      "type": "normal",
-      "rarity": "evolution",
-      "rarityDisplay": "Evolution",
-      "rarityColor": "#22c55e",
-      "rarityTier": 4,
-      "pullRate": 6.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "normal_DaywalkerAscended_evolution.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "FrostGinger",
-      "displayName": "Frostginger",
-      "type": "ice",
-      "rarity": "evolution",
-      "rarityDisplay": "Evolution",
-      "rarityColor": "#22c55e",
-      "rarityTier": 4,
-      "pullRate": 6.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "ice_FrostGinger_evolution.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
       "name": "GingerBeardManEvo",
-      "displayName": "Gingerbeardmanevo",
+      "displayName": "Ginger Beard Man Evo",
       "type": "normal",
       "rarity": "evolution",
       "rarityDisplay": "Evolution",
@@ -1045,9 +1079,11 @@
       "pullRate": 6.0,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "normal_GingerBeardManEvo_evolution.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 27,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1075,8 +1111,8 @@
       ]
     },
     {
-      "name": "GingerManEvo",
-      "displayName": "Gingermanevo",
+      "name": "NatDelosAscended",
+      "displayName": "NatDelos Ascended",
       "type": "normal",
       "rarity": "evolution",
       "rarityDisplay": "Evolution",
@@ -1085,30 +1121,142 @@
       "pullRate": 6.0,
       "hasVideo": true,
       "hasImage": false,
+      "videoFile": "normal_NatDelosAscended_evolution.mp4",
       "imageFile": null,
-      "videoFile": "normal_GingerManEvo_evolution.mp4",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 28,
       "hp": null,
       "moves": null,
       "weakness": null,
       "resistance": null,
-      "caughtBy": [
-        "ChosenDolan"
-      ],
-      "catchCount": 1,
-      "catchImages": [
-        {
-          "username": "chosendolan",
-          "displayName": "ChosenDolan",
-          "file": "catches/chosendolan_Gingermanevo_20260222_012622.mp4",
-          "timestamp": "20260222_012622",
-          "isVideo": true
-        }
-      ]
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "EmberLord",
+      "displayName": "Ember Lord",
+      "type": "fire",
+      "rarity": "evolutionholo",
+      "rarityDisplay": "Evolution Holo",
+      "rarityColor": "#06b6d4",
+      "rarityTier": 5,
+      "pullRate": 3.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "fire_EmberLord_evolutionholo.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 29,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "RedStaticMAX",
+      "displayName": "Red Static MAX",
+      "type": "electric",
+      "rarity": "evolutionholo",
+      "rarityDisplay": "Evolution Holo",
+      "rarityColor": "#06b6d4",
+      "rarityTier": 5,
+      "pullRate": 3.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "electric_RedStaticMAX_evolutionholo.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 30,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "ScarletMenaceEX",
+      "displayName": "Scarlet Menace EX",
+      "type": "fire",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "fire_ScarletMenaceEX_evolutionex.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 31,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "VoidBeardEX",
+      "displayName": "Void Beard EX",
+      "type": "dark",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "dark_VoidBeardEX_evolutionex.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 32,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "tcg loop",
+      "displayName": "tcg loop",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 4,
+      "pullRate": 6.0,
+      "hasVideo": false,
+      "hasImage": false,
+      "videoFile": null,
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 33,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
     },
     {
       "name": "GroveGinger",
-      "displayName": "Groveginger",
+      "displayName": "Grove Ginger",
       "type": "grass",
       "rarity": "evolution",
       "rarityDisplay": "Evolution",
@@ -1117,9 +1265,11 @@
       "pullRate": 6.0,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "grass_GroveGinger_evolution.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 34,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1139,9 +1289,9 @@
       ]
     },
     {
-      "name": "NatDelosAscended",
-      "displayName": "Natdelosascended",
-      "type": "normal",
+      "name": "FrostGinger",
+      "displayName": "Frost Ginger",
+      "type": "ice",
       "rarity": "evolution",
       "rarityDisplay": "Evolution",
       "rarityColor": "#22c55e",
@@ -1149,9 +1299,11 @@
       "pullRate": 6.0,
       "hasVideo": true,
       "hasImage": false,
+      "videoFile": "ice_FrostGinger_evolution.mp4",
       "imageFile": null,
-      "videoFile": "normal_NatDelosAscended_evolution.mp4",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 35,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1162,7 +1314,7 @@
     },
     {
       "name": "StaticBeardV2",
-      "displayName": "Staticbeardv2",
+      "displayName": "Static Beard V2",
       "type": "electric",
       "rarity": "evolution",
       "rarityDisplay": "Evolution",
@@ -1171,119 +1323,11 @@
       "pullRate": 6.0,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "electric_StaticBeardV2_evolution.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "EmberLord",
-      "displayName": "Emberlord",
-      "type": "fire",
-      "rarity": "evolutionholo",
-      "rarityDisplay": "Evolution Holo",
-      "rarityColor": "#06b6d4",
-      "rarityTier": 5,
-      "pullRate": 3.0,
-      "hasVideo": true,
-      "hasImage": false,
       "imageFile": null,
-      "videoFile": "fire_EmberLord_evolutionholo.mp4",
       "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "RedStaticMAX",
-      "displayName": "Redstaticmax",
-      "type": "electric",
-      "rarity": "evolutionholo",
-      "rarityDisplay": "Evolution Holo",
-      "rarityColor": "#06b6d4",
-      "rarityTier": 5,
-      "pullRate": 3.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "electric_RedStaticMAX_evolutionholo.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "FreckleFiendEX",
-      "displayName": "Frecklefiendex",
-      "type": "dark",
-      "rarity": "evolutionex",
-      "rarityDisplay": "Evolution EX",
-      "rarityColor": "#f59e0b",
-      "rarityTier": 6,
-      "pullRate": 2.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "dark_FreckleFiendEX_evolutionex.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "ScarletMenaceEX",
-      "displayName": "Scarletmenaceex",
-      "type": "fire",
-      "rarity": "evolutionex",
-      "rarityDisplay": "Evolution EX",
-      "rarityColor": "#f59e0b",
-      "rarityTier": 6,
-      "pullRate": 2.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "fire_ScarletMenaceEX_evolutionex.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "VoidBeardEX",
-      "displayName": "Voidbeardex",
-      "type": "dark",
-      "rarity": "evolutionex",
-      "rarityDisplay": "Evolution EX",
-      "rarityColor": "#f59e0b",
-      "rarityTier": 6,
-      "pullRate": 2.0,
-      "hasVideo": true,
-      "hasImage": false,
-      "imageFile": null,
-      "videoFile": "dark_VoidBeardEX_evolutionex.mp4",
-      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 36,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1294,7 +1338,7 @@
     },
     {
       "name": "BurntTipsMAX",
-      "displayName": "Burnttipsmax",
+      "displayName": "Burnt Tips MAX",
       "type": "fire",
       "rarity": "evolutionmax",
       "rarityDisplay": "Evolution MAX",
@@ -1303,9 +1347,11 @@
       "pullRate": 1.0,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "fire_BurntTipsMAX_evolutionmax.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 37,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1315,19 +1361,69 @@
       "catchImages": []
     },
     {
-      "name": "MegaFireCrotch",
-      "displayName": "Megafirecrotch",
-      "type": "fire",
-      "rarity": "megaultra",
-      "rarityDisplay": "Mega Ultra",
-      "rarityColor": "#ec4899",
-      "rarityTier": 9,
-      "pullRate": 0.5,
+      "name": "DaywalkerAscended",
+      "displayName": "Daywalker Ascended",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 4,
+      "pullRate": 6.0,
       "hasVideo": true,
       "hasImage": false,
+      "videoFile": "normal_DaywalkerAscended_evolution.mp4",
       "imageFile": null,
-      "videoFile": "fire_MegaFireCrotch_megaultra.mp4",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 38,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "FreckleFiendEX",
+      "displayName": "Freckle Fiend EX",
+      "type": "dark",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "dark_FreckleFiendEX_evolutionex.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 39,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "???",
+      "displayName": "???",
+      "type": "normal",
+      "rarity": "evolution",
+      "rarityDisplay": "Evolution",
+      "rarityColor": "#22c55e",
+      "rarityTier": 4,
+      "pullRate": 6.0,
+      "hasVideo": false,
+      "hasImage": false,
+      "videoFile": null,
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 40,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1338,7 +1434,7 @@
     },
     {
       "name": "MegaGinger",
-      "displayName": "Megaginger",
+      "displayName": "Mega Ginger",
       "type": "normal",
       "rarity": "megaultra",
       "rarityDisplay": "Mega Ultra",
@@ -1347,9 +1443,35 @@
       "pullRate": 0.5,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "normal_MegaGinger_megaultra.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 41,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "MegaFireCrotch",
+      "displayName": "Mega Fire Crotch",
+      "type": "fire",
+      "rarity": "megaultra",
+      "rarityDisplay": "Mega Ultra",
+      "rarityColor": "#ec4899",
+      "rarityTier": 9,
+      "pullRate": 0.5,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "fire_MegaFireCrotch_megaultra.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 42,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1360,7 +1482,7 @@
     },
     {
       "name": "MegaGingerBeardMan",
-      "displayName": "Megagingerbeardman",
+      "displayName": "Mega Ginger Beard Man",
       "type": "normal",
       "rarity": "megaultra",
       "rarityDisplay": "Mega Ultra",
@@ -1369,9 +1491,11 @@
       "pullRate": 0.5,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "normal_MegaGingerBeardMan_megaultra.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 43,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1382,7 +1506,7 @@
     },
     {
       "name": "MegaNatDelos",
-      "displayName": "Meganatdelos",
+      "displayName": "Mega NatDelos",
       "type": "psychic",
       "rarity": "megaultra",
       "rarityDisplay": "Mega Ultra",
@@ -1391,9 +1515,11 @@
       "pullRate": 0.5,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "psychic_MegaNatDelos_megaultra.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 44,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1404,7 +1530,7 @@
     },
     {
       "name": "GingerPrimeMAX",
-      "displayName": "Gingerprimemax",
+      "displayName": "Ginger Prime MAX",
       "type": "normal",
       "rarity": "maxultra",
       "rarityDisplay": "MAX Ultra",
@@ -1413,31 +1539,11 @@
       "pullRate": 0.25,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "normal_GingerPrimeMAX_maxultra.mp4",
-      "region": "Original",
-      "hp": null,
-      "moves": null,
-      "weakness": null,
-      "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "BrandoniMacRoniSupreme",
-      "displayName": "Brandonimacronisupreme",
-      "type": "normal",
-      "rarity": "legendary",
-      "rarityDisplay": "Legendary",
-      "rarityColor": "#eab308",
-      "rarityTier": 11,
-      "pullRate": 0.15,
-      "hasVideo": true,
-      "hasImage": false,
       "imageFile": null,
-      "videoFile": "normal_BrandoniMacRoniSupreme_legendary.mp4",
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 45,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1448,7 +1554,7 @@
     },
     {
       "name": "TheUnavoidableGinger",
-      "displayName": "Theunavoidableginger",
+      "displayName": "The Unavoidable Ginger",
       "type": "normal",
       "rarity": "legendary",
       "rarityDisplay": "Legendary",
@@ -1457,9 +1563,35 @@
       "pullRate": 0.15,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "normal_TheUnavoidableGinger_legendary.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 46,
+      "hp": null,
+      "moves": null,
+      "weakness": null,
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "BrandoniMacRoniSupreme",
+      "displayName": "Brandoni MacRoni Supreme",
+      "type": "normal",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": false,
+      "videoFile": "normal_BrandoniMacRoniSupreme_legendary.mp4",
+      "imageFile": null,
+      "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 47,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1470,7 +1602,7 @@
     },
     {
       "name": "GingerGod",
-      "displayName": "Gingergod",
+      "displayName": "Ginger God",
       "type": "normal",
       "rarity": "mythic",
       "rarityDisplay": "Mythic",
@@ -1479,9 +1611,11 @@
       "pullRate": 0.08,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "normal_GingerGod_mythic.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 48,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1492,7 +1626,7 @@
     },
     {
       "name": "FirstFollicle",
-      "displayName": "Firstfollicle",
+      "displayName": "First Follicle",
       "type": "fire",
       "rarity": "1stedition",
       "rarityDisplay": "1st Edition",
@@ -1501,9 +1635,11 @@
       "pullRate": 0.04,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "fire_FirstFollicle_1stedition.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 49,
       "hp": null,
       "moves": null,
       "weakness": null,
@@ -1514,7 +1650,7 @@
     },
     {
       "name": "ChatsWorstNightmare",
-      "displayName": "Chatsworstnightmare",
+      "displayName": "Chat's Worst Nightmare",
       "type": "chaos",
       "rarity": "chaos",
       "rarityDisplay": "Chaos",
@@ -1523,843 +1659,15 @@
       "pullRate": 0.03,
       "hasVideo": true,
       "hasImage": false,
-      "imageFile": null,
       "videoFile": "chaos_ChatsWorstNightmare_chaos.mp4",
+      "imageFile": null,
       "region": "Original",
+      "regionOrder": 0,
+      "cardNumber": 50,
       "hp": null,
       "moves": null,
       "weakness": null,
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Chilltop",
-      "displayName": "Chilltop",
-      "type": "ice",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/06_Chilltop.mp4",
-      "imageFile": "Skyfrost Vale/PNG/06_Chilltop.png",
-      "region": "Skyfrost Vale",
-      "hp": 80,
-      "moves": [
-        {
-          "name": "Frost Pulse",
-          "damage": 20
-        },
-        {
-          "name": "Ice Snap",
-          "damage": 40
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": "Water",
-      "cardNumber": 6,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Coppice",
-      "displayName": "Coppice",
-      "type": "ice",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/08_Coppice.mp4",
-      "imageFile": "Skyfrost Vale/PNG/08_Coppice.png",
-      "region": "Skyfrost Vale",
-      "hp": 90,
-      "moves": [
-        {
-          "name": "Glaze Strike",
-          "damage": 30
-        },
-        {
-          "name": "Deep Freeze",
-          "damage": 60
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": "Water",
-      "cardNumber": 8,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Frecklark",
-      "displayName": "Frecklark",
-      "type": "flying",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/09_Frecklark.mp4",
-      "imageFile": "Skyfrost Vale/PNG/09_Frecklark.png",
-      "region": "Skyfrost Vale",
-      "hp": 100,
-      "moves": [
-        {
-          "name": "Quick Gust",
-          "damage": 40
-        },
-        {
-          "name": "Sky Peck",
-          "damage": 60
-        }
-      ],
-      "weakness": "Electric",
-      "resistance": null,
-      "cardNumber": 9,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Frostfreck",
-      "displayName": "Frostfreck",
-      "type": "ice",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/02_Frostfreck.mp4",
-      "imageFile": "Skyfrost Vale/PNG/02_Frostfreck.png",
-      "region": "Skyfrost Vale",
-      "hp": 50,
-      "moves": [
-        {
-          "name": "Numb Touch",
-          "damage": 10
-        },
-        {
-          "name": "Cold Shoulder",
-          "damage": 20
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": "Water",
-      "cardNumber": 2,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Gingale",
-      "displayName": "Gingale",
-      "type": "flying",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/01_Gingale.mp4",
-      "imageFile": "Skyfrost Vale/PNG/01_Gingale.png",
-      "region": "Skyfrost Vale",
-      "hp": 60,
-      "moves": [
-        {
-          "name": "Gust Step",
-          "damage": 10
-        },
-        {
-          "name": "Lift Away",
-          "damage": 20
-        }
-      ],
-      "weakness": "Electric",
-      "resistance": "Fighting",
-      "cardNumber": 1,
-      "caughtBy": [
-        "jennifyrre"
-      ],
-      "catchCount": 1,
-      "catchImages": [
-        {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Gingale_20260222_205047.mp4",
-          "timestamp": "20260222_205047",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "name": "Ginjynx",
-      "displayName": "Ginjynx",
-      "type": "psychic",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/07_Ginjynx.mp4",
-      "imageFile": "Skyfrost Vale/PNG/07_Ginjynx.png",
-      "region": "Skyfrost Vale",
-      "hp": 90,
-      "moves": [
-        {
-          "name": "Mental Loop",
-          "damage": 30
-        },
-        {
-          "name": "Jinx Burst",
-          "damage": 50
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": null,
-      "cardNumber": 7,
-      "caughtBy": [
-        "ArchangelEmperor"
-      ],
-      "catchCount": 1,
-      "catchImages": [
-        {
-          "username": "archangelemperor",
-          "displayName": "ArchangelEmperor",
-          "file": "catches/archangelemperor_Ginjynx_20260222_190855.png",
-          "timestamp": "20260222_190855",
-          "isVideo": false
-        }
-      ]
-    },
-    {
-      "name": "Psyginge",
-      "displayName": "Psyginge",
-      "type": "psychic",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/04_Psyginge.mp4",
-      "imageFile": "Skyfrost Vale/PNG/04_Psyginge.png",
-      "region": "Skyfrost Vale",
-      "hp": 80,
-      "moves": [
-        {
-          "name": "Mind Glance",
-          "damage": 20
-        },
-        {
-          "name": "Future Tense",
-          "damage": 30
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": "Psychic",
-      "cardNumber": 4,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Rangale",
-      "displayName": "Rangale",
-      "type": "flying",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/05_Rangale.mp4",
-      "imageFile": "Skyfrost Vale/PNG/05_Rangale.png",
-      "region": "Skyfrost Vale",
-      "hp": 90,
-      "moves": [
-        {
-          "name": "Updraft",
-          "damage": 30
-        },
-        {
-          "name": "Razor Wind",
-          "damage": 40
-        }
-      ],
-      "weakness": "Electric",
-      "resistance": "Grass",
-      "cardNumber": 5,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Redrift",
-      "displayName": "Redrift",
-      "type": "flying",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/03_Redrift.mp4",
-      "imageFile": "Skyfrost Vale/PNG/03_Redrift.png",
-      "region": "Skyfrost Vale",
-      "hp": 70,
-      "moves": [
-        {
-          "name": "Air Drift",
-          "damage": 20
-        },
-        {
-          "name": "Sudden Drop",
-          "damage": 30
-        }
-      ],
-      "weakness": "Electric",
-      "resistance": null,
-      "cardNumber": 3,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Snowlless",
-      "displayName": "Snowlless",
-      "type": "ice / psychic",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/10_Snowlless.mp4",
-      "imageFile": "Skyfrost Vale/PNG/10_Snowlless.png",
-      "region": "Skyfrost Vale",
-      "hp": 110,
-      "moves": [
-        {
-          "name": "Thought Chill",
-          "damage": 40
-        },
-        {
-          "name": "Blank Mind",
-          "damage": 70
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": null,
-      "cardNumber": 10,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Gingnosis",
-      "displayName": "Gingnosis",
-      "type": "psychic",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/13_Gingnosis.mp4",
-      "imageFile": "Skyfrost Vale/PNG/13_Gingnosis.png",
-      "region": "Skyfrost Vale",
-      "hp": 140,
-      "moves": [
-        {
-          "name": "Psychic Grip",
-          "damage": 60
-        },
-        {
-          "name": "Brain Crush",
-          "damage": 100
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": null,
-      "cardNumber": 13,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Icelannie",
-      "displayName": "Icelannie",
-      "type": "ice",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/14_Icelannie.mp4",
-      "imageFile": "Skyfrost Vale/PNG/14_Icelannie.png",
-      "region": "Skyfrost Vale",
-      "hp": 120,
-      "moves": [
-        {
-          "name": "Snow Glaze",
-          "damage": 50
-        },
-        {
-          "name": "Winter Spin",
-          "damage": 80
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": null,
-      "cardNumber": 14,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Oracopper",
-      "displayName": "Oracopper",
-      "type": "psychic / flying",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/15_Oracopper.mp4",
-      "imageFile": "Skyfrost Vale/PNG/15_Oracopper.png",
-      "region": "Skyfrost Vale",
-      "hp": 150,
-      "moves": [
-        {
-          "name": "Clairwind",
-          "damage": 70
-        },
-        {
-          "name": "Predict the Fall",
-          "damage": 110
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": "Fighting",
-      "cardNumber": 15,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Redgael",
-      "displayName": "Redgael",
-      "type": "flying",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/11_Redgael.mp4",
-      "imageFile": "Skyfrost Vale/PNG/11_Redgael.png",
-      "region": "Skyfrost Vale",
-      "hp": 120,
-      "moves": [
-        {
-          "name": "High Ground",
-          "damage": 50
-        },
-        {
-          "name": "Gale Crash",
-          "damage": 80
-        }
-      ],
-      "weakness": "Electric",
-      "resistance": null,
-      "cardNumber": 11,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Rustrime",
-      "displayName": "Rustrime",
-      "type": "ice",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/12_Rustrime.mp4",
-      "imageFile": "Skyfrost Vale/PNG/12_Rustrime.png",
-      "region": "Skyfrost Vale",
-      "hp": 130,
-      "moves": [
-        {
-          "name": "Frost Guard",
-          "damage": 60
-        },
-        {
-          "name": "Permafrost Slam",
-          "damage": 90
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": "Water",
-      "cardNumber": 12,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Chillvitis",
-      "displayName": "Chillvitis",
-      "type": "ice / psychic",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/19_Chillvitis.mp4",
-      "imageFile": "Skyfrost Vale/PNG/19_Chillvitis.png",
-      "region": "Skyfrost Vale",
-      "hp": 200,
-      "moves": [
-        {
-          "name": "Neural Frost",
-          "damage": 110
-        },
-        {
-          "name": "Cognitive Freeze",
-          "damage": 160
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": null,
-      "cardNumber": 19,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Frostfreign",
-      "displayName": "Frostfreign",
-      "type": "ice",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/16_Frostfreign.mp4",
-      "imageFile": "Skyfrost Vale/PNG/16_Frostfreign.png",
-      "region": "Skyfrost Vale",
-      "hp": 170,
-      "moves": [
-        {
-          "name": "Frozen Thought",
-          "damage": 80
-        },
-        {
-          "name": "Glacial Dominion",
-          "damage": 130
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": null,
-      "cardNumber": 16,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Ginjaleon",
-      "displayName": "Ginjaleon",
-      "type": "flying / psychic",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/20_Ginjaleon.mp4",
-      "imageFile": "Skyfrost Vale/PNG/20_Ginjaleon.png",
-      "region": "Skyfrost Vale",
-      "hp": 210,
-      "moves": [
-        {
-          "name": "Sky Mind",
-          "damage": 120
-        },
-        {
-          "name": "Reality Bend",
-          "damage": 170
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": null,
-      "cardNumber": 20,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Mindranga",
-      "displayName": "Mindranga",
-      "type": "psychic",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/18_Mindranga.mp4",
-      "imageFile": "Skyfrost Vale/PNG/18_Mindranga.png",
-      "region": "Skyfrost Vale",
-      "hp": 190,
-      "moves": [
-        {
-          "name": "Thought Pierce",
-          "damage": 100
-        },
-        {
-          "name": "Overthink Collapse",
-          "damage": 150
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": null,
-      "cardNumber": 18,
-      "caughtBy": [
-        "squanchymoto"
-      ],
-      "catchCount": 1,
-      "catchImages": [
-        {
-          "username": "squanchymoto",
-          "displayName": "squanchymoto",
-          "file": "catches/squanchymoto_Mindranga_20260222_200108.png",
-          "timestamp": "20260222_200108",
-          "isVideo": false
-        }
-      ]
-    },
-    {
-      "name": "Skyfrekon",
-      "displayName": "Skyfrekon",
-      "type": "flying",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/17_Skyfrekon.mp4",
-      "imageFile": "Skyfrost Vale/PNG/17_Skyfrekon.png",
-      "region": "Skyfrost Vale",
-      "hp": 180,
-      "moves": [
-        {
-          "name": "Hurricane Drive",
-          "damage": 90
-        },
-        {
-          "name": "Atmospheric Crush",
-          "damage": 140
-        }
-      ],
-      "weakness": "Electric",
-      "resistance": null,
-      "cardNumber": 17,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Frostfreign EX",
-      "displayName": "Frostfreign EX",
-      "type": "ice",
-      "rarity": "ex",
-      "rarityDisplay": "EX",
-      "rarityColor": "#f59e0b",
-      "rarityTier": 7,
-      "pullRate": 1.5,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/22_Frostfreign_EX.mp4",
-      "imageFile": "Skyfrost Vale/PNG/22_Frostfreign_EX.png",
-      "region": "Skyfrost Vale",
-      "hp": 240,
-      "moves": [
-        {
-          "name": "Absolute Zero",
-          "damage": 150
-        },
-        {
-          "name": "Kingdom of Cold",
-          "damage": 200
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": null,
-      "cardNumber": 22,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Psyfrex EX",
-      "displayName": "Psyfrex EX",
-      "type": "psychic",
-      "rarity": "ex",
-      "rarityDisplay": "EX",
-      "rarityColor": "#f59e0b",
-      "rarityTier": 7,
-      "pullRate": 1.5,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/23_Psyfrex_EX.mp4",
-      "imageFile": "Skyfrost Vale/PNG/23_Psyfrex_EX.png",
-      "region": "Skyfrost Vale",
-      "hp": 250,
-      "moves": [
-        {
-          "name": "Neural Overload",
-          "damage": 160
-        },
-        {
-          "name": "Thought Storm",
-          "damage": 210
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": null,
-      "cardNumber": 23,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Redgaelux EX",
-      "displayName": "Redgaelux EX",
-      "type": "flying",
-      "rarity": "ex",
-      "rarityDisplay": "EX",
-      "rarityColor": "#f59e0b",
-      "rarityTier": 7,
-      "pullRate": 1.5,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/21_Redgaelux_EX.mp4",
-      "imageFile": "Skyfrost Vale/PNG/21_Redgaelux_EX.png",
-      "region": "Skyfrost Vale",
-      "hp": 230,
-      "moves": [
-        {
-          "name": "Terminal Drop",
-          "damage": 140
-        },
-        {
-          "name": "Skyspace Control",
-          "damage": 190
-        }
-      ],
-      "weakness": "Electric",
-      "resistance": null,
-      "cardNumber": 21,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Absolute Ranga",
-      "displayName": "Absolute Ranga",
-      "type": "ice / psychic",
-      "rarity": "legendary",
-      "rarityDisplay": "Legendary",
-      "rarityColor": "#eab308",
-      "rarityTier": 11,
-      "pullRate": 0.15,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/24_Absolute_Ranga.mp4",
-      "imageFile": "Skyfrost Vale/PNG/24_Absolute_Ranga.png",
-      "region": "Skyfrost Vale",
-      "hp": 280,
-      "moves": [
-        {
-          "name": "Frozen World",
-          "damage": 200
-        },
-        {
-          "name": "Eternal Winter",
-          "damage": 260
-        }
-      ],
-      "weakness": "Fire",
-      "resistance": null,
-      "cardNumber": 24,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Ginjathrone",
-      "displayName": "Ginjathrone",
-      "type": "flying / psychic",
-      "rarity": "legendary",
-      "rarityDisplay": "Legendary",
-      "rarityColor": "#eab308",
-      "rarityTier": 11,
-      "pullRate": 0.15,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Skyfrost Vale/25_Ginjathrone.mp4",
-      "imageFile": "Skyfrost Vale/PNG/25_Ginjathrone.png",
-      "region": "Skyfrost Vale",
-      "hp": 320,
-      "moves": [
-        {
-          "name": "Sky Judgment",
-          "damage": 220
-        },
-        {
-          "name": "Crown of Cold Thought",
-          "damage": 300
-        }
-      ],
-      "weakness": "Dark",
-      "resistance": null,
-      "cardNumber": 25,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2378,6 +1686,8 @@
       "videoFile": "Umbrareach/01_Daywalker.mp4",
       "imageFile": "Umbrareach/PNG/01_Daywalker.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 1,
       "hp": 60,
       "moves": [
         {
@@ -2391,9 +1701,11 @@
       ],
       "weakness": "Light",
       "resistance": "Psychic",
-      "cardNumber": 1,
-      "caughtBy": [],
-      "catchCount": 0,
+      "caughtBy": [
+        "crossingchrono",
+        "zecourtastrophe"
+      ],
+      "catchCount": 2,
       "catchImages": [
         {
           "username": "crossingchrono",
@@ -2412,40 +1724,8 @@
       ]
     },
     {
-      "name": "Dead Signal",
-      "displayName": "Dead Signal",
-      "type": "dark / electric",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Umbrareach/06_Dead_Signal.mp4",
-      "imageFile": "Umbrareach/PNG/06_Dead_Signal.png",
-      "region": "Umbrareach",
-      "hp": 90,
-      "moves": [
-        {
-          "name": "Blackout Pulse",
-          "damage": 30
-        },
-        {
-          "name": "Signal Collapse",
-          "damage": 50
-        }
-      ],
-      "weakness": "Ground",
-      "resistance": null,
-      "cardNumber": 6,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Faceless Ginger",
-      "displayName": "Faceless Ginger",
+      "name": "No-Soul Ginger",
+      "displayName": "No-Soul Ginger",
       "type": "dark",
       "rarity": "common",
       "rarityDisplay": "Common",
@@ -2454,87 +1734,24 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "videoFile": "Umbrareach/09_Faceless_Ginger.mp4",
-      "imageFile": "Umbrareach/PNG/09_Faceless_Ginger.png",
+      "videoFile": "Umbrareach/02_No-Soul_Ginger.mp4",
+      "imageFile": "Umbrareach/PNG/02_No-Soul_Ginger.png",
       "region": "Umbrareach",
-      "hp": 120,
+      "regionOrder": 1,
+      "cardNumber": 2,
+      "hp": 50,
       "moves": [
         {
-          "name": "Empty Gaze",
-          "damage": 40
+          "name": "Hide Away",
+          "damage": 10
         },
         {
-          "name": "Identity Erase",
-          "damage": 80
-        }
-      ],
-      "weakness": "Fairy",
-      "resistance": null,
-      "cardNumber": 9,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Fire Crotch",
-      "displayName": "Fire Crotch",
-      "type": "dark / fire",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Umbrareach/05_Fire_Crotch.mp4",
-      "imageFile": "Umbrareach/PNG/05_Fire_Crotch.png",
-      "region": "Umbrareach",
-      "hp": 80,
-      "moves": [
-        {
-          "name": "Smolder Grasp",
+          "name": "Sudden Lunge",
           "damage": 20
-        },
-        {
-          "name": "Cinder Choke",
-          "damage": 40
-        }
-      ],
-      "weakness": "Water",
-      "resistance": "Grass",
-      "cardNumber": 5,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Flickerhead",
-      "displayName": "Flickerhead",
-      "type": "dark",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Umbrareach/04_Flickerhead.mp4",
-      "imageFile": "Umbrareach/PNG/04_Flickerhead.png",
-      "region": "Umbrareach",
-      "hp": 60,
-      "moves": [
-        {
-          "name": "Flicker",
-          "damage": 20
-        },
-        {
-          "name": "Soul Chill",
-          "damage": 40
         }
       ],
       "weakness": "Light",
       "resistance": null,
-      "cardNumber": 4,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2553,6 +1770,8 @@
       "videoFile": "Umbrareach/03_Ginger_After_Dark.mp4",
       "imageFile": "Umbrareach/PNG/03_Ginger_After_Dark.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 3,
       "hp": 70,
       "moves": [
         {
@@ -2566,7 +1785,6 @@
       ],
       "weakness": "Light",
       "resistance": null,
-      "cardNumber": 3,
       "caughtBy": [
         "jennifyrre"
       ],
@@ -2582,8 +1800,8 @@
       ]
     },
     {
-      "name": "Lead Boots",
-      "displayName": "Lead Boots",
+      "name": "Flickerhead",
+      "displayName": "Flickerhead",
       "type": "dark",
       "rarity": "common",
       "rarityDisplay": "Common",
@@ -2592,63 +1810,32 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "videoFile": "Umbrareach/10_Lead_Boots.mp4",
-      "imageFile": "Umbrareach/PNG/10_Lead_Boots.png",
+      "videoFile": "Umbrareach/04_Flickerhead.mp4",
+      "imageFile": "Umbrareach/PNG/04_Flickerhead.png",
       "region": "Umbrareach",
-      "hp": 130,
+      "regionOrder": 1,
+      "cardNumber": 4,
+      "hp": 60,
       "moves": [
         {
-          "name": "Heavy Step",
-          "damage": 50
-        },
-        {
-          "name": "Burial Weight",
-          "damage": 80
-        }
-      ],
-      "weakness": "Fighting",
-      "resistance": null,
-      "cardNumber": 10,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "No-Soul Ginger",
-      "displayName": "No-Soul Ginger",
-      "type": "dark",
-      "rarity": "common",
-      "rarityDisplay": "Common",
-      "rarityColor": "#8a8a8a",
-      "rarityTier": 0,
-      "pullRate": 50.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Umbrareach/02_No-Soul_Ginger.mp4",
-      "imageFile": "Umbrareach/PNG/02_No-Soul_Ginger.png",
-      "region": "Umbrareach",
-      "hp": 50,
-      "moves": [
-        {
-          "name": "Hide Away",
-          "damage": 10
-        },
-        {
-          "name": "Sudden Lunge",
+          "name": "Flicker",
           "damage": 20
+        },
+        {
+          "name": "Soul Chill",
+          "damage": 40
         }
       ],
       "weakness": "Light",
       "resistance": null,
-      "cardNumber": 2,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
     },
     {
-      "name": "Spiralhead",
-      "displayName": "Spiralhead",
-      "type": "dark",
+      "name": "Fire Crotch",
+      "displayName": "Fire Crotch",
+      "type": "dark / fire",
       "rarity": "common",
       "rarityDisplay": "Common",
       "rarityColor": "#8a8a8a",
@@ -2656,23 +1843,75 @@
       "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "videoFile": "Umbrareach/08_Spiralhead.mp4",
-      "imageFile": "Umbrareach/PNG/08_Spiralhead.png",
+      "videoFile": "Umbrareach/05_Fire_Crotch.mp4",
+      "imageFile": "Umbrareach/PNG/05_Fire_Crotch.png",
       "region": "Umbrareach",
-      "hp": 100,
+      "regionOrder": 1,
+      "cardNumber": 5,
+      "hp": 80,
       "moves": [
         {
-          "name": "Constrict Doubt",
-          "damage": 40
+          "name": "Smolder Grasp",
+          "damage": 20
         },
         {
-          "name": "Spiral Fear",
-          "damage": 60
+          "name": "Cinder Choke",
+          "damage": 40
         }
       ],
-      "weakness": "Light",
-      "resistance": "Psychic",
-      "cardNumber": 8,
+      "weakness": "Water",
+      "resistance": "Grass",
+      "caughtBy": [
+        "jennifyrre",
+        "squanchymoto"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
+          "timestamp": "20260212_223501",
+          "isVideo": true
+        },
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
+          "timestamp": "20260210_232129",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "Dead Signal",
+      "displayName": "Dead Signal",
+      "type": "dark / electric",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Umbrareach/06_Dead_Signal.mp4",
+      "imageFile": "Umbrareach/PNG/06_Dead_Signal.png",
+      "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 6,
+      "hp": 90,
+      "moves": [
+        {
+          "name": "Blackout Pulse",
+          "damage": 30
+        },
+        {
+          "name": "Signal Collapse",
+          "damage": 50
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": null,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2691,6 +1930,8 @@
       "videoFile": "Umbrareach/07_Whisper_Ginger.mp4",
       "imageFile": "Umbrareach/PNG/07_Whisper_Ginger.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 7,
       "hp": 90,
       "moves": [
         {
@@ -2704,71 +1945,105 @@
       ],
       "weakness": "Light",
       "resistance": null,
-      "cardNumber": 7,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
     },
     {
-      "name": "Offline Ginger",
-      "displayName": "Offline Ginger",
-      "type": "dark / electric",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
+      "name": "Spiralhead",
+      "displayName": "Spiralhead",
+      "type": "dark",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "videoFile": "Umbrareach/14_Offline_Ginger.mp4",
-      "imageFile": "Umbrareach/PNG/14_Offline_Ginger.png",
+      "videoFile": "Umbrareach/08_Spiralhead.mp4",
+      "imageFile": "Umbrareach/PNG/08_Spiralhead.png",
       "region": "Umbrareach",
-      "hp": 150,
+      "regionOrder": 1,
+      "cardNumber": 8,
+      "hp": 100,
       "moves": [
         {
-          "name": "Dead Channel",
-          "damage": 70
+          "name": "Constrict Doubt",
+          "damage": 40
         },
         {
-          "name": "Total Shutdown",
-          "damage": 110
+          "name": "Spiral Fear",
+          "damage": 60
         }
       ],
-      "weakness": "Ground",
-      "resistance": null,
-      "cardNumber": 14,
+      "weakness": "Light",
+      "resistance": "Psychic",
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
     },
     {
-      "name": "Overthinker",
-      "displayName": "Overthinker",
-      "type": "dark / psychic",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
+      "name": "Faceless Ginger",
+      "displayName": "Faceless Ginger",
+      "type": "dark",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
       "hasVideo": true,
       "hasImage": true,
-      "videoFile": "Umbrareach/15_Overthinker.mp4",
-      "imageFile": "Umbrareach/PNG/15_Overthinker.png",
+      "videoFile": "Umbrareach/09_Faceless_Ginger.mp4",
+      "imageFile": "Umbrareach/PNG/09_Faceless_Ginger.png",
       "region": "Umbrareach",
-      "hp": 160,
+      "regionOrder": 1,
+      "cardNumber": 9,
+      "hp": 120,
       "moves": [
         {
-          "name": "Thought Bind",
-          "damage": 70
+          "name": "Empty Gaze",
+          "damage": 40
         },
         {
-          "name": "Paranoia Loop",
-          "damage": 120
+          "name": "Identity Erase",
+          "damage": 80
         }
       ],
-      "weakness": "Bug",
+      "weakness": "Fairy",
       "resistance": null,
-      "cardNumber": 15,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Lead Boots",
+      "displayName": "Lead Boots",
+      "type": "dark",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Umbrareach/10_Lead_Boots.mp4",
+      "imageFile": "Umbrareach/PNG/10_Lead_Boots.png",
+      "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 10,
+      "hp": 130,
+      "moves": [
+        {
+          "name": "Heavy Step",
+          "damage": 50
+        },
+        {
+          "name": "Burial Weight",
+          "damage": 80
+        }
+      ],
+      "weakness": "Fighting",
+      "resistance": null,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2787,6 +2062,8 @@
       "videoFile": "Umbrareach/11_Peeping_Ginger.mp4",
       "imageFile": "Umbrareach/PNG/11_Peeping_Ginger.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 11,
       "hp": 150,
       "moves": [
         {
@@ -2800,39 +2077,6 @@
       ],
       "weakness": "Fighting",
       "resistance": null,
-      "cardNumber": 11,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Quiet Burn",
-      "displayName": "Quiet Burn",
-      "type": "dark / fire",
-      "rarity": "uncommon",
-      "rarityDisplay": "Uncommon",
-      "rarityColor": "#22c55e",
-      "rarityTier": 1,
-      "pullRate": 15.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Umbrareach/13_Quiet_Burn.mp4",
-      "imageFile": "Umbrareach/PNG/13_Quiet_Burn.png",
-      "region": "Umbrareach",
-      "hp": 140,
-      "moves": [
-        {
-          "name": "Cloaked Flame",
-          "damage": 60
-        },
-        {
-          "name": "Inferno Silence",
-          "damage": 90
-        }
-      ],
-      "weakness": "Water",
-      "resistance": null,
-      "cardNumber": 13,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2851,6 +2095,8 @@
       "videoFile": "Umbrareach/12_Tall_Shadow.mp4",
       "imageFile": "Umbrareach/PNG/12_Tall_Shadow.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 12,
       "hp": 160,
       "moves": [
         {
@@ -2864,7 +2110,105 @@
       ],
       "weakness": "Fairy",
       "resistance": null,
-      "cardNumber": 12,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Quiet Burn",
+      "displayName": "Quiet Burn",
+      "type": "dark / fire",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Umbrareach/13_Quiet_Burn.mp4",
+      "imageFile": "Umbrareach/PNG/13_Quiet_Burn.png",
+      "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 13,
+      "hp": 140,
+      "moves": [
+        {
+          "name": "Cloaked Flame",
+          "damage": 60
+        },
+        {
+          "name": "Inferno Silence",
+          "damage": 90
+        }
+      ],
+      "weakness": "Water",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Offline Ginger",
+      "displayName": "Offline Ginger",
+      "type": "dark / electric",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Umbrareach/14_Offline_Ginger.mp4",
+      "imageFile": "Umbrareach/PNG/14_Offline_Ginger.png",
+      "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 14,
+      "hp": 150,
+      "moves": [
+        {
+          "name": "Dead Channel",
+          "damage": 70
+        },
+        {
+          "name": "Total Shutdown",
+          "damage": 110
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Overthinker",
+      "displayName": "Overthinker",
+      "type": "dark / psychic",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Umbrareach/15_Overthinker.mp4",
+      "imageFile": "Umbrareach/PNG/15_Overthinker.png",
+      "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 15,
+      "hp": 160,
+      "moves": [
+        {
+          "name": "Thought Bind",
+          "damage": 70
+        },
+        {
+          "name": "Paranoia Loop",
+          "damage": 120
+        }
+      ],
+      "weakness": "Bug",
+      "resistance": null,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2883,6 +2227,8 @@
       "videoFile": "Umbrareach/16_Bad_Hair_Energy.mp4",
       "imageFile": "Umbrareach/PNG/16_Bad_Hair_Energy.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 16,
       "hp": 180,
       "moves": [
         {
@@ -2896,7 +2242,6 @@
       ],
       "weakness": "Fairy",
       "resistance": null,
-      "cardNumber": 16,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2915,6 +2260,8 @@
       "videoFile": "Umbrareach/17_Black_Flame_Ginger.mp4",
       "imageFile": "Umbrareach/PNG/17_Black_Flame_Ginger.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 17,
       "hp": 190,
       "moves": [
         {
@@ -2928,39 +2275,6 @@
       ],
       "weakness": "Water",
       "resistance": null,
-      "cardNumber": 17,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Brain Spiral",
-      "displayName": "Brain Spiral",
-      "type": "dark / psychic",
-      "rarity": "holo",
-      "rarityDisplay": "Holo",
-      "rarityColor": "#a855f7",
-      "rarityTier": 3,
-      "pullRate": 12.0,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Umbrareach/19_Brain_Spiral.mp4",
-      "imageFile": "Umbrareach/PNG/19_Brain_Spiral.png",
-      "region": "Umbrareach",
-      "hp": 210,
-      "moves": [
-        {
-          "name": "Thought Tear",
-          "damage": 120
-        },
-        {
-          "name": "Cognitive Collapse",
-          "damage": 160
-        }
-      ],
-      "weakness": "Bug",
-      "resistance": null,
-      "cardNumber": 19,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -2979,6 +2293,8 @@
       "videoFile": "Umbrareach/18_Corrupted_Static.mp4",
       "imageFile": "Umbrareach/PNG/18_Corrupted_Static.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 18,
       "hp": 200,
       "moves": [
         {
@@ -2992,7 +2308,39 @@
       ],
       "weakness": "Ground",
       "resistance": null,
-      "cardNumber": 18,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Brain Spiral",
+      "displayName": "Brain Spiral",
+      "type": "dark / psychic",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Umbrareach/19_Brain_Spiral.mp4",
+      "imageFile": "Umbrareach/PNG/19_Brain_Spiral.png",
+      "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 19,
+      "hp": 210,
+      "moves": [
+        {
+          "name": "Thought Tear",
+          "damage": 120
+        },
+        {
+          "name": "Cognitive Collapse",
+          "damage": 160
+        }
+      ],
+      "weakness": "Bug",
+      "resistance": null,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -3011,6 +2359,8 @@
       "videoFile": "Umbrareach/20_Endgame_Ginger.mp4",
       "imageFile": "Umbrareach/PNG/20_Endgame_Ginger.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 20,
       "hp": 220,
       "moves": [
         {
@@ -3024,39 +2374,6 @@
       ],
       "weakness": "Water",
       "resistance": null,
-      "cardNumber": 20,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
-    },
-    {
-      "name": "Core Meltdown EX",
-      "displayName": "Core Meltdown EX",
-      "type": "dark / fire",
-      "rarity": "ex",
-      "rarityDisplay": "EX",
-      "rarityColor": "#f59e0b",
-      "rarityTier": 7,
-      "pullRate": 1.5,
-      "hasVideo": true,
-      "hasImage": true,
-      "videoFile": "Umbrareach/23_Core_Meltdown_EX.mp4",
-      "imageFile": "Umbrareach/PNG/23_Core_Meltdown_EX.png",
-      "region": "Umbrareach",
-      "hp": 260,
-      "moves": [
-        {
-          "name": "Furnace Void",
-          "damage": 160
-        },
-        {
-          "name": "Meltdown Black",
-          "damage": 210
-        }
-      ],
-      "weakness": "Water",
-      "resistance": null,
-      "cardNumber": 23,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -3075,6 +2392,8 @@
       "videoFile": "Umbrareach/21_Cornered_Ginger_EX.mp4",
       "imageFile": "Umbrareach/PNG/21_Cornered_Ginger_EX.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 21,
       "hp": 240,
       "moves": [
         {
@@ -3088,7 +2407,6 @@
       ],
       "weakness": "Fighting",
       "resistance": null,
-      "cardNumber": 21,
       "caughtBy": [
         "ArchangelEmperor"
       ],
@@ -3117,6 +2435,8 @@
       "videoFile": "Umbrareach/22_Mind_Control_Ginger_EX.mp4",
       "imageFile": "Umbrareach/PNG/22_Mind_Control_Ginger_EX.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 22,
       "hp": 250,
       "moves": [
         {
@@ -3130,7 +2450,39 @@
       ],
       "weakness": "Bug",
       "resistance": null,
-      "cardNumber": 22,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Core Meltdown EX",
+      "displayName": "Core Meltdown EX",
+      "type": "dark / fire",
+      "rarity": "ex",
+      "rarityDisplay": "EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 7,
+      "pullRate": 1.5,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Umbrareach/23_Core_Meltdown_EX.mp4",
+      "imageFile": "Umbrareach/PNG/23_Core_Meltdown_EX.png",
+      "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 23,
+      "hp": 260,
+      "moves": [
+        {
+          "name": "Furnace Void",
+          "damage": 160
+        },
+        {
+          "name": "Meltdown Black",
+          "damage": 210
+        }
+      ],
+      "weakness": "Water",
+      "resistance": null,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -3149,6 +2501,8 @@
       "videoFile": "Umbrareach/24_Absolute_Ginger.mp4",
       "imageFile": "Umbrareach/PNG/24_Absolute_Ginger.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 24,
       "hp": 280,
       "moves": [
         {
@@ -3162,7 +2516,6 @@
       ],
       "weakness": "Fairy",
       "resistance": null,
-      "cardNumber": 24,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -3181,6 +2534,8 @@
       "videoFile": "Umbrareach/25_Lights_Out_Ginger.mp4",
       "imageFile": "Umbrareach/PNG/25_Lights_Out_Ginger.png",
       "region": "Umbrareach",
+      "regionOrder": 1,
+      "cardNumber": 25,
       "hp": 320,
       "moves": [
         {
@@ -3194,7 +2549,861 @@
       ],
       "weakness": "Fairy",
       "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingale",
+      "displayName": "Gingale",
+      "type": "flying",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/01_Gingale.mp4",
+      "imageFile": "Skyfrost Vale/PNG/01_Gingale.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 1,
+      "hp": 60,
+      "moves": [
+        {
+          "name": "Gust Step",
+          "damage": 10
+        },
+        {
+          "name": "Lift Away",
+          "damage": 20
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Fighting",
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Gingale_20260222_205047.mp4",
+          "timestamp": "20260222_205047",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "name": "Frostfreck",
+      "displayName": "Frostfreck",
+      "type": "ice",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/02_Frostfreck.mp4",
+      "imageFile": "Skyfrost Vale/PNG/02_Frostfreck.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 2,
+      "hp": 50,
+      "moves": [
+        {
+          "name": "Numb Touch",
+          "damage": 10
+        },
+        {
+          "name": "Cold Shoulder",
+          "damage": 20
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Redrift",
+      "displayName": "Redrift",
+      "type": "flying",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/03_Redrift.mp4",
+      "imageFile": "Skyfrost Vale/PNG/03_Redrift.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 3,
+      "hp": 70,
+      "moves": [
+        {
+          "name": "Air Drift",
+          "damage": 20
+        },
+        {
+          "name": "Sudden Drop",
+          "damage": 30
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Psyginge",
+      "displayName": "Psyginge",
+      "type": "psychic",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/04_Psyginge.mp4",
+      "imageFile": "Skyfrost Vale/PNG/04_Psyginge.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 4,
+      "hp": 80,
+      "moves": [
+        {
+          "name": "Mind Glance",
+          "damage": 20
+        },
+        {
+          "name": "Future Tense",
+          "damage": 30
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Psychic",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangale",
+      "displayName": "Rangale",
+      "type": "flying",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/05_Rangale.mp4",
+      "imageFile": "Skyfrost Vale/PNG/05_Rangale.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 5,
+      "hp": 90,
+      "moves": [
+        {
+          "name": "Updraft",
+          "damage": 30
+        },
+        {
+          "name": "Razor Wind",
+          "damage": 40
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Chilltop",
+      "displayName": "Chilltop",
+      "type": "ice",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/06_Chilltop.mp4",
+      "imageFile": "Skyfrost Vale/PNG/06_Chilltop.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 6,
+      "hp": 80,
+      "moves": [
+        {
+          "name": "Frost Pulse",
+          "damage": 20
+        },
+        {
+          "name": "Ice Snap",
+          "damage": 40
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjynx",
+      "displayName": "Ginjynx",
+      "type": "psychic",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/07_Ginjynx.mp4",
+      "imageFile": "Skyfrost Vale/PNG/07_Ginjynx.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 7,
+      "hp": 90,
+      "moves": [
+        {
+          "name": "Mental Loop",
+          "damage": 30
+        },
+        {
+          "name": "Jinx Burst",
+          "damage": 50
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": null,
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Ginjynx_20260222_190855.png",
+          "timestamp": "20260222_190855",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "name": "Coppice",
+      "displayName": "Coppice",
+      "type": "ice",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/08_Coppice.mp4",
+      "imageFile": "Skyfrost Vale/PNG/08_Coppice.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 8,
+      "hp": 90,
+      "moves": [
+        {
+          "name": "Glaze Strike",
+          "damage": 30
+        },
+        {
+          "name": "Deep Freeze",
+          "damage": 60
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Frecklark",
+      "displayName": "Frecklark",
+      "type": "flying",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/09_Frecklark.mp4",
+      "imageFile": "Skyfrost Vale/PNG/09_Frecklark.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 9,
+      "hp": 100,
+      "moves": [
+        {
+          "name": "Quick Gust",
+          "damage": 40
+        },
+        {
+          "name": "Sky Peck",
+          "damage": 60
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Snowlless",
+      "displayName": "Snowlless",
+      "type": "ice / psychic",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/10_Snowlless.mp4",
+      "imageFile": "Skyfrost Vale/PNG/10_Snowlless.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 10,
+      "hp": 110,
+      "moves": [
+        {
+          "name": "Thought Chill",
+          "damage": 40
+        },
+        {
+          "name": "Blank Mind",
+          "damage": 70
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Redgael",
+      "displayName": "Redgael",
+      "type": "flying",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/11_Redgael.mp4",
+      "imageFile": "Skyfrost Vale/PNG/11_Redgael.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 11,
+      "hp": 120,
+      "moves": [
+        {
+          "name": "High Ground",
+          "damage": 50
+        },
+        {
+          "name": "Gale Crash",
+          "damage": 80
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustrime",
+      "displayName": "Rustrime",
+      "type": "ice",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/12_Rustrime.mp4",
+      "imageFile": "Skyfrost Vale/PNG/12_Rustrime.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 12,
+      "hp": 130,
+      "moves": [
+        {
+          "name": "Frost Guard",
+          "damage": 60
+        },
+        {
+          "name": "Permafrost Slam",
+          "damage": 90
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingnosis",
+      "displayName": "Gingnosis",
+      "type": "psychic",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/13_Gingnosis.mp4",
+      "imageFile": "Skyfrost Vale/PNG/13_Gingnosis.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 13,
+      "hp": 140,
+      "moves": [
+        {
+          "name": "Psychic Grip",
+          "damage": 60
+        },
+        {
+          "name": "Brain Crush",
+          "damage": 100
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Icelannie",
+      "displayName": "Icelannie",
+      "type": "ice",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/14_Icelannie.mp4",
+      "imageFile": "Skyfrost Vale/PNG/14_Icelannie.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 14,
+      "hp": 120,
+      "moves": [
+        {
+          "name": "Snow Glaze",
+          "damage": 50
+        },
+        {
+          "name": "Winter Spin",
+          "damage": 80
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Oracopper",
+      "displayName": "Oracopper",
+      "type": "psychic / flying",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/15_Oracopper.mp4",
+      "imageFile": "Skyfrost Vale/PNG/15_Oracopper.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 15,
+      "hp": 150,
+      "moves": [
+        {
+          "name": "Clairwind",
+          "damage": 70
+        },
+        {
+          "name": "Predict the Fall",
+          "damage": 110
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Frostfreign",
+      "displayName": "Frostfreign",
+      "type": "ice",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/16_Frostfreign.mp4",
+      "imageFile": "Skyfrost Vale/PNG/16_Frostfreign.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 16,
+      "hp": 170,
+      "moves": [
+        {
+          "name": "Frozen Thought",
+          "damage": 80
+        },
+        {
+          "name": "Glacial Dominion",
+          "damage": 130
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Skyfrekon",
+      "displayName": "Skyfrekon",
+      "type": "flying",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/17_Skyfrekon.mp4",
+      "imageFile": "Skyfrost Vale/PNG/17_Skyfrekon.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 17,
+      "hp": 180,
+      "moves": [
+        {
+          "name": "Hurricane Drive",
+          "damage": 90
+        },
+        {
+          "name": "Atmospheric Crush",
+          "damage": 140
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Mindranga",
+      "displayName": "Mindranga",
+      "type": "psychic",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/18_Mindranga.mp4",
+      "imageFile": "Skyfrost Vale/PNG/18_Mindranga.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 18,
+      "hp": 190,
+      "moves": [
+        {
+          "name": "Thought Pierce",
+          "damage": 100
+        },
+        {
+          "name": "Overthink Collapse",
+          "damage": 150
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": null,
+      "caughtBy": [
+        "squanchymoto"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Mindranga_20260222_200108.png",
+          "timestamp": "20260222_200108",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "name": "Chillvitis",
+      "displayName": "Chillvitis",
+      "type": "ice / psychic",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/19_Chillvitis.mp4",
+      "imageFile": "Skyfrost Vale/PNG/19_Chillvitis.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 19,
+      "hp": 200,
+      "moves": [
+        {
+          "name": "Neural Frost",
+          "damage": 110
+        },
+        {
+          "name": "Cognitive Freeze",
+          "damage": 160
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjaleon",
+      "displayName": "Ginjaleon",
+      "type": "flying / psychic",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/20_Ginjaleon.mp4",
+      "imageFile": "Skyfrost Vale/PNG/20_Ginjaleon.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 20,
+      "hp": 210,
+      "moves": [
+        {
+          "name": "Sky Mind",
+          "damage": 120
+        },
+        {
+          "name": "Reality Bend",
+          "damage": 170
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Redgaelux EX",
+      "displayName": "Redgaelux EX",
+      "type": "flying",
+      "rarity": "ex",
+      "rarityDisplay": "EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 7,
+      "pullRate": 1.5,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/21_Redgaelux_EX.mp4",
+      "imageFile": "Skyfrost Vale/PNG/21_Redgaelux_EX.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 21,
+      "hp": 230,
+      "moves": [
+        {
+          "name": "Terminal Drop",
+          "damage": 140
+        },
+        {
+          "name": "Skyspace Control",
+          "damage": 190
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Frostfreign EX",
+      "displayName": "Frostfreign EX",
+      "type": "ice",
+      "rarity": "ex",
+      "rarityDisplay": "EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 7,
+      "pullRate": 1.5,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/22_Frostfreign_EX.mp4",
+      "imageFile": "Skyfrost Vale/PNG/22_Frostfreign_EX.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 22,
+      "hp": 240,
+      "moves": [
+        {
+          "name": "Absolute Zero",
+          "damage": 150
+        },
+        {
+          "name": "Kingdom of Cold",
+          "damage": 200
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Psyfrex EX",
+      "displayName": "Psyfrex EX",
+      "type": "psychic",
+      "rarity": "ex",
+      "rarityDisplay": "EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 7,
+      "pullRate": 1.5,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/23_Psyfrex_EX.mp4",
+      "imageFile": "Skyfrost Vale/PNG/23_Psyfrex_EX.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 23,
+      "hp": 250,
+      "moves": [
+        {
+          "name": "Neural Overload",
+          "damage": 160
+        },
+        {
+          "name": "Thought Storm",
+          "damage": 210
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Absolute Ranga",
+      "displayName": "Absolute Ranga",
+      "type": "ice / psychic",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/24_Absolute_Ranga.mp4",
+      "imageFile": "Skyfrost Vale/PNG/24_Absolute_Ranga.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
+      "cardNumber": 24,
+      "hp": 280,
+      "moves": [
+        {
+          "name": "Frozen World",
+          "damage": 200
+        },
+        {
+          "name": "Eternal Winter",
+          "damage": 260
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjathrone",
+      "displayName": "Ginjathrone",
+      "type": "flying / psychic",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Skyfrost Vale/25_Ginjathrone.mp4",
+      "imageFile": "Skyfrost Vale/PNG/25_Ginjathrone.png",
+      "region": "Skyfrost Vale",
+      "regionOrder": 2,
       "cardNumber": 25,
+      "hp": 320,
+      "moves": [
+        {
+          "name": "Sky Judgment",
+          "damage": 220
+        },
+        {
+          "name": "Crown of Cold Thought",
+          "damage": 300
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": null,
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
@@ -3218,8 +3427,8 @@
         "Cornered Ginger EX"
       ],
       "uniqueCount": 11,
-      "totalCards": 98,
-      "completionPct": 11.2,
+      "totalCards": 100,
+      "completionPct": 11.0,
       "catchImages": [
         {
           "cardName": "Cornered_Ginger_EX",
@@ -3305,8 +3514,8 @@
         "Groveginger"
       ],
       "uniqueCount": 10,
-      "totalCards": 98,
-      "completionPct": 10.2,
+      "totalCards": 100,
+      "completionPct": 10.0,
       "catchImages": [
         {
           "cardName": "Burnttips",
@@ -3397,8 +3606,8 @@
         "Gingale"
       ],
       "uniqueCount": 9,
-      "totalCards": 98,
-      "completionPct": 9.2,
+      "totalCards": 100,
+      "completionPct": 9.0,
       "catchImages": [
         {
           "cardName": "Burnttips",
@@ -3468,8 +3677,8 @@
         "Mindranga"
       ],
       "uniqueCount": 6,
-      "totalCards": 98,
-      "completionPct": 6.1,
+      "totalCards": 100,
+      "completionPct": 6.0,
       "catchImages": [
         {
           "cardName": "Firecrotch",
@@ -3519,8 +3728,8 @@
         "Gingerbeardman"
       ],
       "uniqueCount": 4,
-      "totalCards": 98,
-      "completionPct": 4.1,
+      "totalCards": 100,
+      "completionPct": 4.0,
       "catchImages": [
         {
           "cardName": "Emberbeard",
@@ -3552,8 +3761,8 @@
         "Ginger"
       ],
       "uniqueCount": 4,
-      "totalCards": 98,
-      "completionPct": 4.1,
+      "totalCards": 100,
+      "completionPct": 4.0,
       "catchImages": [
         {
           "cardName": "Frecklefiend",
@@ -3589,7 +3798,7 @@
         "Natdelos"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": []
     },
@@ -3601,7 +3810,7 @@
         "Firecrotchex"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": [
         {
@@ -3620,7 +3829,7 @@
         "Gingerman"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": [
         {
@@ -3645,7 +3854,7 @@
         "Paleginger"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": [
         {
@@ -3670,7 +3879,7 @@
         "Natdelos"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": [
         {
@@ -3695,7 +3904,7 @@
         "Gingerbeardmanevo"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": [
         {
@@ -3720,7 +3929,7 @@
         "Gingermanevo"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": [
         {
@@ -3745,7 +3954,7 @@
         "GingerBeardManEvo"
       ],
       "uniqueCount": 2,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 2.0,
       "catchImages": [
         {
@@ -3769,7 +3978,7 @@
         "Scarlet"
       ],
       "uniqueCount": 1,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 1.0,
       "catchImages": []
     },
@@ -3780,7 +3989,7 @@
         "Ginger"
       ],
       "uniqueCount": 1,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 1.0,
       "catchImages": [
         {
@@ -3798,7 +4007,7 @@
         "Scarlet"
       ],
       "uniqueCount": 1,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 1.0,
       "catchImages": [
         {
@@ -3816,7 +4025,7 @@
         "Gingerbeardman"
       ],
       "uniqueCount": 1,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 1.0,
       "catchImages": [
         {
@@ -3834,7 +4043,7 @@
         "Grassginger"
       ],
       "uniqueCount": 1,
-      "totalCards": 98,
+      "totalCards": 100,
       "completionPct": 1.0,
       "catchImages": [
         {
@@ -3882,8 +4091,30 @@
   ],
   "regions": [
     "Original",
-    "Skyfrost Vale",
-    "Umbrareach"
+    "Umbrareach",
+    "Skyfrost Vale"
+  ],
+  "regionInfo": {
+    "Original": {
+      "emoji": "\ud83d\udd25",
+      "label": "REGION 1 \u2014 ORIGINAL SET",
+      "cardCount": 50
+    },
+    "Umbrareach": {
+      "emoji": "\ud83c\udf11",
+      "label": "UMBRAREACH",
+      "cardCount": 25
+    },
+    "Skyfrost Vale": {
+      "emoji": "\u2744\ufe0f",
+      "label": "SKYFROST VALE",
+      "cardCount": 25
+    }
+  },
+  "regionOrder": [
+    "Original",
+    "Umbrareach",
+    "Skyfrost Vale"
   ],
   "rarityDisplay": {
     "common": "Common",
