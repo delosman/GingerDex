@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-22T20:10:52.693190",
+  "generated": "2026-02-22T21:21:31.264985",
   "totalCards": 98,
-  "totalTrainers": 19,
+  "totalTrainers": 20,
   "cards": [
     {
       "name": "BurntTips",
@@ -47,10 +47,19 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [
-        "ArchangelEmperor"
+        "ArchangelEmperor",
+        "TestTrainer"
       ],
-      "catchCount": 1,
-      "catchImages": []
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "testtrainer",
+          "displayName": "TestTrainer",
+          "file": "catches/testtrainer_CrimsonFollicle_20260222_212012.png",
+          "timestamp": "20260222_212012",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Daywalker",
@@ -177,10 +186,19 @@
         "crossingchrono",
         "salamyou",
         "EldritchBaguette",
+        "NatDelos",
         "ArchangelEmperor"
       ],
-      "catchCount": 4,
-      "catchImages": []
+      "catchCount": 5,
+      "catchImages": [
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Ginger_20260222_210128.png",
+          "timestamp": "20260222_210128",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Ginger2",
@@ -683,10 +701,19 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [
-        "ZootsGuy"
+        "ZootsGuy",
+        "zecourtastrophe"
       ],
-      "catchCount": 1,
-      "catchImages": []
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "zecourtastrophe",
+          "displayName": "zecourtastrophe",
+          "file": "catches/zecourtastrophe_GingerBeardManEvo_20260222_204827.mp4",
+          "timestamp": "20260222_204827",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "GingerManEvo",
@@ -1288,9 +1315,19 @@
       "weakness": "Electric",
       "resistance": "Fighting",
       "cardNumber": 1,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Gingale_20260222_205047.mp4",
+          "timestamp": "20260222_205047",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "Ginjynx",
@@ -2124,9 +2161,19 @@
       "weakness": "Light",
       "resistance": null,
       "cardNumber": 3,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Ginger_After_Dark_20260222_202755.png",
+          "timestamp": "20260222_202755",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Lead Boots",
@@ -2636,9 +2683,19 @@
       "weakness": "Fighting",
       "resistance": null,
       "cardNumber": 21,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Cornered_Ginger_EX_20260222_202714.png",
+          "timestamp": "20260222_202714",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Mind Control Ginger EX",
@@ -2739,6 +2796,34 @@
   ],
   "leaderboard": [
     {
+      "username": "archangelemperor",
+      "displayName": "ArchangelEmperor",
+      "cards": [
+        "Crimsonfollicle",
+        "Emberbeard",
+        "Frecklefiend",
+        "Grassginger",
+        "Redstatic",
+        "Firecrotchex",
+        "Staticbeard",
+        "Ginger",
+        "Gingerman",
+        "Ginjynx",
+        "Cornered Ginger EX"
+      ],
+      "uniqueCount": 11,
+      "totalCards": 98,
+      "completionPct": 11.2,
+      "catchImages": [
+        {
+          "cardName": "Cornered_Ginger_EX",
+          "file": "catches/archangelemperor_Cornered_Ginger_EX_20260222_202714.png",
+          "timestamp": "20260222_202714",
+          "isVideo": false
+        }
+      ]
+    },
+    {
       "username": "crossingchrono",
       "displayName": "crossingchrono",
       "cards": [
@@ -2759,26 +2844,6 @@
       "catchImages": []
     },
     {
-      "username": "archangelemperor",
-      "displayName": "ArchangelEmperor",
-      "cards": [
-        "Crimsonfollicle",
-        "Emberbeard",
-        "Frecklefiend",
-        "Grassginger",
-        "Redstatic",
-        "Firecrotchex",
-        "Staticbeard",
-        "Ginger",
-        "Gingerman",
-        "Ginjynx"
-      ],
-      "uniqueCount": 10,
-      "totalCards": 98,
-      "completionPct": 10.2,
-      "catchImages": []
-    },
-    {
       "username": "jennifyrre",
       "displayName": "jennifyrre",
       "cards": [
@@ -2788,12 +2853,27 @@
         "Firecrotch",
         "Burnttips",
         "Frecklefiend",
-        "Emberbeard"
+        "Emberbeard",
+        "Ginger After Dark",
+        "Gingale"
       ],
-      "uniqueCount": 7,
+      "uniqueCount": 9,
       "totalCards": 98,
-      "completionPct": 7.1,
-      "catchImages": []
+      "completionPct": 9.2,
+      "catchImages": [
+        {
+          "cardName": "Gingale",
+          "file": "catches/jennifyrre_Gingale_20260222_205047.mp4",
+          "timestamp": "20260222_205047",
+          "isVideo": true
+        },
+        {
+          "cardName": "Ginger_After_Dark",
+          "file": "catches/jennifyrre_Ginger_After_Dark_20260222_202755.png",
+          "timestamp": "20260222_202755",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "squanchymoto",
@@ -2831,12 +2911,20 @@
       "cards": [
         "Grassginger",
         "Scarletmenace",
-        "Frecklefiend"
+        "Frecklefiend",
+        "Ginger"
       ],
-      "uniqueCount": 3,
+      "uniqueCount": 4,
       "totalCards": 98,
-      "completionPct": 3.1,
-      "catchImages": []
+      "completionPct": 4.1,
+      "catchImages": [
+        {
+          "cardName": "Ginger",
+          "file": "catches/natdelos_Ginger_20260222_210128.png",
+          "timestamp": "20260222_210128",
+          "isVideo": false
+        }
+      ]
     },
     {
       "username": "justtokottv",
@@ -2923,6 +3011,25 @@
       "catchImages": []
     },
     {
+      "username": "zecourtastrophe",
+      "displayName": "zecourtastrophe",
+      "cards": [
+        "Daywalker",
+        "GingerBeardManEvo"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 98,
+      "completionPct": 2.0,
+      "catchImages": [
+        {
+          "cardName": "GingerBeardManEvo",
+          "file": "catches/zecourtastrophe_GingerBeardManEvo_20260222_204827.mp4",
+          "timestamp": "20260222_204827",
+          "isVideo": true
+        }
+      ]
+    },
+    {
       "username": "riix96",
       "displayName": "riix96",
       "cards": [
@@ -2978,15 +3085,22 @@
       "catchImages": []
     },
     {
-      "username": "zecourtastrophe",
-      "displayName": "zecourtastrophe",
+      "username": "testtrainer",
+      "displayName": "TestTrainer",
       "cards": [
-        "Daywalker"
+        "CrimsonFollicle"
       ],
       "uniqueCount": 1,
       "totalCards": 98,
       "completionPct": 1.0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "cardName": "CrimsonFollicle",
+          "file": "catches/testtrainer_CrimsonFollicle_20260222_212012.png",
+          "timestamp": "20260222_212012",
+          "isVideo": false
+        }
+      ]
     }
   ],
   "types": [
