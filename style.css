@@ -221,6 +221,13 @@ nav {
   color: var(--text-dim);
 }
 
+.card-region {
+  font-size: 0.65rem;
+  color: var(--accent);
+  margin-top: 0.15rem;
+  letter-spacing: 0.5px;
+}
+
 .card-rarity {
   display: inline-block;
   padding: 2px 8px;
@@ -450,6 +457,18 @@ nav {
 }
 
 .modal-stat-label { color: var(--text-dim); }
+
+.modal-region-tag {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.move-damage {
+  color: var(--accent2);
+  font-weight: 600;
+}
 
 .no-results {
   text-align: center;

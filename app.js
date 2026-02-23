@@ -3,7 +3,6 @@
 
   let DATA = null;
   let currentView = "gallery";
-  let currentTrainer = null;
 
   // DOM refs
   const cardGrid = document.getElementById("cardGrid");
@@ -12,6 +11,7 @@
   const trainerHeader = document.getElementById("trainerHeader");
   const statsBar = document.getElementById("statsBar");
   const searchInput = document.getElementById("searchInput");
+  const regionFilter = document.getElementById("regionFilter");
   const typeFilter = document.getElementById("typeFilter");
   const rarityFilter = document.getElementById("rarityFilter");
   const sortFilter = document.getElementById("sortFilter");
@@ -19,7 +19,6 @@
   const modalBody = document.getElementById("modalBody");
   const galleryControls = document.getElementById("galleryControls");
 
-  // Load data
   fetch("data.json")
     .then((r) => r.json())
     .then((data) => {
@@ -27,8 +26,7 @@
       init();
     })
     .catch((err) => {
-      cardGrid.innerHTML =
-        '<p class="no-results">Failed to load GingerDex data. Make sure data.json exists.</p>';
+      cardGrid.innerHTML = '<p class="no-results">Failed to load GingerDex data.</p>';
       console.error(err);
     });
 
@@ -42,15 +40,21 @@
 
   function renderStats() {
     const caught = DATA.cards.filter((c) => c.catchCount > 0).length;
+    const regionCount = DATA.regions ? DATA.regions.length : 1;
     statsBar.innerHTML = `
       <div class="stat"><div class="stat-value">${DATA.totalCards}</div><div class="stat-label">GingerMon</div></div>
       <div class="stat"><div class="stat-value">${caught}</div><div class="stat-label">Discovered</div></div>
       <div class="stat"><div class="stat-value">${DATA.totalTrainers}</div><div class="stat-label">Trainers</div></div>
-      <div class="stat"><div class="stat-value">${DATA.rarities.length}</div><div class="stat-label">Rarities</div></div>
+      <div class="stat"><div class="stat-value">${regionCount}</div><div class="stat-label">Regions</div></div>
     `;
   }
 
   function populateFilters() {
+    if (DATA.regions) {
+      DATA.regions.forEach((r) => {
+        regionFilter.innerHTML += `<option value="${r}">${r}</option>`;
+      });
+    }
     DATA.types.forEach((t) => {
       typeFilter.innerHTML += `<option value="${t}">${capitalize(t)}</option>`;
     });
@@ -63,6 +67,7 @@
   function getFilteredCards(cards) {
     let filtered = [...cards];
     const query = searchInput.value.toLowerCase().trim();
+    const region = regionFilter.value;
     const type = typeFilter.value;
     const rarity = rarityFilter.value;
     const sort = sortFilter.value;
@@ -73,15 +78,18 @@
           c.name.toLowerCase().includes(query) ||
           c.displayName.toLowerCase().includes(query) ||
           c.type.toLowerCase().includes(query) ||
+          (c.region && c.region.toLowerCase().includes(query)) ||
           c.caughtBy.some((t) => t.toLowerCase().includes(query))
       );
     }
+    if (region) filtered = filtered.filter((c) => c.region === region);
     if (type) filtered = filtered.filter((c) => c.type === type);
     if (rarity) filtered = filtered.filter((c) => c.rarity === rarity);
 
     if (sort === "name") filtered.sort((a, b) => a.name.localeCompare(b.name));
     else if (sort === "type") filtered.sort((a, b) => a.type.localeCompare(b.type) || a.rarityTier - b.rarityTier);
     else if (sort === "catches") filtered.sort((a, b) => b.catchCount - a.catchCount);
+    else if (sort === "region") filtered.sort((a, b) => (a.region || "").localeCompare(b.region || "") || a.rarityTier - b.rarityTier);
     else filtered.sort((a, b) => a.rarityTier - b.rarityTier || a.name.localeCompare(b.name));
 
     return filtered;
@@ -98,13 +106,11 @@
 
   function cardMediaHTML(card, caught) {
     if (!caught) {
-      // Silhouette: show the image but fully blacked out
       if (card.imageFile) {
         return `<div class="card-media"><img src="cards/${card.imageFile}" alt="Unknown" class="card-img silhouette"></div>`;
       }
       return `<div class="card-media"><div class="card-placeholder silhouette">?</div></div>`;
     }
-    // Show video if available, otherwise image
     if (card.videoFile) {
       return `<div class="card-media"><video src="cards/${card.videoFile}" class="card-vid" autoplay loop muted playsinline></video></div>`;
     }
@@ -121,16 +127,32 @@
     const catchBadge = !isTrainerView && card.catchCount > 0
       ? `<span class="card-catch-count">${card.catchCount} caught</span>`
       : "";
+    const regionBadge = card.region && card.region !== "Original"
+      ? `<div class="card-region">${card.region}</div>`
+      : "";
 
     return `
-      <div class="card${cls}" data-card="${card.displayName}" style="border-color: ${caught ? card.rarityColor : 'var(--border)'}">
+      <div class="card${cls}" data-card-key="${cardKey(card)}" style="border-color: ${caught ? card.rarityColor : 'var(--border)'}">
         ${catchBadge}
         ${cardMediaHTML(card, caught)}
         <div class="card-name">${name}</div>
-        <div class="card-meta">${capitalize(card.type)}</div>
+        <div class="card-meta">${capitalize(card.type)}${card.hp ? ' &middot; ' + card.hp + ' HP' : ''}</div>
+        ${regionBadge}
         <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}">${card.rarityDisplay}</span>
       </div>
     `;
+  }
+
+  function cardKey(card) {
+    // Unique key for lookup: region:name for region cards, displayName for originals
+    if (card.region && card.region !== "Original") {
+      return card.region + ":" + card.name;
+    }
+    return card.displayName;
+  }
+
+  function findCardByKey(key) {
+    return DATA.cards.find((c) => cardKey(c) === key);
   }
 
   function renderLeaderboard() {
@@ -161,7 +183,6 @@
     const trainer = DATA.leaderboard.find((t) => t.username === username);
     if (!trainer) return;
 
-    currentTrainer = trainer;
     const trainerCards = new Set(trainer.cards.map((c) => c.toLowerCase()));
 
     trainerHeader.innerHTML = `
@@ -170,7 +191,6 @@
       <div class="trainer-stats">${trainer.uniqueCount} / ${trainer.totalCards} GingerMon &middot; ${trainer.completionPct}% complete</div>
     `;
 
-    // Sort: caught first, then uncaught, each sorted by rarity
     const sorted = [...DATA.cards].sort((a, b) => {
       const aHas = trainerCards.has(a.displayName.toLowerCase()) ? 0 : 1;
       const bHas = trainerCards.has(b.displayName.toLowerCase()) ? 0 : 1;
@@ -202,23 +222,52 @@
     return "";
   }
 
-  function showCardModal(displayName) {
-    const card = DATA.cards.find((c) => c.displayName === displayName);
+  function movesHTML(moves) {
+    if (!moves || !moves.length) return "";
+    return `
+      <div class="modal-section">
+        <h3>Moves</h3>
+        ${moves.map((m) => `
+          <div class="modal-stat-row">
+            <span class="modal-stat-label">${m.name}</span>
+            <span class="move-damage">${m.damage} dmg</span>
+          </div>
+        `).join("")}
+      </div>
+    `;
+  }
+
+  function showCardModal(key) {
+    const card = findCardByKey(key);
     if (!card) return;
 
     const pullPct = (card.pullRate / DATA.cards.reduce((s, c) => s + c.pullRate, 0) * 100).toFixed(2);
 
+    const regionTag = card.region && card.region !== "Original"
+      ? `<div class="modal-region-tag">${card.region}</div>`
+      : "";
+
+    const statsRows = [
+      card.hp ? `<div class="modal-stat-row"><span class="modal-stat-label">HP</span><span>${card.hp}</span></div>` : "",
+      `<div class="modal-stat-row"><span class="modal-stat-label">Type</span><span>${capitalize(card.type)}</span></div>`,
+      card.weakness ? `<div class="modal-stat-row"><span class="modal-stat-label">Weakness</span><span>${card.weakness}</span></div>` : "",
+      card.resistance ? `<div class="modal-stat-row"><span class="modal-stat-label">Resistance</span><span>${card.resistance}</span></div>` : "",
+      `<div class="modal-stat-row"><span class="modal-stat-label">Times Caught</span><span>${card.catchCount}</span></div>`,
+      `<div class="modal-stat-row"><span class="modal-stat-label">Pull Rate</span><span>${pullPct}%</span></div>`,
+    ].filter(Boolean).join("");
+
     modalBody.innerHTML = `
       ${modalMediaHTML(card)}
       <div class="modal-card-name" style="color: ${card.rarityColor}">${card.name}</div>
-      <div class="modal-card-type">${capitalize(card.type)} Type</div>
+      ${regionTag}
       <span class="card-rarity" style="background: ${card.rarityColor}22; color: ${card.rarityColor}; display:block; text-align:center; margin: 0.5rem auto; width: fit-content;">${card.rarityDisplay}</span>
 
       <div class="modal-section">
         <h3>Stats</h3>
-        <div class="modal-stat-row"><span class="modal-stat-label">Times Caught</span><span>${card.catchCount}</span></div>
-        <div class="modal-stat-row"><span class="modal-stat-label">Pull Rate</span><span>${pullPct}%</span></div>
+        ${statsRows}
       </div>
+
+      ${movesHTML(card.moves)}
 
       <div class="modal-section">
         <h3>Caught By (${card.caughtBy.length})</h3>
@@ -237,7 +286,6 @@
 
     cardModal.classList.add("open");
 
-    // Bind trainer tag clicks
     modalBody.querySelectorAll(".modal-trainer-tag").forEach((el) => {
       el.addEventListener("click", () => {
         cardModal.classList.remove("open");
@@ -273,30 +321,26 @@
   }
 
   function bindEvents() {
-    // Nav buttons
     document.querySelectorAll(".nav-btn").forEach((btn) => {
       btn.addEventListener("click", () => switchView(btn.dataset.view));
     });
 
-    // Filters & search
     searchInput.addEventListener("input", renderGallery);
+    regionFilter.addEventListener("change", renderGallery);
     typeFilter.addEventListener("change", renderGallery);
     rarityFilter.addEventListener("change", renderGallery);
     sortFilter.addEventListener("change", renderGallery);
 
-    // Card clicks (delegated)
     document.addEventListener("click", (e) => {
-      const card = e.target.closest(".card[data-card]");
-      if (card) showCardModal(card.dataset.card);
+      const card = e.target.closest(".card[data-card-key]");
+      if (card) showCardModal(card.dataset.cardKey);
     });
 
-    // Leaderboard clicks (delegated)
     leaderboardList.addEventListener("click", (e) => {
       const entry = e.target.closest(".lb-entry[data-trainer]");
       if (entry) showTrainerView(entry.dataset.trainer);
     });
 
-    // Modal close
     document.getElementById("modalClose").addEventListener("click", () => {
       cardModal.classList.remove("open");
     });
@@ -306,7 +350,7 @@
   }
 
   function capitalize(s) {
-    return s.charAt(0).toUpperCase() + s.slice(1);
+    return s.split(" / ").map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" / ");
   }
 
   function escapeHtml(s) {
