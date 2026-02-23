@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-22T21:21:31.264985",
+  "generated": "2026-02-22T23:37:04.904952",
   "totalCards": 98,
-  "totalTrainers": 20,
+  "totalTrainers": 19,
   "cards": [
     {
       "name": "BurntTips",
@@ -47,19 +47,10 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [
-        "ArchangelEmperor",
-        "TestTrainer"
+        "ArchangelEmperor"
       ],
-      "catchCount": 2,
-      "catchImages": [
-        {
-          "username": "testtrainer",
-          "displayName": "TestTrainer",
-          "file": "catches/testtrainer_CrimsonFollicle_20260222_212012.png",
-          "timestamp": "20260222_212012",
-          "isVideo": false
-        }
-      ]
+      "catchCount": 1,
+      "catchImages": []
     },
     {
       "name": "Daywalker",
@@ -3083,24 +3074,6 @@
       "totalCards": 98,
       "completionPct": 1.0,
       "catchImages": []
-    },
-    {
-      "username": "testtrainer",
-      "displayName": "TestTrainer",
-      "cards": [
-        "CrimsonFollicle"
-      ],
-      "uniqueCount": 1,
-      "totalCards": 98,
-      "completionPct": 1.0,
-      "catchImages": [
-        {
-          "cardName": "CrimsonFollicle",
-          "file": "catches/testtrainer_CrimsonFollicle_20260222_212012.png",
-          "timestamp": "20260222_212012",
-          "isVideo": false
-        }
-      ]
     }
   ],
   "types": [
