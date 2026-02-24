@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-23T17:14:45.585611",
-  "totalCards": 100,
+  "generated": "2026-02-24T08:55:45.342211",
+  "totalCards": 200,
   "totalTrainers": 14,
   "cards": [
     {
@@ -3359,6 +3359,3306 @@
       "caughtBy": [],
       "catchCount": 0,
       "catchImages": []
+    },
+    {
+      "name": "Rangor",
+      "displayName": "Rangor",
+      "type": "dragon",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/01_Rangor.mp4",
+      "imageFile": "Rusthallow/PNG/01_Rangor.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 1,
+      "hp": 70,
+      "moves": [
+        {
+          "name": "Rust Claw",
+          "damage": 20
+        },
+        {
+          "name": "Ember Bite",
+          "damage": 30
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperelle",
+      "displayName": "Copperelle",
+      "type": "fairy",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/02_Copperelle.mp4",
+      "imageFile": "Rusthallow/PNG/02_Copperelle.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 2,
+      "hp": 60,
+      "moves": [
+        {
+          "name": "Gleam Flicker",
+          "damage": 20
+        },
+        {
+          "name": "Copper Kiss",
+          "damage": 30
+        }
+      ],
+      "weakness": "Steel",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjaro",
+      "displayName": "Ginjaro",
+      "type": "fighting",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/03_Ginjaro.mp4",
+      "imageFile": "Rusthallow/PNG/03_Ginjaro.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 3,
+      "hp": 80,
+      "moves": [
+        {
+          "name": "Hot Jab",
+          "damage": 30
+        },
+        {
+          "name": "Matchstick Strike",
+          "damage": 40
+        }
+      ],
+      "weakness": "Psychic",
+      "resistance": "Rock",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravolt",
+      "displayName": "Duravolt",
+      "type": "steel",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/04_Duravolt.mp4",
+      "imageFile": "Rusthallow/PNG/04_Duravolt.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 4,
+      "hp": 90,
+      "moves": [
+        {
+          "name": "Iron Pulse",
+          "damage": 30
+        },
+        {
+          "name": "Cell Surge",
+          "damage": 50
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Stepraze",
+      "displayName": "Stepraze",
+      "type": "ghost",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/05_Stepraze.mp4",
+      "imageFile": "Rusthallow/PNG/05_Stepraze.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 5,
+      "hp": 70,
+      "moves": [
+        {
+          "name": "Hollow Glare",
+          "damage": 20
+        },
+        {
+          "name": "Grave Drag",
+          "damage": 40
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustbrand",
+      "displayName": "Rustbrand",
+      "type": "ground",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/06_Rustbrand.mp4",
+      "imageFile": "Rusthallow/PNG/06_Rustbrand.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 6,
+      "hp": 100,
+      "moves": [
+        {
+          "name": "Dust Slam",
+          "damage": 40
+        },
+        {
+          "name": "Redearth Crush",
+          "damage": 60
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Electric",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangathorn",
+      "displayName": "Rangathorn",
+      "type": "dragon / steel",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/07_Rangathorn.mp4",
+      "imageFile": "Rusthallow/PNG/07_Rangathorn.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 7,
+      "hp": 120,
+      "moves": [
+        {
+          "name": "Thorn Rend",
+          "damage": 60
+        },
+        {
+          "name": "Copper Crash",
+          "damage": 80
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Coppergaunt",
+      "displayName": "Coppergaunt",
+      "type": "steel / fairy",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/08_Coppergaunt.mp4",
+      "imageFile": "Rusthallow/PNG/08_Coppergaunt.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 8,
+      "hp": 110,
+      "moves": [
+        {
+          "name": "Gleam Guard",
+          "damage": 50
+        },
+        {
+          "name": "Iron Bloom",
+          "damage": 80
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Dragon",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjathorn",
+      "displayName": "Ginjathorn",
+      "type": "fighting / fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/09_Ginjathorn.mp4",
+      "imageFile": "Rusthallow/PNG/09_Ginjathorn.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 9,
+      "hp": 130,
+      "moves": [
+        {
+          "name": "Inferno Rush",
+          "damage": 60
+        },
+        {
+          "name": "Sunblister Slam",
+          "damage": 90
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravault",
+      "displayName": "Duravault",
+      "type": "steel / fighting",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/10_Duravault.mp4",
+      "imageFile": "Rusthallow/PNG/10_Duravault.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 10,
+      "hp": 140,
+      "moves": [
+        {
+          "name": "Lockdown Crush",
+          "damage": 70
+        },
+        {
+          "name": "Battery Bash",
+          "damage": 100
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Stepgrave",
+      "displayName": "Stepgrave",
+      "type": "ghost / ground",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/11_Stepgrave.mp4",
+      "imageFile": "Rusthallow/PNG/11_Stepgrave.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 11,
+      "hp": 120,
+      "moves": [
+        {
+          "name": "Burial Grip",
+          "damage": 60
+        },
+        {
+          "name": "Soulless Stomp",
+          "damage": 90
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangathorneon",
+      "displayName": "Rangathorneon",
+      "type": "dragon / steel",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/12_Rangathorneon.mp4",
+      "imageFile": "Rusthallow/PNG/12_Rangathorneon.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 12,
+      "hp": 180,
+      "moves": [
+        {
+          "name": "Rustquake",
+          "damage": 100
+        },
+        {
+          "name": "Ranga Dominion",
+          "damage": 140
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperbane",
+      "displayName": "Copperbane",
+      "type": "steel / fairy",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/13_Copperbane.mp4",
+      "imageFile": "Rusthallow/PNG/13_Copperbane.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 13,
+      "hp": 170,
+      "moves": [
+        {
+          "name": "Regal Pierce",
+          "damage": 100
+        },
+        {
+          "name": "Big Red Cleave",
+          "damage": 130
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Dragon",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingerdread",
+      "displayName": "Gingerdread",
+      "type": "fighting / fire",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/14_Gingerdread.mp4",
+      "imageFile": "Rusthallow/PNG/14_Gingerdread.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 14,
+      "hp": 190,
+      "moves": [
+        {
+          "name": "Carrot Top Crush",
+          "damage": 110
+        },
+        {
+          "name": "Inferno Overdrive",
+          "damage": 150
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravex",
+      "displayName": "Duravex",
+      "type": "steel / fighting",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/15_Duravex.mp4",
+      "imageFile": "Rusthallow/PNG/15_Duravex.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 15,
+      "hp": 200,
+      "moves": [
+        {
+          "name": "Duracell Barrage",
+          "damage": 120
+        },
+        {
+          "name": "Full Charge Annihilation",
+          "damage": 160
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangor Embercrest",
+      "displayName": "Rangor Embercrest",
+      "type": "dragon",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/16_Rangor_Embercrest.mp4",
+      "imageFile": "Rusthallow/PNG/16_Rangor_Embercrest.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 16,
+      "hp": 110,
+      "moves": [
+        {
+          "name": "Crest Slash",
+          "damage": 50
+        },
+        {
+          "name": "Rust Wing",
+          "damage": 80
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperelle Gleam",
+      "displayName": "Copperelle Gleam",
+      "type": "fairy",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/17_Copperelle_Gleam.mp4",
+      "imageFile": "Rusthallow/PNG/17_Copperelle_Gleam.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 17,
+      "hp": 100,
+      "moves": [
+        {
+          "name": "Shimmer Guard",
+          "damage": 40
+        },
+        {
+          "name": "Polished Pulse",
+          "damage": 70
+        }
+      ],
+      "weakness": "Steel",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjaro Torchborn",
+      "displayName": "Ginjaro Torchborn",
+      "type": "fighting / fire",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/18_Ginjaro_Torchborn.mp4",
+      "imageFile": "Rusthallow/PNG/18_Ginjaro_Torchborn.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 18,
+      "hp": 120,
+      "moves": [
+        {
+          "name": "Torch Rush",
+          "damage": 60
+        },
+        {
+          "name": "Hot Tamale Strike",
+          "damage": 90
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravolt Ironcell",
+      "displayName": "Duravolt Ironcell",
+      "type": "steel",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/19_Duravolt_Ironcell.mp4",
+      "imageFile": "Rusthallow/PNG/19_Duravolt_Ironcell.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 19,
+      "hp": 130,
+      "moves": [
+        {
+          "name": "Iron Spark",
+          "damage": 60
+        },
+        {
+          "name": "Copper Charge",
+          "damage": 90
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Stepraze Hollowbrand",
+      "displayName": "Stepraze Hollowbrand",
+      "type": "ghost",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/20_Stepraze_Hollowbrand.mp4",
+      "imageFile": "Rusthallow/PNG/20_Stepraze_Hollowbrand.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 20,
+      "hp": 110,
+      "moves": [
+        {
+          "name": "No Soul Grip",
+          "damage": 60
+        },
+        {
+          "name": "Grave Ember",
+          "damage": 90
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustbrand Redearth",
+      "displayName": "Rustbrand Redearth",
+      "type": "ground",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/21_Rustbrand_Redearth.mp4",
+      "imageFile": "Rusthallow/PNG/21_Rustbrand_Redearth.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 21,
+      "hp": 140,
+      "moves": [
+        {
+          "name": "Earthrend",
+          "damage": 70
+        },
+        {
+          "name": "Dustquake",
+          "damage": 100
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Electric",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangathorn Bloodcrest",
+      "displayName": "Rangathorn Bloodcrest",
+      "type": "dragon / steel",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/22_Rangathorn_Bloodcrest.mp4",
+      "imageFile": "Rusthallow/PNG/22_Rangathorn_Bloodcrest.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 22,
+      "hp": 160,
+      "moves": [
+        {
+          "name": "Thorn Dominion",
+          "damage": 90
+        },
+        {
+          "name": "Rustquake",
+          "damage": 120
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Coppergaunt Ironveil",
+      "displayName": "Coppergaunt Ironveil",
+      "type": "steel / fairy",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/23_Coppergaunt_Ironveil.mp4",
+      "imageFile": "Rusthallow/PNG/23_Coppergaunt_Ironveil.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 23,
+      "hp": 150,
+      "moves": [
+        {
+          "name": "Veil Guard",
+          "damage": 80
+        },
+        {
+          "name": "Gleam Pierce",
+          "damage": 120
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Dragon",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjathorn Sunreign",
+      "displayName": "Ginjathorn Sunreign",
+      "type": "fighting / fire",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/24_Ginjathorn_Sunreign.mp4",
+      "imageFile": "Rusthallow/PNG/24_Ginjathorn_Sunreign.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 24,
+      "hp": 170,
+      "moves": [
+        {
+          "name": "Sunburn Smash",
+          "damage": 100
+        },
+        {
+          "name": "Inferno Rush",
+          "damage": 130
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravault Lockforge",
+      "displayName": "Duravault Lockforge",
+      "type": "steel / fighting",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/25_Duravault_Lockforge.mp4",
+      "imageFile": "Rusthallow/PNG/25_Duravault_Lockforge.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 25,
+      "hp": 180,
+      "moves": [
+        {
+          "name": "Forge Slam",
+          "damage": 110
+        },
+        {
+          "name": "Cellbreaker",
+          "damage": 140
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Stepgrave Ashveil",
+      "displayName": "Stepgrave Ashveil",
+      "type": "ghost / ground",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/26_Stepgrave_Ashveil.mp4",
+      "imageFile": "Rusthallow/PNG/26_Stepgrave_Ashveil.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 26,
+      "hp": 170,
+      "moves": [
+        {
+          "name": "Burial Lash",
+          "damage": 100
+        },
+        {
+          "name": "Soulless Collapse",
+          "damage": 130
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperbane Regalbrand",
+      "displayName": "Copperbane Regalbrand",
+      "type": "steel / fairy",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/27_Copperbane_Regalbrand.mp4",
+      "imageFile": "Rusthallow/PNG/27_Copperbane_Regalbrand.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 27,
+      "hp": 200,
+      "moves": [
+        {
+          "name": "Royal Cleave",
+          "damage": 120
+        },
+        {
+          "name": "Big Red Dominion",
+          "damage": 160
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Dragon",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingerdread Inferbrand",
+      "displayName": "Gingerdread Inferbrand",
+      "type": "fighting / fire",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/28_Gingerdread_Inferbrand.mp4",
+      "imageFile": "Rusthallow/PNG/28_Gingerdread_Inferbrand.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 28,
+      "hp": 210,
+      "moves": [
+        {
+          "name": "Carrot Crown Crush",
+          "damage": 130
+        },
+        {
+          "name": "Inferno Dominion",
+          "damage": 170
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravex Overcharge",
+      "displayName": "Duravex Overcharge",
+      "type": "steel / fighting",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/29_Duravex_Overcharge.mp4",
+      "imageFile": "Rusthallow/PNG/29_Duravex_Overcharge.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 29,
+      "hp": 220,
+      "moves": [
+        {
+          "name": "Full Cell Barrage",
+          "damage": 140
+        },
+        {
+          "name": "Iron Annihilation",
+          "damage": 180
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Steprazeon Graveflare",
+      "displayName": "Steprazeon Graveflare",
+      "type": "ghost / ground",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/30_Steprazeon_Graveflare.mp4",
+      "imageFile": "Rusthallow/PNG/30_Steprazeon_Graveflare.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 30,
+      "hp": 210,
+      "moves": [
+        {
+          "name": "Phantom Drag",
+          "damage": 130
+        },
+        {
+          "name": "Hollowquake",
+          "damage": 170
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangathorneon EX",
+      "displayName": "Rangathorneon EX",
+      "type": "dragon / steel",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/31_Rangathorneon_EX.mp4",
+      "imageFile": "Rusthallow/PNG/31_Rangathorneon_EX.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 31,
+      "hp": 260,
+      "moves": [
+        {
+          "name": "Rust Dominion",
+          "damage": 160
+        },
+        {
+          "name": "Thorn Cataclysm",
+          "damage": 210
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperbane EX",
+      "displayName": "Copperbane EX",
+      "type": "steel / fairy",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/32_Copperbane_EX.mp4",
+      "imageFile": "Rusthallow/PNG/32_Copperbane_EX.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 32,
+      "hp": 250,
+      "moves": [
+        {
+          "name": "Regal Execution",
+          "damage": 150
+        },
+        {
+          "name": "Gleam Catacomb",
+          "damage": 200
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Dragon",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingerdread EX",
+      "displayName": "Gingerdread EX",
+      "type": "fighting / fire",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/33_Gingerdread_EX.mp4",
+      "imageFile": "Rusthallow/PNG/33_Gingerdread_EX.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 33,
+      "hp": 270,
+      "moves": [
+        {
+          "name": "Sunburn Annihilation",
+          "damage": 170
+        },
+        {
+          "name": "Inferno Overdrive",
+          "damage": 220
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravex EX",
+      "displayName": "Duravex EX",
+      "type": "steel / fighting",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/34_Duravex_EX.mp4",
+      "imageFile": "Rusthallow/PNG/34_Duravex_EX.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 34,
+      "hp": 280,
+      "moves": [
+        {
+          "name": "Overcharge Barrage",
+          "damage": 180
+        },
+        {
+          "name": "Iron Dominion",
+          "damage": 230
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Steprazeon EX",
+      "displayName": "Steprazeon EX",
+      "type": "ghost / ground",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/35_Steprazeon_EX.mp4",
+      "imageFile": "Rusthallow/PNG/35_Steprazeon_EX.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 35,
+      "hp": 260,
+      "moves": [
+        {
+          "name": "No Soul Eclipse",
+          "damage": 160
+        },
+        {
+          "name": "Burial Cataclysm",
+          "damage": 210
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Redigon Forgeheart",
+      "displayName": "Redigon Forgeheart",
+      "type": "dragon / fire",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/36_Redigon_Forgeheart.mp4",
+      "imageFile": "Rusthallow/PNG/36_Redigon_Forgeheart.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 36,
+      "hp": 250,
+      "moves": [
+        {
+          "name": "Forge Breath",
+          "damage": 150
+        },
+        {
+          "name": "Big Red Ruin",
+          "damage": 200
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustrik Gaunt",
+      "displayName": "Rustrik Gaunt",
+      "type": "ground / fighting",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/37_Rustrik_Gaunt.mp4",
+      "imageFile": "Rusthallow/PNG/37_Rustrik_Gaunt.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 37,
+      "hp": 240,
+      "moves": [
+        {
+          "name": "Earth Cleave",
+          "damage": 140
+        },
+        {
+          "name": "Rust Breaker",
+          "damage": 190
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Electric",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjathra Crown",
+      "displayName": "Ginjathra Crown",
+      "type": "fighting / fire",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/38_Ginjathra_Crown.mp4",
+      "imageFile": "Rusthallow/PNG/38_Ginjathra_Crown.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 38,
+      "hp": 260,
+      "moves": [
+        {
+          "name": "Crown Strike",
+          "damage": 170
+        },
+        {
+          "name": "Infernal Verdict",
+          "damage": 220
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperthorn Dominion",
+      "displayName": "Copperthorn Dominion",
+      "type": "steel / dragon",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/39_Copperthorn_Dominion.mp4",
+      "imageFile": "Rusthallow/PNG/39_Copperthorn_Dominion.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 39,
+      "hp": 270,
+      "moves": [
+        {
+          "name": "Thorn Pierce",
+          "damage": 180
+        },
+        {
+          "name": "Dominion Crush",
+          "damage": 230
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Soulcopper Revenant",
+      "displayName": "Soulcopper Revenant",
+      "type": "ghost / steel",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/40_Soulcopper_Revenant.mp4",
+      "imageFile": "Rusthallow/PNG/40_Soulcopper_Revenant.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 40,
+      "hp": 250,
+      "moves": [
+        {
+          "name": "Hollow Gleam",
+          "damage": 150
+        },
+        {
+          "name": "Grave Dominion",
+          "damage": 210
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangorix Apex",
+      "displayName": "Rangorix Apex",
+      "type": "dragon",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/41_Rangorix_Apex.mp4",
+      "imageFile": "Rusthallow/PNG/41_Rangorix_Apex.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 41,
+      "hp": 290,
+      "moves": [
+        {
+          "name": "Apex Rend",
+          "damage": 190
+        },
+        {
+          "name": "Rustfall Cataclysm",
+          "damage": 250
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperelleth Prime",
+      "displayName": "Copperelleth Prime",
+      "type": "fairy / steel",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/42_Copperelleth_Prime.mp4",
+      "imageFile": "Rusthallow/PNG/42_Copperelleth_Prime.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 42,
+      "hp": 270,
+      "moves": [
+        {
+          "name": "Gleam Sovereign",
+          "damage": 180
+        },
+        {
+          "name": "Iron Bloom Collapse",
+          "damage": 230
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Dragon",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjavex Warbrand",
+      "displayName": "Ginjavex Warbrand",
+      "type": "fighting / fire",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/43_Ginjavex_Warbrand.mp4",
+      "imageFile": "Rusthallow/PNG/43_Ginjavex_Warbrand.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 43,
+      "hp": 300,
+      "moves": [
+        {
+          "name": "Warbrand Rush",
+          "damage": 200
+        },
+        {
+          "name": "Sunflare Devastation",
+          "damage": 260
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravault Imperium",
+      "displayName": "Duravault Imperium",
+      "type": "steel",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/44_Duravault_Imperium.mp4",
+      "imageFile": "Rusthallow/PNG/44_Duravault_Imperium.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 44,
+      "hp": 310,
+      "moves": [
+        {
+          "name": "Imperium Slam",
+          "damage": 210
+        },
+        {
+          "name": "Total Lockdown",
+          "damage": 270
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Stepgrave Monarch",
+      "displayName": "Stepgrave Monarch",
+      "type": "ghost / ground",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/45_Stepgrave_Monarch.mp4",
+      "imageFile": "Rusthallow/PNG/45_Stepgrave_Monarch.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 45,
+      "hp": 280,
+      "moves": [
+        {
+          "name": "Monarch Haunt",
+          "damage": 180
+        },
+        {
+          "name": "Gravefall Ruin",
+          "damage": 240
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangathorneon Dominion",
+      "displayName": "Rangathorneon Dominion",
+      "type": "dragon / steel",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/46_Rangathorneon_Dominion.mp4",
+      "imageFile": "Rusthallow/PNG/46_Rangathorneon_Dominion.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 46,
+      "hp": 350,
+      "moves": [
+        {
+          "name": "Ranga Sovereignty",
+          "damage": 250
+        },
+        {
+          "name": "Rusthallow Cataclysm",
+          "damage": 320
+        }
+      ],
+      "weakness": "Fairy",
+      "resistance": "Fire",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperbane Crown",
+      "displayName": "Copperbane Crown",
+      "type": "steel / fairy",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/47_Copperbane_Crown.mp4",
+      "imageFile": "Rusthallow/PNG/47_Copperbane_Crown.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 47,
+      "hp": 340,
+      "moves": [
+        {
+          "name": "Crown of Copper",
+          "damage": 240
+        },
+        {
+          "name": "Regal Extinction",
+          "damage": 300
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Dragon",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingerdread Catacomb",
+      "displayName": "Gingerdread Catacomb",
+      "type": "fighting / fire",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/48_Gingerdread_Catacomb.mp4",
+      "imageFile": "Rusthallow/PNG/48_Gingerdread_Catacomb.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 48,
+      "hp": 360,
+      "moves": [
+        {
+          "name": "Inferno Judgment",
+          "damage": 260
+        },
+        {
+          "name": "Carrot Crown Annihilation",
+          "damage": 330
+        }
+      ],
+      "weakness": "Water",
+      "resistance": "Steel",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Duravex Overlord",
+      "displayName": "Duravex Overlord",
+      "type": "steel / fighting",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/49_Duravex_Overlord.mp4",
+      "imageFile": "Rusthallow/PNG/49_Duravex_Overlord.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 49,
+      "hp": 370,
+      "moves": [
+        {
+          "name": "Iron Tyranny",
+          "damage": 270
+        },
+        {
+          "name": "Full Charge Devastation",
+          "damage": 340
+        }
+      ],
+      "weakness": "Ground",
+      "resistance": "Fairy",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Steprazeon Eternal",
+      "displayName": "Steprazeon Eternal",
+      "type": "ghost / ground",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Rusthallow/MP4/50_Steprazeon_Eternal.mp4",
+      "imageFile": "Rusthallow/PNG/50_Steprazeon_Eternal.png",
+      "region": "Rusthallow",
+      "regionOrder": 3,
+      "cardNumber": 50,
+      "hp": 360,
+      "moves": [
+        {
+          "name": "Eternal No Soul",
+          "damage": 260
+        },
+        {
+          "name": "Burial of Rusthallow",
+          "damage": 330
+        }
+      ],
+      "weakness": "Dark",
+      "resistance": "Fighting",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingnat",
+      "displayName": "Gingnat",
+      "type": "bug",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/01_Gingnat.mp4",
+      "imageFile": "Copperspore Marsh/PNG/01_Gingnat.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 1,
+      "hp": 50,
+      "moves": [
+        {
+          "name": "Spore Buzz",
+          "damage": 10
+        },
+        {
+          "name": "Irritate",
+          "damage": 20
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangloom",
+      "displayName": "Rangloom",
+      "type": "grass",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/02_Rangloom.mp4",
+      "imageFile": "Copperspore Marsh/PNG/02_Rangloom.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 2,
+      "hp": 60,
+      "moves": [
+        {
+          "name": "Marsh Root",
+          "damage": 10
+        },
+        {
+          "name": "Thorn Flick",
+          "damage": 20
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Coppervine",
+      "displayName": "Coppervine",
+      "type": "grass",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/03_Coppervine.mp4",
+      "imageFile": "Copperspore Marsh/PNG/03_Coppervine.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 3,
+      "hp": 70,
+      "moves": [
+        {
+          "name": "Vine Lash",
+          "damage": 20
+        },
+        {
+          "name": "Bog Snare",
+          "damage": 30
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Electric",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Freckroach",
+      "displayName": "Freckroach",
+      "type": "bug / poison",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/04_Freckroach.mp4",
+      "imageFile": "Copperspore Marsh/PNG/04_Freckroach.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 4,
+      "hp": 60,
+      "moves": [
+        {
+          "name": "Acid Skitter",
+          "damage": 20
+        },
+        {
+          "name": "Toxin Trail",
+          "damage": 30
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustmoth",
+      "displayName": "Rustmoth",
+      "type": "bug / flying",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/05_Rustmoth.mp4",
+      "imageFile": "Copperspore Marsh/PNG/05_Rustmoth.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 5,
+      "hp": 70,
+      "moves": [
+        {
+          "name": "Powder Drift",
+          "damage": 20
+        },
+        {
+          "name": "Copper Gust",
+          "damage": 30
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjask",
+      "displayName": "Ginjask",
+      "type": "bug",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/06_Ginjask.mp4",
+      "imageFile": "Copperspore Marsh/PNG/06_Ginjask.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 6,
+      "hp": 80,
+      "moves": [
+        {
+          "name": "Quick Slice",
+          "damage": 20
+        },
+        {
+          "name": "Marsh Dash",
+          "damage": 40
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Redrootle",
+      "displayName": "Redrootle",
+      "type": "grass",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/07_Redrootle.mp4",
+      "imageFile": "Copperspore Marsh/PNG/07_Redrootle.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 7,
+      "hp": 80,
+      "moves": [
+        {
+          "name": "Sap Bite",
+          "damage": 30
+        },
+        {
+          "name": "Swamp Roll",
+          "damage": 40
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjaspore",
+      "displayName": "Ginjaspore",
+      "type": "grass / poison",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/08_Ginjaspore.mp4",
+      "imageFile": "Copperspore Marsh/PNG/08_Ginjaspore.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 8,
+      "hp": 70,
+      "moves": [
+        {
+          "name": "Sleep Pollen",
+          "damage": 20
+        },
+        {
+          "name": "Venom Bloom",
+          "damage": 40
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Coppergnat",
+      "displayName": "Coppergnat",
+      "type": "bug / flying",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/09_Coppergnat.mp4",
+      "imageFile": "Copperspore Marsh/PNG/09_Coppergnat.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 9,
+      "hp": 60,
+      "moves": [
+        {
+          "name": "Sting Jab",
+          "damage": 20
+        },
+        {
+          "name": "Swarm Spin",
+          "damage": 30
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rotschleaf",
+      "displayName": "Rotschleaf",
+      "type": "grass",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/10_Rotschleaf.mp4",
+      "imageFile": "Copperspore Marsh/PNG/10_Rotschleaf.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 10,
+      "hp": 90,
+      "moves": [
+        {
+          "name": "Root Drain",
+          "damage": 30
+        },
+        {
+          "name": "Bitter Lash",
+          "damage": 50
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Bigreddle",
+      "displayName": "Bigreddle",
+      "type": "normal",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/11_Bigreddle.mp4",
+      "imageFile": "Copperspore Marsh/PNG/11_Bigreddle.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 11,
+      "hp": 100,
+      "moves": [
+        {
+          "name": "Heavy Headbutt",
+          "damage": 40
+        },
+        {
+          "name": "Bog Charge",
+          "damage": 60
+        }
+      ],
+      "weakness": "Fighting",
+      "resistance": null,
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Torchfly",
+      "displayName": "Torchfly",
+      "type": "bug / flying",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/12_Torchfly.mp4",
+      "imageFile": "Copperspore Marsh/PNG/12_Torchfly.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 12,
+      "hp": 80,
+      "moves": [
+        {
+          "name": "Glow Flick",
+          "damage": 30
+        },
+        {
+          "name": "Ember Drift",
+          "damage": 50
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingervine",
+      "displayName": "Gingervine",
+      "type": "grass",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/13_Gingervine.mp4",
+      "imageFile": "Copperspore Marsh/PNG/13_Gingervine.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 13,
+      "hp": 100,
+      "moves": [
+        {
+          "name": "Wrap Bind",
+          "damage": 40
+        },
+        {
+          "name": "Marsh Crush",
+          "damage": 60
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustweed",
+      "displayName": "Rustweed",
+      "type": "grass / poison",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/14_Rustweed.mp4",
+      "imageFile": "Copperspore Marsh/PNG/14_Rustweed.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 14,
+      "hp": 90,
+      "moves": [
+        {
+          "name": "Acid Sap",
+          "damage": 40
+        },
+        {
+          "name": "Corrupt Growth",
+          "damage": 70
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Emberwasp",
+      "displayName": "Emberwasp",
+      "type": "bug / poison",
+      "rarity": "common",
+      "rarityDisplay": "Common",
+      "rarityColor": "#8a8a8a",
+      "rarityTier": 0,
+      "pullRate": 50.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/15_Emberwasp.mp4",
+      "imageFile": "Copperspore Marsh/PNG/15_Emberwasp.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 15,
+      "hp": 100,
+      "moves": [
+        {
+          "name": "Venom Sting",
+          "damage": 40
+        },
+        {
+          "name": "Blister Burst",
+          "damage": 70
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingnarl",
+      "displayName": "Gingnarl",
+      "type": "bug / poison",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/16_Gingnarl.mp4",
+      "imageFile": "Copperspore Marsh/PNG/16_Gingnarl.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 16,
+      "hp": 100,
+      "moves": [
+        {
+          "name": "Toxic Buzz",
+          "damage": 40
+        },
+        {
+          "name": "Spore Lash",
+          "damage": 70
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingnox",
+      "displayName": "Gingnox",
+      "type": "bug / poison",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/17_Gingnox.mp4",
+      "imageFile": "Copperspore Marsh/PNG/17_Gingnox.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 17,
+      "hp": 150,
+      "moves": [
+        {
+          "name": "Venom Swarm",
+          "damage": 90
+        },
+        {
+          "name": "Copper Plague",
+          "damage": 130
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangrove",
+      "displayName": "Rangrove",
+      "type": "grass",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/18_Rangrove.mp4",
+      "imageFile": "Copperspore Marsh/PNG/18_Rangrove.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 18,
+      "hp": 110,
+      "moves": [
+        {
+          "name": "Thorn Bind",
+          "damage": 50
+        },
+        {
+          "name": "Marsh Grip",
+          "damage": 80
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangrowth",
+      "displayName": "Rangrowth",
+      "type": "grass / poison",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/19_Rangrowth.mp4",
+      "imageFile": "Copperspore Marsh/PNG/19_Rangrowth.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 19,
+      "hp": 170,
+      "moves": [
+        {
+          "name": "Overgrowth Lash",
+          "damage": 100
+        },
+        {
+          "name": "Swamp Dominion",
+          "damage": 140
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperthorn",
+      "displayName": "Copperthorn",
+      "type": "grass",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/20_Copperthorn.mp4",
+      "imageFile": "Copperspore Marsh/PNG/20_Copperthorn.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 20,
+      "hp": 120,
+      "moves": [
+        {
+          "name": "Root Snare",
+          "damage": 60
+        },
+        {
+          "name": "Briar Crush",
+          "damage": 90
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Electric",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperthornex",
+      "displayName": "Copperthornex",
+      "type": "grass / poison",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/21_Copperthornex.mp4",
+      "imageFile": "Copperspore Marsh/PNG/21_Copperthornex.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 21,
+      "hp": 180,
+      "moves": [
+        {
+          "name": "Venom Vines",
+          "damage": 110
+        },
+        {
+          "name": "Marsh Collapse",
+          "damage": 150
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Freckrawl",
+      "displayName": "Freckrawl",
+      "type": "bug / poison",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/22_Freckrawl.mp4",
+      "imageFile": "Copperspore Marsh/PNG/22_Freckrawl.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 22,
+      "hp": 110,
+      "moves": [
+        {
+          "name": "Acid Rush",
+          "damage": 60
+        },
+        {
+          "name": "Toxin Spit",
+          "damage": 90
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Freckroach Prime",
+      "displayName": "Freckroach Prime",
+      "type": "bug / poison",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/23_Freckroach_Prime.mp4",
+      "imageFile": "Copperspore Marsh/PNG/23_Freckroach_Prime.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 23,
+      "hp": 170,
+      "moves": [
+        {
+          "name": "Corrosive Swarm",
+          "damage": 110
+        },
+        {
+          "name": "Bog Eruption",
+          "damage": 150
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustwing",
+      "displayName": "Rustwing",
+      "type": "bug / flying",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/24_Rustwing.mp4",
+      "imageFile": "Copperspore Marsh/PNG/24_Rustwing.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 24,
+      "hp": 130,
+      "moves": [
+        {
+          "name": "Copper Gust",
+          "damage": 70
+        },
+        {
+          "name": "Swamp Cyclone",
+          "damage": 100
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustwing Monarch",
+      "displayName": "Rustwing Monarch",
+      "type": "bug / flying",
+      "rarity": "uncommon",
+      "rarityDisplay": "Uncommon",
+      "rarityColor": "#22c55e",
+      "rarityTier": 1,
+      "pullRate": 15.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/25_Rustwing_Monarch.mp4",
+      "imageFile": "Copperspore Marsh/PNG/25_Rustwing_Monarch.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 25,
+      "hp": 190,
+      "moves": [
+        {
+          "name": "Sovereign Drift",
+          "damage": 120
+        },
+        {
+          "name": "Pollen Tempest",
+          "damage": 170
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjathorn",
+      "displayName": "Ginjathorn",
+      "type": "grass / poison",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/26_Ginjathorn.mp4",
+      "imageFile": "Copperspore Marsh/PNG/26_Ginjathorn.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 26,
+      "hp": 180,
+      "moves": [
+        {
+          "name": "Venom Briar",
+          "damage": 110
+        },
+        {
+          "name": "Swamp Collapse",
+          "damage": 150
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Coppermire",
+      "displayName": "Coppermire",
+      "type": "poison",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/27_Coppermire.mp4",
+      "imageFile": "Copperspore Marsh/PNG/27_Coppermire.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 27,
+      "hp": 170,
+      "moves": [
+        {
+          "name": "Toxic Surge",
+          "damage": 100
+        },
+        {
+          "name": "Bog Eruption",
+          "damage": 140
+        }
+      ],
+      "weakness": "Psychic",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ranghaze",
+      "displayName": "Ranghaze",
+      "type": "poison / flying",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/28_Ranghaze.mp4",
+      "imageFile": "Copperspore Marsh/PNG/28_Ranghaze.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 28,
+      "hp": 160,
+      "moves": [
+        {
+          "name": "Spore Cyclone",
+          "damage": 90
+        },
+        {
+          "name": "Blight Gust",
+          "damage": 130
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustcrown",
+      "displayName": "Rustcrown",
+      "type": "bug / grass",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/29_Rustcrown.mp4",
+      "imageFile": "Copperspore Marsh/PNG/29_Rustcrown.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 29,
+      "hp": 190,
+      "moves": [
+        {
+          "name": "Crown Pollen",
+          "damage": 120
+        },
+        {
+          "name": "Sovereign Swarm",
+          "damage": 160
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Bigredfern",
+      "displayName": "Bigredfern",
+      "type": "grass",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/30_Bigredfern.mp4",
+      "imageFile": "Copperspore Marsh/PNG/30_Bigredfern.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 30,
+      "hp": 200,
+      "moves": [
+        {
+          "name": "Overgrowth Slam",
+          "damage": 130
+        },
+        {
+          "name": "Marsh Dominion",
+          "damage": 170
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjabloom EX",
+      "displayName": "Ginjabloom EX",
+      "type": "grass / poison",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/31_Ginjabloom_EX.mp4",
+      "imageFile": "Copperspore Marsh/PNG/31_Ginjabloom_EX.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 31,
+      "hp": 240,
+      "moves": [
+        {
+          "name": "Bloom Corruption",
+          "damage": 160
+        },
+        {
+          "name": "Toxic Overrun",
+          "damage": 210
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Coppersting EX",
+      "displayName": "Coppersting EX",
+      "type": "bug / poison",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/32_Coppersting_EX.mp4",
+      "imageFile": "Copperspore Marsh/PNG/32_Coppersting_EX.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 32,
+      "hp": 230,
+      "moves": [
+        {
+          "name": "Acid Barrage",
+          "damage": 150
+        },
+        {
+          "name": "Plague Rush",
+          "damage": 200
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rotschwing EX",
+      "displayName": "Rotschwing EX",
+      "type": "flying / poison",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/33_Rotschwing_EX.mp4",
+      "imageFile": "Copperspore Marsh/PNG/33_Rotschwing_EX.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 33,
+      "hp": 250,
+      "moves": [
+        {
+          "name": "Rotwind Slash",
+          "damage": 170
+        },
+        {
+          "name": "Blight Tempest",
+          "damage": 220
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingervine Sovereign",
+      "displayName": "Gingervine Sovereign",
+      "type": "grass",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/34_Gingervine_Sovereign.mp4",
+      "imageFile": "Copperspore Marsh/PNG/34_Gingervine_Sovereign.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 34,
+      "hp": 260,
+      "moves": [
+        {
+          "name": "Sovereign Bind",
+          "damage": 180
+        },
+        {
+          "name": "Swamp Entangle",
+          "damage": 230
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Embermire EX",
+      "displayName": "Embermire EX",
+      "type": "poison / grass",
+      "rarity": "holo",
+      "rarityDisplay": "Holo",
+      "rarityColor": "#a855f7",
+      "rarityTier": 3,
+      "pullRate": 12.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/35_Embermire_EX.mp4",
+      "imageFile": "Copperspore Marsh/PNG/35_Embermire_EX.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 35,
+      "hp": 270,
+      "moves": [
+        {
+          "name": "Corrosive Ember",
+          "damage": 190
+        },
+        {
+          "name": "Bog Inferno",
+          "damage": 240
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangaspore Monarch",
+      "displayName": "Rangaspore Monarch",
+      "type": "grass / poison",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/36_Rangaspore_Monarch.mp4",
+      "imageFile": "Copperspore Marsh/PNG/36_Rangaspore_Monarch.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 36,
+      "hp": 280,
+      "moves": [
+        {
+          "name": "Monarch Bloom",
+          "damage": 200
+        },
+        {
+          "name": "Spore Dominion",
+          "damage": 260
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperplague",
+      "displayName": "Copperplague",
+      "type": "poison",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/37_Copperplague.mp4",
+      "imageFile": "Copperspore Marsh/PNG/37_Copperplague.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 37,
+      "hp": 290,
+      "moves": [
+        {
+          "name": "Plague Surge",
+          "damage": 210
+        },
+        {
+          "name": "Toxic Rupture",
+          "damage": 270
+        }
+      ],
+      "weakness": "Psychic",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Ginjaroach Apex",
+      "displayName": "Ginjaroach Apex",
+      "type": "bug / poison",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/38_Ginjaroach_Apex.mp4",
+      "imageFile": "Copperspore Marsh/PNG/38_Ginjaroach_Apex.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 38,
+      "hp": 300,
+      "moves": [
+        {
+          "name": "Apex Swarm",
+          "damage": 220
+        },
+        {
+          "name": "Corrosive Cataclysm",
+          "damage": 280
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rustfeather Tyrant",
+      "displayName": "Rustfeather Tyrant",
+      "type": "flying / grass",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/39_Rustfeather_Tyrant.mp4",
+      "imageFile": "Copperspore Marsh/PNG/39_Rustfeather_Tyrant.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 39,
+      "hp": 310,
+      "moves": [
+        {
+          "name": "Tyrant Dive",
+          "damage": 230
+        },
+        {
+          "name": "Spore Tempest",
+          "damage": 290
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Bigredrot",
+      "displayName": "Bigredrot",
+      "type": "grass / poison",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/40_Bigredrot.mp4",
+      "imageFile": "Copperspore Marsh/PNG/40_Bigredrot.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 40,
+      "hp": 320,
+      "moves": [
+        {
+          "name": "Rot Slam",
+          "damage": 240
+        },
+        {
+          "name": "Overgrowth Ruin",
+          "damage": 300
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperfen Prime",
+      "displayName": "Copperfen Prime",
+      "type": "grass",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/41_Copperfen_Prime.mp4",
+      "imageFile": "Copperspore Marsh/PNG/41_Copperfen_Prime.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 41,
+      "hp": 330,
+      "moves": [
+        {
+          "name": "Fen Collapse",
+          "damage": 250
+        },
+        {
+          "name": "Rootquake",
+          "damage": 310
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangaeros",
+      "displayName": "Rangaeros",
+      "type": "poison / normal",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/42_Rangaeros.mp4",
+      "imageFile": "Copperspore Marsh/PNG/42_Rangaeros.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 42,
+      "hp": 300,
+      "moves": [
+        {
+          "name": "Bog Charge",
+          "damage": 220
+        },
+        {
+          "name": "Toxic Headbutt",
+          "damage": 280
+        }
+      ],
+      "weakness": "Psychic",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingnox Swarmking",
+      "displayName": "Gingnox Swarmking",
+      "type": "bug / poison",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/43_Gingnox_Swarmking.mp4",
+      "imageFile": "Copperspore Marsh/PNG/43_Gingnox_Swarmking.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 43,
+      "hp": 340,
+      "moves": [
+        {
+          "name": "Swarm Verdict",
+          "damage": 260
+        },
+        {
+          "name": "Plaguefall",
+          "damage": 320
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperthorn Dominion",
+      "displayName": "Copperthorn Dominion",
+      "type": "grass",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/44_Copperthorn_Dominion.mp4",
+      "imageFile": "Copperspore Marsh/PNG/44_Copperthorn_Dominion.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 44,
+      "hp": 350,
+      "moves": [
+        {
+          "name": "Thornquake",
+          "damage": 270
+        },
+        {
+          "name": "Marsh Sovereignty",
+          "damage": 330
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangahollow",
+      "displayName": "Rangahollow",
+      "type": "poison / flying",
+      "rarity": "evolutionex",
+      "rarityDisplay": "Evolution EX",
+      "rarityColor": "#f59e0b",
+      "rarityTier": 6,
+      "pullRate": 2.0,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/45_Rangahollow.mp4",
+      "imageFile": "Copperspore Marsh/PNG/45_Rangahollow.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 45,
+      "hp": 330,
+      "moves": [
+        {
+          "name": "Hollow Drift",
+          "damage": 250
+        },
+        {
+          "name": "Blightstorm",
+          "damage": 310
+        }
+      ],
+      "weakness": "Electric",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperspore Herald",
+      "displayName": "Copperspore Herald",
+      "type": "grass / poison",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/46_Copperspore_Herald.mp4",
+      "imageFile": "Copperspore Marsh/PNG/46_Copperspore_Herald.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 46,
+      "hp": 360,
+      "moves": [
+        {
+          "name": "Herald Bloom",
+          "damage": 280
+        },
+        {
+          "name": "Swamp Awakening",
+          "damage": 340
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Rangafern Colossus",
+      "displayName": "Rangafern Colossus",
+      "type": "grass",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/47_Rangafern_Colossus.mp4",
+      "imageFile": "Copperspore Marsh/PNG/47_Rangafern_Colossus.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 47,
+      "hp": 370,
+      "moves": [
+        {
+          "name": "Colossal Root",
+          "damage": 290
+        },
+        {
+          "name": "Marshquake",
+          "damage": 350
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperblight Leviant",
+      "displayName": "Copperblight Leviant",
+      "type": "poison",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/48_Copperblight_Leviant.mp4",
+      "imageFile": "Copperspore Marsh/PNG/48_Copperblight_Leviant.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 48,
+      "hp": 380,
+      "moves": [
+        {
+          "name": "Leviant Surge",
+          "damage": 300
+        },
+        {
+          "name": "Total Corruption",
+          "damage": 360
+        }
+      ],
+      "weakness": "Psychic",
+      "resistance": "Grass",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Gingervine Cataclysm",
+      "displayName": "Gingervine Cataclysm",
+      "type": "grass / poison",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/49_Gingervine_Cataclysm.mp4",
+      "imageFile": "Copperspore Marsh/PNG/49_Gingervine_Cataclysm.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 49,
+      "hp": 390,
+      "moves": [
+        {
+          "name": "Cataclysmic Growth",
+          "damage": 310
+        },
+        {
+          "name": "Bog Extinction",
+          "damage": 380
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
+    },
+    {
+      "name": "Copperspore Sovereign",
+      "displayName": "Copperspore Sovereign",
+      "type": "grass / poison",
+      "rarity": "legendary",
+      "rarityDisplay": "Legendary",
+      "rarityColor": "#eab308",
+      "rarityTier": 11,
+      "pullRate": 0.15,
+      "hasVideo": true,
+      "hasImage": true,
+      "videoFile": "Copperspore Marsh/MP4/50_Copperspore_Sovereign.mp4",
+      "imageFile": "Copperspore Marsh/PNG/50_Copperspore_Sovereign.png",
+      "region": "Copperspore Marsh",
+      "regionOrder": 4,
+      "cardNumber": 50,
+      "hp": 420,
+      "moves": [
+        {
+          "name": "Sovereign Bloom",
+          "damage": 330
+        },
+        {
+          "name": "Eternal Marshfall",
+          "damage": 400
+        }
+      ],
+      "weakness": "Fire",
+      "resistance": "Water",
+      "caughtBy": [],
+      "catchCount": 0,
+      "catchImages": []
     }
   ],
   "leaderboard": [
@@ -3379,8 +6679,8 @@
         "Cornered Ginger EX"
       ],
       "uniqueCount": 11,
-      "totalCards": 100,
-      "completionPct": 11.0,
+      "totalCards": 200,
+      "completionPct": 5.5,
       "catchImages": [
         {
           "cardName": "Cornered_Ginger_EX",
@@ -3466,8 +6766,8 @@
         "Groveginger"
       ],
       "uniqueCount": 10,
-      "totalCards": 100,
-      "completionPct": 10.0,
+      "totalCards": 200,
+      "completionPct": 5.0,
       "catchImages": [
         {
           "cardName": "Burnttips",
@@ -3558,8 +6858,8 @@
         "Gingale"
       ],
       "uniqueCount": 9,
-      "totalCards": 100,
-      "completionPct": 9.0,
+      "totalCards": 200,
+      "completionPct": 4.5,
       "catchImages": [
         {
           "cardName": "Burnttips",
@@ -3629,8 +6929,8 @@
         "Mindranga"
       ],
       "uniqueCount": 6,
-      "totalCards": 100,
-      "completionPct": 6.0,
+      "totalCards": 200,
+      "completionPct": 3.0,
       "catchImages": [
         {
           "cardName": "Firecrotch",
@@ -3680,8 +6980,8 @@
         "Gingerbeardman"
       ],
       "uniqueCount": 4,
-      "totalCards": 100,
-      "completionPct": 4.0,
+      "totalCards": 200,
+      "completionPct": 2.0,
       "catchImages": [
         {
           "cardName": "Emberbeard",
@@ -3713,8 +7013,8 @@
         "Ginger"
       ],
       "uniqueCount": 4,
-      "totalCards": 100,
-      "completionPct": 4.0,
+      "totalCards": 200,
+      "completionPct": 2.0,
       "catchImages": [
         {
           "cardName": "Frecklefiend",
@@ -3750,8 +7050,8 @@
         "Natdelos"
       ],
       "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
+      "totalCards": 200,
+      "completionPct": 1.0,
       "catchImages": []
     },
     {
@@ -3762,8 +7062,8 @@
         "Natdelos"
       ],
       "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
+      "totalCards": 200,
+      "completionPct": 1.0,
       "catchImages": [
         {
           "cardName": "Grassginger",
@@ -3787,8 +7087,8 @@
         "Gingerbeardmanevo"
       ],
       "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
+      "totalCards": 200,
+      "completionPct": 1.0,
       "catchImages": [
         {
           "cardName": "Gingerbeardmanevo",
@@ -3812,8 +7112,8 @@
         "Gingermanevo"
       ],
       "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
+      "totalCards": 200,
+      "completionPct": 1.0,
       "catchImages": [
         {
           "cardName": "Gingermanevo",
@@ -3837,8 +7137,8 @@
         "GingerBeardManEvo"
       ],
       "uniqueCount": 2,
-      "totalCards": 100,
-      "completionPct": 2.0,
+      "totalCards": 200,
+      "completionPct": 1.0,
       "catchImages": [
         {
           "cardName": "Daywalker",
@@ -3861,8 +7161,8 @@
         "Scarlet"
       ],
       "uniqueCount": 1,
-      "totalCards": 100,
-      "completionPct": 1.0,
+      "totalCards": 200,
+      "completionPct": 0.5,
       "catchImages": []
     },
     {
@@ -3872,8 +7172,8 @@
         "Scarlet"
       ],
       "uniqueCount": 1,
-      "totalCards": 100,
-      "completionPct": 1.0,
+      "totalCards": 200,
+      "completionPct": 0.5,
       "catchImages": [
         {
           "cardName": "Scarlet",
@@ -3890,8 +7190,8 @@
         "Grassginger"
       ],
       "uniqueCount": 1,
-      "totalCards": 100,
-      "completionPct": 1.0,
+      "totalCards": 200,
+      "completionPct": 0.5,
       "catchImages": [
         {
           "cardName": "Grassginger",
@@ -3903,21 +7203,48 @@
     }
   ],
   "types": [
+    "bug",
+    "bug / flying",
+    "bug / grass",
+    "bug / poison",
     "chaos",
     "dark",
     "dark / electric",
     "dark / fire",
     "dark / psychic",
+    "dragon",
+    "dragon / fire",
+    "dragon / steel",
     "electric",
+    "fairy",
+    "fairy / steel",
+    "fighting",
+    "fighting / fire",
     "fire",
     "flying",
+    "flying / grass",
+    "flying / poison",
     "flying / psychic",
+    "ghost",
+    "ghost / ground",
+    "ghost / steel",
     "grass",
+    "grass / poison",
+    "ground",
+    "ground / fighting",
     "ice",
     "ice / psychic",
     "normal",
+    "poison",
+    "poison / flying",
+    "poison / grass",
+    "poison / normal",
     "psychic",
-    "psychic / flying"
+    "psychic / flying",
+    "steel",
+    "steel / dragon",
+    "steel / fairy",
+    "steel / fighting"
   ],
   "rarities": [
     "common",
@@ -3939,7 +7266,9 @@
   "regions": [
     "Original",
     "Umbrareach",
-    "Skyfrost Vale"
+    "Skyfrost Vale",
+    "Rusthallow",
+    "Copperspore Marsh"
   ],
   "regionInfo": {
     "Original": {
@@ -3956,12 +7285,24 @@
       "emoji": "\u2744\ufe0f",
       "label": "SKYFROST VALE",
       "cardCount": 25
+    },
+    "Rusthallow": {
+      "emoji": "\u2699\ufe0f",
+      "label": "RUSTHALLOW",
+      "cardCount": 50
+    },
+    "Copperspore Marsh": {
+      "emoji": "\ud83c\udf44",
+      "label": "COPPERSPORE MARSH",
+      "cardCount": 50
     }
   },
   "regionOrder": [
     "Original",
     "Umbrareach",
-    "Skyfrost Vale"
+    "Skyfrost Vale",
+    "Rusthallow",
+    "Copperspore Marsh"
   ],
   "rarityDisplay": {
     "common": "Common",

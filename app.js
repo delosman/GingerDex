@@ -247,28 +247,97 @@
     const originalCards = ownedCards.filter((c) => (c.region || "Original") === "Original");
     const umbraCards = ownedCards.filter((c) => c.region === "Umbrareach");
     const frostCards = ownedCards.filter((c) => c.region === "Skyfrost Vale");
+    const rustCards = ownedCards.filter((c) => c.region === "Rusthallow");
+    const marshCards = ownedCards.filter((c) => c.region === "Copperspore Marsh");
 
     // Region totals
     const totalOriginal = DATA.cards.filter((c) => (c.region || "Original") === "Original").length;
     const totalUmbra = DATA.cards.filter((c) => c.region === "Umbrareach").length;
     const totalFrost = DATA.cards.filter((c) => c.region === "Skyfrost Vale").length;
+    const totalRust = DATA.cards.filter((c) => c.region === "Rusthallow").length;
+    const totalMarsh = DATA.cards.filter((c) => c.region === "Copperspore Marsh").length;
 
     // Check for high-rarity cards
     const highRarities = ["legendary", "mythic", "1stedition", "chaos"];
     const hasHighRarity = ownedCards.some((c) => highRarities.includes(c.rarity));
 
+    // Type collection tracking
+    const ownedTypes = new Set();
+    ownedCards.forEach((c) => {
+      c.type.split(" / ").forEach((t) => ownedTypes.add(t.trim().toLowerCase()));
+    });
+    const allTypes = new Set();
+    DATA.cards.forEach((c) => {
+      c.type.split(" / ").forEach((t) => allTypes.add(t.trim().toLowerCase()));
+    });
+
+    // Rarity collection tracking
+    const ownedRarities = new Set(ownedCards.map((c) => c.rarity));
+
+    // Type-specific counts
+    const fireCards = ownedCards.filter((c) => c.type.toLowerCase().includes("fire"));
+    const darkCards = ownedCards.filter((c) => c.type.toLowerCase().includes("dark"));
+    const dragonCards = ownedCards.filter((c) => c.type.toLowerCase().includes("dragon"));
+    const steelCards = ownedCards.filter((c) => c.type.toLowerCase().includes("steel"));
+    const poisonCards = ownedCards.filter((c) => c.type.toLowerCase().includes("poison"));
+    const psychicCards = ownedCards.filter((c) => c.type.toLowerCase().includes("psychic"));
+    const dualTypes = ownedCards.filter((c) => c.type.includes(" / "));
+
+    // Multi-region presence
+    const regionsWithCards = new Set(ownedCards.map((c) => c.region || "Original"));
+
+    // Rarity tier checks
+    const hasMythic = ownedCards.some((c) => c.rarity === "mythic");
+    const hasChaos = ownedCards.some((c) => c.rarity === "chaos");
+    const has1st = ownedCards.some((c) => c.rarity === "1stedition");
+    const exCards = ownedCards.filter((c) => ["ex", "evolutionex"].includes(c.rarity));
+
     const achievements = [
+      // --- Milestone badges ---
       { id: "first", icon: "\u2b50", name: "First Catch", desc: "Caught at least 1 GingerMon", earned: uniqueCount >= 1 },
       { id: "collector", icon: "\ud83c\udfc5", name: "Collector", desc: "Caught 10+ unique GingerMon", earned: uniqueCount >= 10 },
       { id: "veteran", icon: "\ud83c\udf96\ufe0f", name: "Veteran", desc: "Caught 25+ unique GingerMon", earned: uniqueCount >= 25 },
       { id: "master", icon: "\ud83d\udc51", name: "Master", desc: "Caught 50+ unique GingerMon", earned: uniqueCount >= 50 },
+      { id: "centurion", icon: "\ud83d\udee1\ufe0f", name: "Centurion", desc: "Caught 100+ unique GingerMon", earned: uniqueCount >= 100 },
+      { id: "legend", icon: "\ud83c\udf1f", name: "Living Legend", desc: "Caught 150+ unique GingerMon", earned: uniqueCount >= 150 },
       { id: "complete", icon: "\ud83c\udfc6", name: "Completionist", desc: "100% collection complete", earned: uniqueCount >= totalCards },
+
+      // --- Region complete badges ---
       { id: "region-original", icon: "\ud83d\udd25", name: "Original Complete", desc: "All Original region cards", earned: originalCards.length >= totalOriginal },
       { id: "region-umbra", icon: "\ud83c\udf11", name: "Umbrareach Complete", desc: "All Umbrareach region cards", earned: umbraCards.length >= totalUmbra },
       { id: "region-frost", icon: "\u2744\ufe0f", name: "Skyfrost Complete", desc: "All Skyfrost Vale region cards", earned: frostCards.length >= totalFrost },
-      { id: "rare-hunter", icon: "\ud83d\udc8e", name: "Rare Hunter", desc: "Caught a Legendary or higher rarity", earned: hasHighRarity },
+      { id: "region-rust", icon: "\u2699\ufe0f", name: "Rusthallow Complete", desc: "All Rusthallow region cards", earned: rustCards.length >= totalRust },
+      { id: "region-marsh", icon: "\ud83c\udf44", name: "Copperspore Complete", desc: "All Copperspore Marsh region cards", earned: marshCards.length >= totalMarsh },
+
+      // --- Region explorer badges ---
       { id: "shadow", icon: "\ud83c\udf0c", name: "Shadow Collector", desc: "Caught 10+ Umbrareach cards", earned: umbraCards.length >= 10 },
       { id: "frost-walker", icon: "\u26c4", name: "Frost Walker", desc: "Caught 10+ Skyfrost Vale cards", earned: frostCards.length >= 10 },
+      { id: "rust-pioneer", icon: "\ud83d\udd29", name: "Rusthallow Pioneer", desc: "Caught 10+ Rusthallow cards", earned: rustCards.length >= 10 },
+      { id: "marsh-explorer", icon: "\ud83c\udf3f", name: "Marsh Explorer", desc: "Caught 10+ Copperspore Marsh cards", earned: marshCards.length >= 10 },
+      { id: "globetrotter", icon: "\ud83c\udf0d", name: "Globetrotter", desc: "Caught cards from all 5 regions", earned: regionsWithCards.size >= 5 },
+
+      // --- Rarity badges ---
+      { id: "rare-hunter", icon: "\ud83d\udc8e", name: "Rare Hunter", desc: "Caught a Legendary or higher rarity", earned: hasHighRarity },
+      { id: "mythic-find", icon: "\ud83d\udd2e", name: "Mythic Find", desc: "Caught a Mythic rarity card", earned: hasMythic },
+      { id: "chaos-touched", icon: "\ud83c\udf00", name: "Chaos Touched", desc: "Caught a Chaos rarity card", earned: hasChaos },
+      { id: "first-edition", icon: "\ud83c\udccf", name: "First Edition", desc: "Caught a 1st Edition card", earned: has1st },
+      { id: "ex-collector", icon: "\u26a1", name: "EX Collector", desc: "Caught 5+ EX/Evolution EX cards", earned: exCards.length >= 5 },
+      { id: "rarity-rainbow", icon: "\ud83c\udf08", name: "Rarity Rainbow", desc: "Caught cards of 8+ different rarities", earned: ownedRarities.size >= 8 },
+
+      // --- Type mastery badges ---
+      { id: "pyromaniac", icon: "\ud83d\udca5", name: "Pyromaniac", desc: "Caught 10+ Fire-type cards", earned: fireCards.length >= 10 },
+      { id: "shadow-lord", icon: "\ud83d\udc7b", name: "Shadow Lord", desc: "Caught 10+ Dark-type cards", earned: darkCards.length >= 10 },
+      { id: "dragon-tamer", icon: "\ud83d\udc09", name: "Dragon Tamer", desc: "Caught 5+ Dragon-type cards", earned: dragonCards.length >= 5 },
+      { id: "iron-forged", icon: "\u2694\ufe0f", name: "Iron Forged", desc: "Caught 5+ Steel-type cards", earned: steelCards.length >= 5 },
+      { id: "toxic-touch", icon: "\u2620\ufe0f", name: "Toxic Touch", desc: "Caught 5+ Poison-type cards", earned: poisonCards.length >= 5 },
+      { id: "mind-reader", icon: "\ud83e\udde0", name: "Mind Reader", desc: "Caught 5+ Psychic-type cards", earned: psychicCards.length >= 5 },
+      { id: "type-master", icon: "\ud83c\udfa8", name: "Type Master", desc: "Caught every type in the game", earned: ownedTypes.size >= allTypes.size },
+      { id: "dual-wielder", icon: "\u2728", name: "Dual Wielder", desc: "Caught 10+ dual-type cards", earned: dualTypes.length >= 10 },
+
+      // --- Fun / special badges ---
+      { id: "halfway", icon: "\ud83d\udcca", name: "Halfway There", desc: "Reached 50% collection completion", earned: uniqueCount >= Math.ceil(totalCards / 2) },
+      { id: "power-house", icon: "\ud83d\udcaa", name: "Powerhouse", desc: "Own a card with 300+ HP", earned: ownedCards.some((c) => (c.hp || 0) >= 300) },
+      { id: "nuke", icon: "\u2604\ufe0f", name: "Walking Nuke", desc: "Own a card with a 250+ damage move", earned: ownedCards.some((c) => c.moves && c.moves.some((m) => m.damage >= 250)) },
     ];
 
     return achievements;
