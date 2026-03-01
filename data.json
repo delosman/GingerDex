@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-24T08:55:45.342211",
+  "generated": "2026-03-01T00:02:16.618938",
   "totalCards": 200,
-  "totalTrainers": 14,
+  "totalTrainers": 17,
   "cards": [
     {
       "name": "Ginger",
@@ -49,6 +49,13 @@
           "displayName": "NatDelos",
           "file": "catches/natdelos_Ginger_20260222_210128.png",
           "timestamp": "20260222_210128",
+          "isVideo": false
+        },
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Ginger_20260227_230942.png",
+          "timestamp": "20260227_230942",
           "isVideo": false
         }
       ]
@@ -192,11 +199,19 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [
+        "jennifyrre",
         "Nephilheim",
         "squanchymoto"
       ],
-      "catchCount": 2,
+      "catchCount": 3,
       "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_GingerBeardMan_20260224_234901.mp4",
+          "timestamp": "20260224_234901",
+          "isVideo": true
+        },
         {
           "username": "nephilheim",
           "displayName": "Nephilheim",
@@ -235,22 +250,17 @@
       "resistance": null,
       "caughtBy": [
         "jennifyrre",
-        "squanchymoto"
+        "squanchymoto",
+        "NatDelos",
+        "ArchangelEmperor"
       ],
-      "catchCount": 2,
+      "catchCount": 4,
       "catchImages": [
         {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
-          "timestamp": "20260212_223501",
-          "isVideo": true
-        },
-        {
-          "username": "squanchymoto",
-          "displayName": "squanchymoto",
-          "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
-          "timestamp": "20260210_232129",
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Fire_Crotch_20260224_232801.mp4",
+          "timestamp": "20260224_232801",
           "isVideo": true
         }
       ]
@@ -451,16 +461,24 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [
+        "squanchymoto",
         "crossingchrono",
         "zecourtastrophe"
       ],
-      "catchCount": 2,
+      "catchCount": 3,
       "catchImages": [
         {
           "username": "crossingchrono",
           "displayName": "crossingchrono",
           "file": "catches/crossingchrono_Daywalker_20260201_001858.png",
           "timestamp": "20260201_001858",
+          "isVideo": false
+        },
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Daywalker_20260228_234236.png",
+          "timestamp": "20260228_234236",
           "isVideo": false
         },
         {
@@ -494,9 +512,10 @@
       "resistance": null,
       "caughtBy": [
         "ArchangelEmperor",
+        "ArchangelEmperor",
         "ChosenDolan"
       ],
-      "catchCount": 2,
+      "catchCount": 3,
       "catchImages": [
         {
           "username": "archangelemperor",
@@ -504,6 +523,13 @@
           "file": "catches/archangelemperor_Staticbeard_20260219_230719.png",
           "timestamp": "20260219_230719",
           "isVideo": false
+        },
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_StaticBeard_20260227_223258.mp4",
+          "timestamp": "20260227_223258",
+          "isVideo": true
         },
         {
           "username": "chosendolan",
@@ -624,15 +650,31 @@
       "resistance": null,
       "caughtBy": [
         "jennifyrre",
-        "crossingchrono"
+        "crossingchrono",
+        "crossingchrono",
+        "ArchangelEmperor"
       ],
-      "catchCount": 2,
+      "catchCount": 4,
       "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_BurntTips_20260224_232533.png",
+          "timestamp": "20260224_232533",
+          "isVideo": false
+        },
         {
           "username": "crossingchrono",
           "displayName": "crossingchrono",
           "file": "catches/crossingchrono_Burnttips_20260210_224434.mp4",
           "timestamp": "20260210_224434",
+          "isVideo": true
+        },
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_BurntTips_20260224_234807.mp4",
+          "timestamp": "20260224_234807",
           "isVideo": true
         },
         {
@@ -791,10 +833,18 @@
       "weakness": null,
       "resistance": null,
       "caughtBy": [
-        "squanchymoto"
+        "squanchymoto",
+        "crossingchrono"
       ],
-      "catchCount": 1,
+      "catchCount": 2,
       "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_VoidBeard_20260227_001024.mp4",
+          "timestamp": "20260227_001024",
+          "isVideo": true
+        },
         {
           "username": "squanchymoto",
           "displayName": "squanchymoto",
@@ -1670,6 +1720,13 @@
           "isVideo": false
         },
         {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Daywalker_20260228_234236.png",
+          "timestamp": "20260228_234236",
+          "isVideo": false
+        },
+        {
           "username": "zecourtastrophe",
           "displayName": "zecourtastrophe",
           "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
@@ -1820,17 +1877,10 @@
       "catchCount": 0,
       "catchImages": [
         {
-          "username": "jennifyrre",
-          "displayName": "jennifyrre",
-          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
-          "timestamp": "20260212_223501",
-          "isVideo": true
-        },
-        {
-          "username": "squanchymoto",
-          "displayName": "squanchymoto",
-          "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
-          "timestamp": "20260210_232129",
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Fire_Crotch_20260224_232801.mp4",
+          "timestamp": "20260224_232801",
           "isVideo": true
         }
       ]
@@ -1864,9 +1914,19 @@
       ],
       "weakness": "Ground",
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Dead_Signal_20260228_215330.mp4",
+          "timestamp": "20260228_215330",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "Whisper Ginger",
@@ -1897,9 +1957,19 @@
       ],
       "weakness": "Light",
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ChosenDolan"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "chosendolan",
+          "displayName": "ChosenDolan",
+          "file": "catches/chosendolan_Whisper_Ginger_20260227_231807.mp4",
+          "timestamp": "20260227_231807",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "Spiralhead",
@@ -1930,9 +2000,19 @@
       ],
       "weakness": "Light",
       "resistance": "Psychic",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Spiralhead_20260227_213606.png",
+          "timestamp": "20260227_213606",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Faceless Ginger",
@@ -2128,9 +2208,19 @@
       ],
       "weakness": "Ground",
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "Nephilheim"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Offline_Ginger_20260228_234235.png",
+          "timestamp": "20260228_234235",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Overthinker",
@@ -2227,9 +2317,19 @@
       ],
       "weakness": "Water",
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ChosenDolan"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "chosendolan",
+          "displayName": "ChosenDolan",
+          "file": "catches/chosendolan_Black_Flame_Ginger_20260227_230704.png",
+          "timestamp": "20260227_230704",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Corrupted Static",
@@ -2577,9 +2677,27 @@
       ],
       "weakness": "Fire",
       "resistance": "Water",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Frostfreck_20260224_230039.mp4",
+          "timestamp": "20260224_230039",
+          "isVideo": true
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Frostfreck_20260224_225517.mp4",
+          "timestamp": "20260224_225517",
+          "isVideo": true
+        }
+      ]
     },
     {
       "name": "Redrift",
@@ -2743,15 +2861,31 @@
       "weakness": "Dark",
       "resistance": null,
       "caughtBy": [
-        "ArchangelEmperor"
+        "jennifyrre",
+        "ArchangelEmperor",
+        "zecourtastrophe"
       ],
-      "catchCount": 1,
+      "catchCount": 3,
       "catchImages": [
         {
           "username": "archangelemperor",
           "displayName": "ArchangelEmperor",
           "file": "catches/archangelemperor_Ginjynx_20260222_190855.png",
           "timestamp": "20260222_190855",
+          "isVideo": false
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Ginjynx_20260224_232557.png",
+          "timestamp": "20260224_232557",
+          "isVideo": false
+        },
+        {
+          "username": "zecourtastrophe",
+          "displayName": "zecourtastrophe",
+          "file": "catches/zecourtastrophe_Ginjynx_20260228_232611.png",
+          "timestamp": "20260228_232611",
           "isVideo": false
         }
       ]
@@ -2851,9 +2985,19 @@
       ],
       "weakness": "Fire",
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Snowlless_20260226_231037.png",
+          "timestamp": "20260226_231037",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Redgael",
@@ -3191,9 +3335,19 @@
       ],
       "weakness": "Dark",
       "resistance": null,
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Ginjaleon_20260227_230739.png",
+          "timestamp": "20260227_230739",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Redgaelux EX",
@@ -3422,9 +3576,19 @@
       ],
       "weakness": "Steel",
       "resistance": "Fighting",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Copperelle_20260228_215511.png",
+          "timestamp": "20260228_215511",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Ginjaro",
@@ -3554,9 +3718,19 @@
       ],
       "weakness": "Water",
       "resistance": "Electric",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Rustbrand_20260226_222441.png",
+          "timestamp": "20260226_222441",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rangathorn",
@@ -3686,9 +3860,19 @@
       ],
       "weakness": "Ground",
       "resistance": "Fairy",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Duravault_20260228_211823.png",
+          "timestamp": "20260228_211823",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Stepgrave",
@@ -3818,9 +4002,19 @@
       ],
       "weakness": "Water",
       "resistance": "Steel",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Gingerdread_20260227_011959.png",
+          "timestamp": "20260227_011959",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Duravex",
@@ -4346,9 +4540,19 @@
       ],
       "weakness": "Dark",
       "resistance": "Fighting",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Steprazeon_Graveflare_20260227_222518.png",
+          "timestamp": "20260227_222518",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rangathorneon EX",
@@ -4412,9 +4616,19 @@
       ],
       "weakness": "Ground",
       "resistance": "Dragon",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Copperbane_EX_20260228_211428.png",
+          "timestamp": "20260228_211428",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Gingerdread EX",
@@ -4544,9 +4758,27 @@
       ],
       "weakness": "Fairy",
       "resistance": "Steel",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "squanchymoto",
+        "NatDelos"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Redigon_Forgeheart_20260226_235517.png",
+          "timestamp": "20260226_235517",
+          "isVideo": false
+        },
+        {
+          "username": "squanchymoto",
+          "displayName": "squanchymoto",
+          "file": "catches/squanchymoto_Redigon_Forgeheart_20260227_004242.png",
+          "timestamp": "20260227_004242",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rustrik Gaunt",
@@ -4643,9 +4875,19 @@
       ],
       "weakness": "Ground",
       "resistance": "Fairy",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "Nephilheim"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Copperthorn_Dominion_20260228_232552.png",
+          "timestamp": "20260228_232552",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Soulcopper Revenant",
@@ -4874,9 +5116,19 @@
       ],
       "weakness": "Fairy",
       "resistance": "Fire",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Rangathorneon_Dominion_20260227_222506.png",
+          "timestamp": "20260227_222506",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Copperbane Crown",
@@ -5006,9 +5258,19 @@
       ],
       "weakness": "Dark",
       "resistance": "Fighting",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Steprazeon_Eternal_20260228_211718.png",
+          "timestamp": "20260228_211718",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Gingnat",
@@ -5171,9 +5433,27 @@
       ],
       "weakness": "Electric",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono",
+        "gamerrhys369"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Rustmoth_20260225_000807.png",
+          "timestamp": "20260225_000807",
+          "isVideo": false
+        },
+        {
+          "username": "gamerrhys369",
+          "displayName": "gamerrhys369",
+          "file": "catches/gamerrhys369_Rustmoth_20260228_190400.png",
+          "timestamp": "20260228_190400",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Ginjask",
@@ -5204,9 +5484,19 @@
       ],
       "weakness": "Fire",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Ginjask_20260226_212839.png",
+          "timestamp": "20260226_212839",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Redrootle",
@@ -5237,9 +5527,19 @@
       ],
       "weakness": "Fire",
       "resistance": "Water",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "ArchangelEmperor"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Redrootle_20260224_225434.png",
+          "timestamp": "20260224_225434",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Ginjaspore",
@@ -5270,9 +5570,19 @@
       ],
       "weakness": "Fire",
       "resistance": "Water",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Ginjaspore_20260228_195217.png",
+          "timestamp": "20260228_195217",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Coppergnat",
@@ -5930,9 +6240,19 @@
       ],
       "weakness": "Electric",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Ranghaze_20260226_214755.png",
+          "timestamp": "20260226_214755",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rustcrown",
@@ -5963,9 +6283,19 @@
       ],
       "weakness": "Fire",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Rustcrown_20260228_195145.png",
+          "timestamp": "20260228_195145",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Bigredfern",
@@ -6062,9 +6392,27 @@
       ],
       "weakness": "Fire",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre",
+        "ArchangelEmperor"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "archangelemperor",
+          "displayName": "ArchangelEmperor",
+          "file": "catches/archangelemperor_Coppersting_EX_20260226_235232.png",
+          "timestamp": "20260226_235232",
+          "isVideo": false
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Coppersting_EX_20260226_215802.png",
+          "timestamp": "20260226_215802",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rotschwing EX",
@@ -6095,9 +6443,19 @@
       ],
       "weakness": "Electric",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Rotschwing_EX_20260227_223321.png",
+          "timestamp": "20260227_223321",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Gingervine Sovereign",
@@ -6161,9 +6519,19 @@
       ],
       "weakness": "Fire",
       "resistance": "Water",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Embermire_EX_20260227_222655.png",
+          "timestamp": "20260227_222655",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rangaspore Monarch",
@@ -6227,9 +6595,19 @@
       ],
       "weakness": "Psychic",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "MentalMayhem24"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "mentalmayhem24",
+          "displayName": "MentalMayhem24",
+          "file": "catches/mentalmayhem24_Copperplague_20260227_012013.png",
+          "timestamp": "20260227_012013",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Ginjaroach Apex",
@@ -6260,9 +6638,19 @@
       ],
       "weakness": "Fire",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Ginjaroach_Apex_20260224_232624.png",
+          "timestamp": "20260224_232624",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rustfeather Tyrant",
@@ -6392,9 +6780,27 @@
       ],
       "weakness": "Psychic",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "Nephilheim",
+        "NatDelos"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "natdelos",
+          "displayName": "NatDelos",
+          "file": "catches/natdelos_Rangaeros_20260226_222537.png",
+          "timestamp": "20260226_222537",
+          "isVideo": false
+        },
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Rangaeros_20260301_000214.png",
+          "timestamp": "20260301_000214",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Gingnox Swarmking",
@@ -6425,9 +6831,19 @@
       ],
       "weakness": "Fire",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "hexentechnical"
+      ],
+      "catchCount": 1,
+      "catchImages": [
+        {
+          "username": "hexentechnical",
+          "displayName": "hexentechnical",
+          "file": "catches/hexentechnical_Gingnox_Swarmking_20260228_185859.png",
+          "timestamp": "20260228_185859",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Copperthorn Dominion",
@@ -6460,7 +6876,15 @@
       "resistance": "Water",
       "caughtBy": [],
       "catchCount": 0,
-      "catchImages": []
+      "catchImages": [
+        {
+          "username": "nephilheim",
+          "displayName": "Nephilheim",
+          "file": "catches/nephilheim_Copperthorn_Dominion_20260228_232552.png",
+          "timestamp": "20260228_232552",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rangahollow",
@@ -6524,9 +6948,27 @@
       ],
       "weakness": "Fire",
       "resistance": "Water",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "crossingchrono",
+        "zecourtastrophe"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "crossingchrono",
+          "displayName": "crossingchrono",
+          "file": "catches/crossingchrono_Copperspore_Herald_20260228_215453.png",
+          "timestamp": "20260228_215453",
+          "isVideo": false
+        },
+        {
+          "username": "zecourtastrophe",
+          "displayName": "zecourtastrophe",
+          "file": "catches/zecourtastrophe_Copperspore_Herald_20260228_234253.png",
+          "timestamp": "20260228_234253",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Rangafern Colossus",
@@ -6590,9 +7032,27 @@
       ],
       "weakness": "Psychic",
       "resistance": "Grass",
-      "caughtBy": [],
-      "catchCount": 0,
-      "catchImages": []
+      "caughtBy": [
+        "jennifyrre",
+        "DadBeardAndDragons"
+      ],
+      "catchCount": 2,
+      "catchImages": [
+        {
+          "username": "dadbeardanddragons",
+          "displayName": "DadBeardAndDragons",
+          "file": "catches/dadbeardanddragons_Copperblight_Leviant_20260226_235417.png",
+          "timestamp": "20260226_235417",
+          "isVideo": false
+        },
+        {
+          "username": "jennifyrre",
+          "displayName": "jennifyrre",
+          "file": "catches/jennifyrre_Copperblight_Leviant_20260227_223815.png",
+          "timestamp": "20260227_223815",
+          "isVideo": false
+        }
+      ]
     },
     {
       "name": "Gingervine Cataclysm",
@@ -6676,12 +7136,42 @@
         "Ginger",
         "Gingerman",
         "Ginjynx",
-        "Cornered Ginger EX"
+        "Cornered Ginger EX",
+        "Redrootle",
+        "Frostfreck",
+        "BurntTips",
+        "Snowlless",
+        "Coppersting EX",
+        "Gingerdread",
+        "Steprazeon Graveflare",
+        "StaticBeard",
+        "Ginjaleon",
+        "FireCrotch",
+        "Steprazeon Eternal",
+        "Copperelle"
       ],
-      "uniqueCount": 11,
+      "uniqueCount": 23,
       "totalCards": 200,
-      "completionPct": 5.5,
+      "completionPct": 11.5,
       "catchImages": [
+        {
+          "cardName": "BurntTips",
+          "file": "catches/archangelemperor_BurntTips_20260224_232533.png",
+          "timestamp": "20260224_232533",
+          "isVideo": false
+        },
+        {
+          "cardName": "Copperelle",
+          "file": "catches/archangelemperor_Copperelle_20260228_215511.png",
+          "timestamp": "20260228_215511",
+          "isVideo": false
+        },
+        {
+          "cardName": "Coppersting_EX",
+          "file": "catches/archangelemperor_Coppersting_EX_20260226_235232.png",
+          "timestamp": "20260226_235232",
+          "isVideo": false
+        },
         {
           "cardName": "Cornered_Ginger_EX",
           "file": "catches/archangelemperor_Cornered_Ginger_EX_20260222_202714.png",
@@ -6701,6 +7191,12 @@
           "isVideo": true
         },
         {
+          "cardName": "FireCrotch",
+          "file": "catches/archangelemperor_FireCrotch_20260228_211356.mp4",
+          "timestamp": "20260228_211356",
+          "isVideo": true
+        },
+        {
           "cardName": "Firecrotchex",
           "file": "catches/archangelemperor_Firecrotchex_20260219_221951.mp4",
           "timestamp": "20260219_221951",
@@ -6713,9 +7209,21 @@
           "isVideo": false
         },
         {
+          "cardName": "Frostfreck",
+          "file": "catches/archangelemperor_Frostfreck_20260224_230039.mp4",
+          "timestamp": "20260224_230039",
+          "isVideo": true
+        },
+        {
           "cardName": "Ginger",
           "file": "catches/archangelemperor_Ginger_20260221_234113.png",
           "timestamp": "20260221_234113",
+          "isVideo": false
+        },
+        {
+          "cardName": "Gingerdread",
+          "file": "catches/archangelemperor_Gingerdread_20260227_011959.png",
+          "timestamp": "20260227_011959",
           "isVideo": false
         },
         {
@@ -6723,6 +7231,12 @@
           "file": "catches/archangelemperor_Gingerman_20260222_000245.mp4",
           "timestamp": "20260222_000245",
           "isVideo": true
+        },
+        {
+          "cardName": "Ginjaleon",
+          "file": "catches/archangelemperor_Ginjaleon_20260227_230739.png",
+          "timestamp": "20260227_230739",
+          "isVideo": false
         },
         {
           "cardName": "Ginjynx",
@@ -6737,15 +7251,203 @@
           "isVideo": false
         },
         {
+          "cardName": "Redrootle",
+          "file": "catches/archangelemperor_Redrootle_20260224_225434.png",
+          "timestamp": "20260224_225434",
+          "isVideo": false
+        },
+        {
           "cardName": "Redstatic",
           "file": "catches/archangelemperor_Redstatic_20260217_222127.png",
           "timestamp": "20260217_222127",
           "isVideo": false
         },
         {
+          "cardName": "Snowlless",
+          "file": "catches/archangelemperor_Snowlless_20260226_231037.png",
+          "timestamp": "20260226_231037",
+          "isVideo": false
+        },
+        {
           "cardName": "Staticbeard",
           "file": "catches/archangelemperor_Staticbeard_20260219_230719.png",
           "timestamp": "20260219_230719",
+          "isVideo": false
+        },
+        {
+          "cardName": "StaticBeard",
+          "file": "catches/archangelemperor_StaticBeard_20260227_223258.mp4",
+          "timestamp": "20260227_223258",
+          "isVideo": true
+        },
+        {
+          "cardName": "Steprazeon_Eternal",
+          "file": "catches/archangelemperor_Steprazeon_Eternal_20260228_211718.png",
+          "timestamp": "20260228_211718",
+          "isVideo": false
+        },
+        {
+          "cardName": "Steprazeon_Graveflare",
+          "file": "catches/archangelemperor_Steprazeon_Graveflare_20260227_222518.png",
+          "timestamp": "20260227_222518",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "username": "jennifyrre",
+      "displayName": "jennifyrre",
+      "cards": [
+        "Natdelos",
+        "Grassginger",
+        "Gingerprime",
+        "Firecrotch",
+        "Burnttips",
+        "Frecklefiend",
+        "Emberbeard",
+        "Ginger After Dark",
+        "Gingale",
+        "Frostfreck",
+        "Ginjynx",
+        "GingerBeardMan",
+        "Ranghaze",
+        "Coppersting EX",
+        "Rustbrand",
+        "Spiralhead",
+        "Embermire EX",
+        "Copperblight Leviant",
+        "Ginjaspore",
+        "Copperbane EX",
+        "Duravault"
+      ],
+      "uniqueCount": 21,
+      "totalCards": 200,
+      "completionPct": 10.5,
+      "catchImages": [
+        {
+          "cardName": "Burnttips",
+          "file": "catches/jennifyrre_Burnttips_20260212_223710.mp4",
+          "timestamp": "20260212_223710",
+          "isVideo": true
+        },
+        {
+          "cardName": "Copperbane_EX",
+          "file": "catches/jennifyrre_Copperbane_EX_20260228_211428.png",
+          "timestamp": "20260228_211428",
+          "isVideo": false
+        },
+        {
+          "cardName": "Copperblight_Leviant",
+          "file": "catches/jennifyrre_Copperblight_Leviant_20260227_223815.png",
+          "timestamp": "20260227_223815",
+          "isVideo": false
+        },
+        {
+          "cardName": "Coppersting_EX",
+          "file": "catches/jennifyrre_Coppersting_EX_20260226_215802.png",
+          "timestamp": "20260226_215802",
+          "isVideo": false
+        },
+        {
+          "cardName": "Duravault",
+          "file": "catches/jennifyrre_Duravault_20260228_211823.png",
+          "timestamp": "20260228_211823",
+          "isVideo": false
+        },
+        {
+          "cardName": "Emberbeard",
+          "file": "catches/jennifyrre_Emberbeard_20260213_221816.mp4",
+          "timestamp": "20260213_221816",
+          "isVideo": true
+        },
+        {
+          "cardName": "Emberbeard",
+          "file": "catches/jennifyrre_Emberbeard_20260219_230815.mp4",
+          "timestamp": "20260219_230815",
+          "isVideo": true
+        },
+        {
+          "cardName": "Embermire_EX",
+          "file": "catches/jennifyrre_Embermire_EX_20260227_222655.png",
+          "timestamp": "20260227_222655",
+          "isVideo": false
+        },
+        {
+          "cardName": "Firecrotch",
+          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
+          "timestamp": "20260212_223501",
+          "isVideo": true
+        },
+        {
+          "cardName": "Frecklefiend",
+          "file": "catches/jennifyrre_Frecklefiend_20260213_221705.mp4",
+          "timestamp": "20260213_221705",
+          "isVideo": true
+        },
+        {
+          "cardName": "Frostfreck",
+          "file": "catches/jennifyrre_Frostfreck_20260224_225517.mp4",
+          "timestamp": "20260224_225517",
+          "isVideo": true
+        },
+        {
+          "cardName": "Gingale",
+          "file": "catches/jennifyrre_Gingale_20260222_205047.mp4",
+          "timestamp": "20260222_205047",
+          "isVideo": true
+        },
+        {
+          "cardName": "Ginger_After_Dark",
+          "file": "catches/jennifyrre_Ginger_After_Dark_20260222_202755.png",
+          "timestamp": "20260222_202755",
+          "isVideo": false
+        },
+        {
+          "cardName": "GingerBeardMan",
+          "file": "catches/jennifyrre_GingerBeardMan_20260224_234901.mp4",
+          "timestamp": "20260224_234901",
+          "isVideo": true
+        },
+        {
+          "cardName": "Gingerprime",
+          "file": "catches/jennifyrre_Gingerprime_20260210_221144.mp4",
+          "timestamp": "20260210_221144",
+          "isVideo": true
+        },
+        {
+          "cardName": "Ginjaspore",
+          "file": "catches/jennifyrre_Ginjaspore_20260228_195217.png",
+          "timestamp": "20260228_195217",
+          "isVideo": false
+        },
+        {
+          "cardName": "Ginjynx",
+          "file": "catches/jennifyrre_Ginjynx_20260224_232557.png",
+          "timestamp": "20260224_232557",
+          "isVideo": false
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/jennifyrre_Grassginger_20260210_215951.png",
+          "timestamp": "20260210_215951",
+          "isVideo": false
+        },
+        {
+          "cardName": "Ranghaze",
+          "file": "catches/jennifyrre_Ranghaze_20260226_214755.png",
+          "timestamp": "20260226_214755",
+          "isVideo": false
+        },
+        {
+          "cardName": "Rustbrand",
+          "file": "catches/jennifyrre_Rustbrand_20260226_222441.png",
+          "timestamp": "20260226_222441",
+          "isVideo": false
+        },
+        {
+          "cardName": "Spiralhead",
+          "file": "catches/jennifyrre_Spiralhead_20260227_213606.png",
+          "timestamp": "20260227_213606",
           "isVideo": false
         }
       ]
@@ -6763,11 +7465,21 @@
         "Grassginger",
         "Frecklefiend",
         "Gingerman",
-        "Groveginger"
+        "Groveginger",
+        "Ginjaroach Apex",
+        "BurntTips",
+        "Rustmoth",
+        "Ginjask",
+        "VoidBeard",
+        "Rangathorneon Dominion",
+        "Rotschwing EX",
+        "Rustcrown",
+        "Dead Signal",
+        "Copperspore Herald"
       ],
-      "uniqueCount": 10,
+      "uniqueCount": 20,
       "totalCards": 200,
-      "completionPct": 5.0,
+      "completionPct": 10.0,
       "catchImages": [
         {
           "cardName": "Burnttips",
@@ -6776,10 +7488,28 @@
           "isVideo": true
         },
         {
+          "cardName": "BurntTips",
+          "file": "catches/crossingchrono_BurntTips_20260224_234807.mp4",
+          "timestamp": "20260224_234807",
+          "isVideo": true
+        },
+        {
+          "cardName": "Copperspore_Herald",
+          "file": "catches/crossingchrono_Copperspore_Herald_20260228_215453.png",
+          "timestamp": "20260228_215453",
+          "isVideo": false
+        },
+        {
           "cardName": "Daywalker",
           "file": "catches/crossingchrono_Daywalker_20260201_001858.png",
           "timestamp": "20260201_001858",
           "isVideo": false
+        },
+        {
+          "cardName": "Dead_Signal",
+          "file": "catches/crossingchrono_Dead_Signal_20260228_215330.mp4",
+          "timestamp": "20260228_215330",
+          "isVideo": true
         },
         {
           "cardName": "Frecklefiend",
@@ -6798,6 +7528,18 @@
           "file": "catches/crossingchrono_Gingerman_20260217_223026.mp4",
           "timestamp": "20260217_223026",
           "isVideo": true
+        },
+        {
+          "cardName": "Ginjaroach_Apex",
+          "file": "catches/crossingchrono_Ginjaroach_Apex_20260224_232624.png",
+          "timestamp": "20260224_232624",
+          "isVideo": false
+        },
+        {
+          "cardName": "Ginjask",
+          "file": "catches/crossingchrono_Ginjask_20260226_212839.png",
+          "timestamp": "20260226_212839",
+          "isVideo": false
         },
         {
           "cardName": "Grassginger",
@@ -6836,84 +7578,40 @@
           "isVideo": true
         },
         {
+          "cardName": "Rangathorneon_Dominion",
+          "file": "catches/crossingchrono_Rangathorneon_Dominion_20260227_222506.png",
+          "timestamp": "20260227_222506",
+          "isVideo": false
+        },
+        {
           "cardName": "Redstatic",
           "file": "catches/crossingchrono_Redstatic_20260208_003645.png",
           "timestamp": "20260208_003645",
           "isVideo": false
-        }
-      ]
-    },
-    {
-      "username": "jennifyrre",
-      "displayName": "jennifyrre",
-      "cards": [
-        "Natdelos",
-        "Grassginger",
-        "Gingerprime",
-        "Firecrotch",
-        "Burnttips",
-        "Frecklefiend",
-        "Emberbeard",
-        "Ginger After Dark",
-        "Gingale"
-      ],
-      "uniqueCount": 9,
-      "totalCards": 200,
-      "completionPct": 4.5,
-      "catchImages": [
-        {
-          "cardName": "Burnttips",
-          "file": "catches/jennifyrre_Burnttips_20260212_223710.mp4",
-          "timestamp": "20260212_223710",
-          "isVideo": true
         },
         {
-          "cardName": "Emberbeard",
-          "file": "catches/jennifyrre_Emberbeard_20260213_221816.mp4",
-          "timestamp": "20260213_221816",
-          "isVideo": true
-        },
-        {
-          "cardName": "Emberbeard",
-          "file": "catches/jennifyrre_Emberbeard_20260219_230815.mp4",
-          "timestamp": "20260219_230815",
-          "isVideo": true
-        },
-        {
-          "cardName": "Firecrotch",
-          "file": "catches/jennifyrre_Firecrotch_20260212_223501.mp4",
-          "timestamp": "20260212_223501",
-          "isVideo": true
-        },
-        {
-          "cardName": "Frecklefiend",
-          "file": "catches/jennifyrre_Frecklefiend_20260213_221705.mp4",
-          "timestamp": "20260213_221705",
-          "isVideo": true
-        },
-        {
-          "cardName": "Gingale",
-          "file": "catches/jennifyrre_Gingale_20260222_205047.mp4",
-          "timestamp": "20260222_205047",
-          "isVideo": true
-        },
-        {
-          "cardName": "Ginger_After_Dark",
-          "file": "catches/jennifyrre_Ginger_After_Dark_20260222_202755.png",
-          "timestamp": "20260222_202755",
+          "cardName": "Rotschwing_EX",
+          "file": "catches/crossingchrono_Rotschwing_EX_20260227_223321.png",
+          "timestamp": "20260227_223321",
           "isVideo": false
         },
         {
-          "cardName": "Gingerprime",
-          "file": "catches/jennifyrre_Gingerprime_20260210_221144.mp4",
-          "timestamp": "20260210_221144",
-          "isVideo": true
+          "cardName": "Rustcrown",
+          "file": "catches/crossingchrono_Rustcrown_20260228_195145.png",
+          "timestamp": "20260228_195145",
+          "isVideo": false
         },
         {
-          "cardName": "Grassginger",
-          "file": "catches/jennifyrre_Grassginger_20260210_215951.png",
-          "timestamp": "20260210_215951",
+          "cardName": "Rustmoth",
+          "file": "catches/crossingchrono_Rustmoth_20260225_000807.png",
+          "timestamp": "20260225_000807",
           "isVideo": false
+        },
+        {
+          "cardName": "VoidBeard",
+          "file": "catches/crossingchrono_VoidBeard_20260227_001024.mp4",
+          "timestamp": "20260227_001024",
+          "isVideo": true
         }
       ]
     },
@@ -6926,12 +7624,20 @@
         "Firecrotch",
         "Redstaticex",
         "Voidbeard",
-        "Mindranga"
+        "Mindranga",
+        "Redigon Forgeheart",
+        "Daywalker"
       ],
-      "uniqueCount": 6,
+      "uniqueCount": 8,
       "totalCards": 200,
-      "completionPct": 3.0,
+      "completionPct": 4.0,
       "catchImages": [
+        {
+          "cardName": "Daywalker",
+          "file": "catches/squanchymoto_Daywalker_20260228_234236.png",
+          "timestamp": "20260228_234236",
+          "isVideo": false
+        },
         {
           "cardName": "Firecrotch",
           "file": "catches/squanchymoto_Firecrotch_20260210_232129.mp4",
@@ -6957,6 +7663,12 @@
           "isVideo": false
         },
         {
+          "cardName": "Redigon_Forgeheart",
+          "file": "catches/squanchymoto_Redigon_Forgeheart_20260227_004242.png",
+          "timestamp": "20260227_004242",
+          "isVideo": false
+        },
+        {
           "cardName": "Redstaticex",
           "file": "catches/squanchymoto_Redstaticex_20260213_230646.mp4",
           "timestamp": "20260213_230646",
@@ -6977,12 +7689,21 @@
         "Pale",
         "Paleginger",
         "Emberbeard",
-        "Gingerbeardman"
+        "Gingerbeardman",
+        "Copperthorn Dominion",
+        "Offline Ginger",
+        "Rangaeros"
       ],
-      "uniqueCount": 4,
+      "uniqueCount": 7,
       "totalCards": 200,
-      "completionPct": 2.0,
+      "completionPct": 3.5,
       "catchImages": [
+        {
+          "cardName": "Copperthorn_Dominion",
+          "file": "catches/nephilheim_Copperthorn_Dominion_20260228_232552.png",
+          "timestamp": "20260228_232552",
+          "isVideo": false
+        },
         {
           "cardName": "Emberbeard",
           "file": "catches/nephilheim_Emberbeard_20260212_232707.mp4",
@@ -6996,10 +7717,22 @@
           "isVideo": true
         },
         {
+          "cardName": "Offline_Ginger",
+          "file": "catches/nephilheim_Offline_Ginger_20260228_234235.png",
+          "timestamp": "20260228_234235",
+          "isVideo": false
+        },
+        {
           "cardName": "Paleginger",
           "file": "catches/nephilheim_Paleginger_20260211_000730.mp4",
           "timestamp": "20260211_000730",
           "isVideo": true
+        },
+        {
+          "cardName": "Rangaeros",
+          "file": "catches/nephilheim_Rangaeros_20260301_000214.png",
+          "timestamp": "20260301_000214",
+          "isVideo": false
         }
       ]
     },
@@ -7010,12 +7743,21 @@
         "Grassginger",
         "Scarletmenace",
         "Frecklefiend",
-        "Ginger"
+        "Ginger",
+        "Fire Crotch",
+        "Rangaeros",
+        "Redigon Forgeheart"
       ],
-      "uniqueCount": 4,
+      "uniqueCount": 7,
       "totalCards": 200,
-      "completionPct": 2.0,
+      "completionPct": 3.5,
       "catchImages": [
+        {
+          "cardName": "Fire_Crotch",
+          "file": "catches/natdelos_Fire_Crotch_20260224_232801.mp4",
+          "timestamp": "20260224_232801",
+          "isVideo": true
+        },
         {
           "cardName": "Frecklefiend",
           "file": "catches/natdelos_Frecklefiend_20260218_013028.mp4",
@@ -7029,9 +7771,27 @@
           "isVideo": false
         },
         {
+          "cardName": "Ginger",
+          "file": "catches/natdelos_Ginger_20260227_230942.png",
+          "timestamp": "20260227_230942",
+          "isVideo": false
+        },
+        {
           "cardName": "Grassginger",
           "file": "catches/natdelos_Grassginger_20260210_224312.png",
           "timestamp": "20260210_224312",
+          "isVideo": false
+        },
+        {
+          "cardName": "Rangaeros",
+          "file": "catches/natdelos_Rangaeros_20260226_222537.png",
+          "timestamp": "20260226_222537",
+          "isVideo": false
+        },
+        {
+          "cardName": "Redigon_Forgeheart",
+          "file": "catches/natdelos_Redigon_Forgeheart_20260226_235517.png",
+          "timestamp": "20260226_235517",
           "isVideo": false
         },
         {
@@ -7039,6 +7799,84 @@
           "file": "catches/natdelos_Scarletmenace_20260218_011847.mp4",
           "timestamp": "20260218_011847",
           "isVideo": true
+        }
+      ]
+    },
+    {
+      "username": "chosendolan",
+      "displayName": "ChosenDolan",
+      "cards": [
+        "Staticbeard",
+        "Gingermanevo",
+        "Black Flame Ginger",
+        "Whisper Ginger"
+      ],
+      "uniqueCount": 4,
+      "totalCards": 200,
+      "completionPct": 2.0,
+      "catchImages": [
+        {
+          "cardName": "Black_Flame_Ginger",
+          "file": "catches/chosendolan_Black_Flame_Ginger_20260227_230704.png",
+          "timestamp": "20260227_230704",
+          "isVideo": false
+        },
+        {
+          "cardName": "Gingermanevo",
+          "file": "catches/chosendolan_Gingermanevo_20260222_012622.mp4",
+          "timestamp": "20260222_012622",
+          "isVideo": true
+        },
+        {
+          "cardName": "Staticbeard",
+          "file": "catches/chosendolan_Staticbeard_20260222_010228.mp4",
+          "timestamp": "20260222_010228",
+          "isVideo": true
+        },
+        {
+          "cardName": "Whisper_Ginger",
+          "file": "catches/chosendolan_Whisper_Ginger_20260227_231807.mp4",
+          "timestamp": "20260227_231807",
+          "isVideo": true
+        }
+      ]
+    },
+    {
+      "username": "zecourtastrophe",
+      "displayName": "zecourtastrophe",
+      "cards": [
+        "Daywalker",
+        "GingerBeardManEvo",
+        "Ginjynx",
+        "Copperspore Herald"
+      ],
+      "uniqueCount": 4,
+      "totalCards": 200,
+      "completionPct": 2.0,
+      "catchImages": [
+        {
+          "cardName": "Copperspore_Herald",
+          "file": "catches/zecourtastrophe_Copperspore_Herald_20260228_234253.png",
+          "timestamp": "20260228_234253",
+          "isVideo": false
+        },
+        {
+          "cardName": "Daywalker",
+          "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
+          "timestamp": "20260222_200151",
+          "isVideo": false
+        },
+        {
+          "cardName": "GingerBeardManEvo",
+          "file": "catches/zecourtastrophe_GingerBeardManEvo_20260222_204827.mp4",
+          "timestamp": "20260222_204827",
+          "isVideo": true
+        },
+        {
+          "cardName": "Ginjynx",
+          "file": "catches/zecourtastrophe_Ginjynx_20260228_232611.png",
+          "timestamp": "20260228_232611",
+          "isVideo": false
         }
       ]
     },
@@ -7053,6 +7891,31 @@
       "totalCards": 200,
       "completionPct": 1.0,
       "catchImages": []
+    },
+    {
+      "username": "mentalmayhem24",
+      "displayName": "MentalMayhem24",
+      "cards": [
+        "Grassginger",
+        "Copperplague"
+      ],
+      "uniqueCount": 2,
+      "totalCards": 200,
+      "completionPct": 1.0,
+      "catchImages": [
+        {
+          "cardName": "Copperplague",
+          "file": "catches/mentalmayhem24_Copperplague_20260227_012013.png",
+          "timestamp": "20260227_012013",
+          "isVideo": false
+        },
+        {
+          "cardName": "Grassginger",
+          "file": "catches/mentalmayhem24_Grassginger_20260207_211944.mp4",
+          "timestamp": "20260207_211944",
+          "isVideo": true
+        }
+      ]
     },
     {
       "username": "cannulit",
@@ -7105,56 +7968,6 @@
       ]
     },
     {
-      "username": "chosendolan",
-      "displayName": "ChosenDolan",
-      "cards": [
-        "Staticbeard",
-        "Gingermanevo"
-      ],
-      "uniqueCount": 2,
-      "totalCards": 200,
-      "completionPct": 1.0,
-      "catchImages": [
-        {
-          "cardName": "Gingermanevo",
-          "file": "catches/chosendolan_Gingermanevo_20260222_012622.mp4",
-          "timestamp": "20260222_012622",
-          "isVideo": true
-        },
-        {
-          "cardName": "Staticbeard",
-          "file": "catches/chosendolan_Staticbeard_20260222_010228.mp4",
-          "timestamp": "20260222_010228",
-          "isVideo": true
-        }
-      ]
-    },
-    {
-      "username": "zecourtastrophe",
-      "displayName": "zecourtastrophe",
-      "cards": [
-        "Daywalker",
-        "GingerBeardManEvo"
-      ],
-      "uniqueCount": 2,
-      "totalCards": 200,
-      "completionPct": 1.0,
-      "catchImages": [
-        {
-          "cardName": "Daywalker",
-          "file": "catches/zecourtastrophe_Daywalker_20260222_200151.png",
-          "timestamp": "20260222_200151",
-          "isVideo": false
-        },
-        {
-          "cardName": "GingerBeardManEvo",
-          "file": "catches/zecourtastrophe_GingerBeardManEvo_20260222_204827.mp4",
-          "timestamp": "20260222_204827",
-          "isVideo": true
-        }
-      ]
-    },
-    {
       "username": "riix96",
       "displayName": "riix96",
       "cards": [
@@ -7184,20 +7997,56 @@
       ]
     },
     {
-      "username": "mentalmayhem24",
-      "displayName": "MentalMayhem24",
+      "username": "dadbeardanddragons",
+      "displayName": "DadBeardAndDragons",
       "cards": [
-        "Grassginger"
+        "Copperblight Leviant"
       ],
       "uniqueCount": 1,
       "totalCards": 200,
       "completionPct": 0.5,
       "catchImages": [
         {
-          "cardName": "Grassginger",
-          "file": "catches/mentalmayhem24_Grassginger_20260207_211944.mp4",
-          "timestamp": "20260207_211944",
-          "isVideo": true
+          "cardName": "Copperblight_Leviant",
+          "file": "catches/dadbeardanddragons_Copperblight_Leviant_20260226_235417.png",
+          "timestamp": "20260226_235417",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "username": "hexentechnical",
+      "displayName": "hexentechnical",
+      "cards": [
+        "Gingnox Swarmking"
+      ],
+      "uniqueCount": 1,
+      "totalCards": 200,
+      "completionPct": 0.5,
+      "catchImages": [
+        {
+          "cardName": "Gingnox_Swarmking",
+          "file": "catches/hexentechnical_Gingnox_Swarmking_20260228_185859.png",
+          "timestamp": "20260228_185859",
+          "isVideo": false
+        }
+      ]
+    },
+    {
+      "username": "gamerrhys369",
+      "displayName": "gamerrhys369",
+      "cards": [
+        "Rustmoth"
+      ],
+      "uniqueCount": 1,
+      "totalCards": 200,
+      "completionPct": 0.5,
+      "catchImages": [
+        {
+          "cardName": "Rustmoth",
+          "file": "catches/gamerrhys369_Rustmoth_20260228_190400.png",
+          "timestamp": "20260228_190400",
+          "isVideo": false
         }
       ]
     }
